@@ -56,17 +56,21 @@ class BaseExtractor(ABC):
     def get_endpoint(self) -> str:
         pass
     
-    def get_url_params(self) -> Optional[Dict[str, Any]]:
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
         return None
     
     def extract(self, **kwargs) -> Optional[Dict[str, Any]]:
         endpoint = self.get_endpoint()
-        if kwargs:
-            endpoint = endpoint.format(**kwargs)
+        # Separate path parameters from query parameters
+        path_params = {k: v for k, v in kwargs.items() if '{' + k + '}' in endpoint}
+        query_params = {k: v for k, v in kwargs.items() if '{' + k + '}' not in endpoint}
+        
+        if path_params:
+            endpoint = endpoint.format(**path_params)
             
         url = f"{self.base_url}{endpoint}"
         headers = self._get_headers()
-        params = self.get_url_params()
+        params = self.get_url_params(**query_params)
         
         print(f"Sending request to: {url}")
         

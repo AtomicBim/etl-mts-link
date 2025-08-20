@@ -10,9 +10,22 @@ from abstractions.extract import endpoint, run_extractor, get_registered_endpoin
 
 # МТС Линк Чаты (MTS Link Chats)
 
-@endpoint("/chats/teams")
-def chats_teams():
-    """Получить список всех команд (групповых чатов)"""
+
+@endpoint("/chats/organization/members")
+def chats_organization_members():
+    """Получить список всех пользователей организации, использующих Чаты"""
+    pass
+
+
+@endpoint("/chats/channels/{userId}")
+def user_channels():
+    """Получить список каналов, в которых состоит определенный пользователь"""
+    pass
+
+
+@endpoint("/chats/channel/{chatId}/messages")
+def channel_messages():
+    """Выгрузить историю сообщений из указанного канала"""
     pass
 
 
@@ -26,31 +39,9 @@ def chats_teams():
 
 # NOTE: This endpoint does not exist in the MTS Link API (returns 404)
 # Tested with sample channelId parameter - no route found
-# @endpoint("/chats/channel/{channelId}")
-# def channel_info():
-#     """Получить детальную информацию о конкретном канале в Чатах"""
-#     pass
-
-
-# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
-# Tested with sample userId parameter - no route found
-# @endpoint("/chats/channels/{userId}")
-# def user_channels():
-#     """Получить список каналов, в которых состоит определенный пользователь"""
-#     pass
-
-
-# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
-# Tested with sample chatId parameter - no route found
-# @endpoint("/chats/channel/{chatId}/messages")
-# def channel_messages():
-#     """Выгрузить историю сообщений из указанного канала"""
-#     pass
-
-
-@endpoint("/chats/organization/members")
-def chats_organization_members():
-    """Получить список всех пользователей организации, использующих Чаты"""
+@endpoint("/chats/channel/{channelId}")
+def channel_info():
+    """Получить детальную информацию о конкретном канале в Чатах"""
     pass
 
 
