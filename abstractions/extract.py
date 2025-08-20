@@ -119,7 +119,7 @@ class UniversalExtractor(BaseExtractor):
     def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
         """Extract data and automatically save to file"""
         data = self.extract(**kwargs)
-        if data:
+        if data is not None:
             return self.save_to_file(data, filename)
         return None
 

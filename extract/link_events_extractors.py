@@ -86,9 +86,9 @@ def users_stats():
     pass
 
 
-@endpoint("/stats/users/visits")
+@endpoint("/stats/users/visits/{userID}")
 def visits_stats():
-    """Получить общую статистику всех посещений мероприятий"""
+    """Получить общую статистику всех посещений мероприятий для конкретного пользователя"""
     pass
 
 
@@ -163,7 +163,6 @@ def list_available_extractors():
     endpoints = get_registered_endpoints()
     print("Available MTS Link Events extractors:")
     for name, path in endpoints.items():
-        # Get the function to access its docstring
         func = globals().get(name)
         description = func.__doc__ if func and func.__doc__ else "No description"
         print(f"  {name}: {path}")
@@ -180,7 +179,6 @@ def main():
     parser.add_argument('--list', '-l', action='store_true', help='List available extractors')
     parser.add_argument('--all', '-a', action='store_true', help='Run all extractors')
     
-    # Add support for parameters like eventSessionId, userID, etc.
     parser.add_argument('--eventSessionId', help='Event Session ID for parameterized endpoints')
     parser.add_argument('--eventsessionID', help='Event Session ID (alternative parameter name)')
     parser.add_argument('--userID', help='User ID for user-specific endpoints')
@@ -194,7 +192,6 @@ def main():
         list_available_extractors()
         return
     
-    # Prepare kwargs for parameterized endpoints
     kwargs = {}
     if args.eventSessionId:
         kwargs['eventSessionId'] = args.eventSessionId
@@ -211,7 +208,6 @@ def main():
     
     if args.all:
         endpoints = get_registered_endpoints()
-        # Only run endpoints that don't require parameters
         no_param_endpoints = [name for name, path in endpoints.items() 
                              if '{' not in path]
         
@@ -224,7 +220,6 @@ def main():
             else:
                 print(f"FAILED: {extractor_name} failed")
         
-        # Show parameterized endpoints that were skipped
         param_endpoints = [name for name, path in endpoints.items() 
                           if '{' in path]
         if param_endpoints:
@@ -242,7 +237,6 @@ def main():
             print(f"FAILED: Extraction failed")
         return
     
-    # Interactive mode
     endpoints = list_available_extractors()
     print(f"\nEnter extractor name to run:")
     print("Note: For parameterized endpoints, use command line arguments")
@@ -254,7 +248,6 @@ def main():
         if choice == 'quit' or choice == 'exit':
             break
         elif choice == 'all':
-            # Run only non-parameterized endpoints in interactive mode
             no_param_endpoints = [name for name, path in endpoints.items() 
                                  if '{' not in path]
             for extractor_name in no_param_endpoints:

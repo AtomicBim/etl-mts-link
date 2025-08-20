@@ -16,10 +16,34 @@
       "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py --list)",
       "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py organization_events_schedule)",
       "Bash(dir:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py --all)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py online_records_list)",
+      "Bash(\"venv/Scripts/python.exe\" debug_extract.py)",
+      "Bash(\"venv/Scripts/python.exe\" debug_extract2.py)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py events_stats)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py users_stats)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py endless_meetings_list)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py endless_meetings_activities)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py stream_files_urls)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_session_details --eventsessionID 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py user_events_schedule --userID 74817491)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_series_data --eventID 2293097334)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_participants --eventsessionID 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_series_stats --eventID 2293097334)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py visits_stats --userID 74817491)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_session_notes --eventSessionId 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py transcript_list --eventSessionId 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_chat_messages --eventsessionID 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py event_questions --eventsessionID 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py attention_checkpoints --eventSessionId 2282834298)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_events_extractors.py converted_records --eventSessionId 2282834298)"
     ],
     "deny": [],
     "ask": [],
-    "defaultMode": "acceptEdits"
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\Users\\AI-agent\\Yandex.Disk"
+    ]
   }
 }
