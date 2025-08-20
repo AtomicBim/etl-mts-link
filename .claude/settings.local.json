@@ -73,7 +73,10 @@
       "Bash(\"venv/Scripts/python.exe\" extract/link_organisation_extractors.py brandings_list)",
       "Bash(\"venv/Scripts/python.exe\" extract/link_organisation_extractors.py organization_groups)",
       "Bash(\"venv/Scripts/python.exe\" extract/link_organisation_extractors.py partner_applications)",
-      "Bash(\"venv/Scripts/python.exe\" extract/link_organisation_extractors.py timezones_list)"
+      "Bash(\"venv/Scripts/python.exe\" extract/link_organisation_extractors.py timezones_list)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_addressbook_extractors.py contact_details --contactsID 1341627)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_addressbook_extractors.py contact_details --contactsID 136045811)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_addressbook_extractors.py contact_details --contactsID 49104039)"
     ],
     "deny": [],
     "ask": [],

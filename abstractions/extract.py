@@ -49,7 +49,7 @@ class BaseExtractor(ABC):
     def _get_headers(self) -> Dict[str, str]:
         return {
             "x-auth-token": self.api_token,
-            "Accept": "application/json"
+            "Content-Type": "application/x-www-form-urlencoded"
         }
     
     @abstractmethod

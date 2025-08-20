@@ -145,6 +145,11 @@ python extract/link_events_extractors.py event_session_details --eventsessionID 
 python extract/link_chats_extractors.py chats_teams
 python extract/link_chats_extractors.py user_course_statistics --userID 74817491
 
+# Address Book & Users
+python extract/link_addressbook_extractors.py contacts_search
+python extract/link_addressbook_extractors.py organization_members
+python extract/link_addressbook_extractors.py contact_details --contactsID 123
+
 # Files
 python extract/link_files_extractors.py files_list
 python extract/link_files_extractors.py event_session_files --eventsessionsID 2282834298
@@ -162,6 +167,7 @@ python extract/link_organisation_extractors.py timezones_list
 # Run all non-parameterized extractors in each category
 python extract/link_events_extractors.py --all
 python extract/link_chats_extractors.py --all
+python extract/link_addressbook_extractors.py --all
 python extract/link_files_extractors.py --all
 python extract/link_tests_extractors.py --all
 python extract/link_organisation_extractors.py --all
