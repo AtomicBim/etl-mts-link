@@ -59,42 +59,29 @@ def main():
         list_available_extractors()
         return
     
-    kwargs = {}
+    endpoints = get_registered_endpoints()
     
     if args.all:
-        endpoints = get_registered_endpoints()
-        no_param_endpoints = [name for name, path in endpoints.items() 
-                             if '{' not in path]
-        
-        print(f"Running {len(no_param_endpoints)} extractors (excluding parameterized ones)...")
-        for extractor_name in no_param_endpoints:
+        print(f"Running {len(endpoints)} extractors...")
+        for extractor_name in endpoints:
             print(f"\n--- Running {extractor_name} ---")
-            result = run_extractor(extractor_name, **kwargs)
+            result = run_extractor(extractor_name)
             if result:
                 print(f"SUCCESS: {extractor_name} completed: {result}")
             else:
                 print(f"FAILED: {extractor_name} failed")
-        
-        param_endpoints = [name for name, path in endpoints.items() 
-                          if '{' in path]
-        if param_endpoints:
-            print(f"\nSkipped {len(param_endpoints)} parameterized endpoints:")
-            for name in param_endpoints:
-                print(f"  {name} (requires parameters)")
-        
         return
     
     if args.extractor:
-        result = run_extractor(args.extractor, **kwargs)
+        result = run_extractor(args.extractor)
         if result:
             print(f"SUCCESS: Extraction completed: {result}")
         else:
             print(f"FAILED: Extraction failed")
         return
     
-    endpoints = list_available_extractors()
+    list_available_extractors()
     print(f"\nEnter extractor name to run:")
-    print("Note: All these endpoints are non-parameterized")
     print("Examples:")
     print("  python link_organisation_extractors.py brandings_list")
     print("  python link_organisation_extractors.py organization_groups")
@@ -105,9 +92,7 @@ def main():
         if choice == 'quit' or choice == 'exit':
             break
         elif choice == 'all':
-            no_param_endpoints = [name for name, path in endpoints.items() 
-                                 if '{' not in path]
-            for extractor_name in no_param_endpoints:
+            for extractor_name in endpoints:
                 print(f"\n--- Running {extractor_name} ---")
                 result = run_extractor(extractor_name)
                 if result:
@@ -115,7 +100,7 @@ def main():
                 else:
                     print(f"FAILED: {extractor_name} failed")
         elif choice in endpoints:
-            result = run_extractor(choice, **kwargs)
+            result = run_extractor(choice)
             if result:
                 print(f"SUCCESS: Extraction completed: {result}")
             else:

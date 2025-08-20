@@ -3,7 +3,8 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from abstractions.extract import endpoint, run_extractor, get_registered_endpoints
+from abstractions.extract import endpoint, run_extractor, get_registered_endpoints, BaseExtractor
+from typing import Optional, Dict, Any
 
 
 # MTS Link Events Extractors - All event-related API endpoints
@@ -44,12 +45,6 @@ def endless_meetings_activities():
     pass
 
 
-@endpoint("/eventsessions/{eventSessionId}/agendas")
-def event_session_notes():
-    """Выгрузить заметки и итоги, созданные во время мероприятия"""
-    pass
-
-
 @endpoint("/eventsessions/{eventSessionId}/transcript/list")
 def transcript_list():
     """Получить список доступных текстовых расшифровок для мероприятия"""
@@ -74,12 +69,54 @@ def event_series_stats():
     pass
 
 
-# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
-# Tested alternatives: /organization/stats/events, /events/stats, etc. - all return 404
-# @endpoint("/stats/events")
-# def events_stats():
-#     """Получить агрегированную статистику по всем мероприятиям"""
-#     pass
+class EventsStatsExtractor(BaseExtractor):
+    """Специализированный экстрактор для статистики мероприятий с обязательными параметрами"""
+    
+    def get_endpoint(self) -> str:
+        return "/stats/events"
+    
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
+        params = {}
+        
+        # Обязательный параметр from
+        if 'from_date' in kwargs:
+            params['from'] = kwargs['from_date']
+        elif 'from' in kwargs:
+            params['from'] = kwargs['from']
+        else:
+            raise ValueError("Parameter 'from' (or 'from_date') is required. Format: yyyy-mm-dd+hh:mm:ss")
+        
+        # Дополнительные параметры
+        if 'to' in kwargs and kwargs['to']:
+            params['to'] = kwargs['to']
+        if 'userId' in kwargs and kwargs['userId']:
+            params['userId'] = kwargs['userId']
+        if 'eventId' in kwargs and kwargs['eventId']:
+            params['eventId'] = kwargs['eventId']
+            
+        return params if params else None
+    
+    def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
+        """Extract data and automatically save to file"""
+        data = self.extract(**kwargs)
+        if data is not None:
+            return self.save_to_file(data, filename)
+        return None
+
+
+@endpoint("/stats/events")
+def events_stats():
+    """Выгрузить статистику по мероприятиям
+    
+    Обязательные параметры:
+    - from_date или from: дата начала периода (формат: yyyy-mm-dd+hh:mm:ss)
+    
+    Дополнительные параметры:
+    - to: дата окончания периода (формат: yyyy-mm-dd+hh:mm:ss)
+    - userId: ID сотрудника для ограничения выборки
+    - eventId: ID конкретного мероприятия
+    """
+    pass
 
 
 @endpoint("/stats/users")
@@ -188,6 +225,12 @@ def main():
     parser.add_argument('--transcriptId', help='Transcript ID for transcript endpoints')
     parser.add_argument('--conversionID', help='Conversion ID for conversion status')
     
+    # Parameters for events_stats
+    parser.add_argument('--from', '--from_date', dest='from_date', help='Start date for events_stats (format: yyyy-mm-dd+hh:mm:ss)')
+    parser.add_argument('--to', help='End date for events_stats (format: yyyy-mm-dd+hh:mm:ss)')
+    parser.add_argument('--userId', help='User ID to filter events_stats by specific user')
+    parser.add_argument('--eventId', help='Event ID to filter events_stats by specific event')
+    
     args = parser.parse_args()
     
     if args.list:
@@ -207,6 +250,16 @@ def main():
         kwargs['transcriptId'] = args.transcriptId
     if args.conversionID:
         kwargs['conversionID'] = args.conversionID
+    
+    # Parameters for events_stats
+    if args.from_date:
+        kwargs['from_date'] = args.from_date
+    if args.to:
+        kwargs['to'] = args.to
+    if args.userId:
+        kwargs['userId'] = args.userId
+    if args.eventId:
+        kwargs['eventId'] = args.eventId
     
     if args.all:
         endpoints = get_registered_endpoints()
@@ -232,17 +285,33 @@ def main():
         return
     
     if args.extractor:
-        result = run_extractor(args.extractor, **kwargs)
-        if result:
-            print(f"SUCCESS: Extraction completed: {result}")
+        # Special handling for events_stats which requires custom extractor
+        if args.extractor == 'events_stats':
+            try:
+                extractor = EventsStatsExtractor()
+                result = extractor.extract_and_save(**kwargs)
+                if result:
+                    print(f"SUCCESS: Extraction completed: {result}")
+                else:
+                    print(f"FAILED: Extraction failed")
+            except ValueError as e:
+                print(f"FAILED: {e}")
+            except Exception as e:
+                print(f"FAILED: Unexpected error: {e}")
         else:
-            print(f"FAILED: Extraction failed")
+            result = run_extractor(args.extractor, **kwargs)
+            if result:
+                print(f"SUCCESS: Extraction completed: {result}")
+            else:
+                print(f"FAILED: Extraction failed")
         return
     
     endpoints = list_available_extractors()
     print(f"\nEnter extractor name to run:")
     print("Note: For parameterized endpoints, use command line arguments")
-    print("Example: python link_events_extractors.py event_session_details --eventSessionId 123")
+    print("Examples:")
+    print("  python link_events_extractors.py event_session_details --eventSessionId 123")
+    print("  python link_events_extractors.py events_stats --from 2023-01-01+00:00:00 --to 2023-12-31+23:59:59")
     
     while True:
         choice = input("> ").strip()
@@ -260,11 +329,26 @@ def main():
                 else:
                     print(f"FAILED: {extractor_name} failed")
         elif choice in endpoints:
-            result = run_extractor(choice, **kwargs)
-            if result:
-                print(f"SUCCESS: Extraction completed: {result}")
+            # Special handling for events_stats in interactive mode
+            if choice == 'events_stats':
+                try:
+                    extractor = EventsStatsExtractor()
+                    result = extractor.extract_and_save(**kwargs)
+                    if result:
+                        print(f"SUCCESS: Extraction completed: {result}")
+                    else:
+                        print(f"FAILED: Extraction failed")
+                except ValueError as e:
+                    print(f"FAILED: {e}")
+                    print("Note: events_stats requires --from parameter. Use command line for parameters.")
+                except Exception as e:
+                    print(f"FAILED: Unexpected error: {e}")
             else:
-                print(f"FAILED: Extraction failed")
+                result = run_extractor(choice, **kwargs)
+                if result:
+                    print(f"SUCCESS: Extraction completed: {result}")
+                else:
+                    print(f"FAILED: Extraction failed")
         elif choice:
             print(f"Unknown extractor: {choice}")
             print("Available extractors:", list(endpoints.keys()))

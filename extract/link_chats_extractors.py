@@ -19,26 +19,22 @@ def chats_organization_members():
 
 @endpoint("/chats/channels/{userId}")
 def user_channels():
-    """Получить список каналов, в которых состоит определенный пользователь"""
+    """Получить список чатов, в которых состоит определенный пользователь"""
     pass
 
 
 @endpoint("/chats/channel/{chatId}/messages")
 def channel_messages():
-    """Выгрузить историю сообщений из указанного канала"""
+    """Выгрузить историю сообщений из указанного чата"""
     pass
 
 
-# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
-# Tested with sample channelId parameter - no route found
-# @endpoint("/chats/channels/{channelId}/users")
-# def channel_users():
-#     """Выгрузить список всех пользователей в конкретном канале"""
-#     pass
+@endpoint("/chats/channels/{channelId}/users")
+def channel_users():
+    """Выгрузить список всех пользователей в конкретном канале"""
+    pass
 
 
-# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
-# Tested with sample channelId parameter - no route found
 @endpoint("/chats/channel/{channelId}")
 def channel_info():
     """Получить детальную информацию о конкретном канале в Чатах"""

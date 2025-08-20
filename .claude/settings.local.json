@@ -79,7 +79,9 @@
       "Bash(\"venv/Scripts/python.exe\" extract/link_addressbook_extractors.py contact_details --contactsID 49104039)",
       "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_info --channelId \"1f04c259-5854-6e4c-bba2-ca9a267b707c\")",
       "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_messages --chatId \"1f04c259-5854-6e4c-bba2-ca9a267b707c\")",
-      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_messages --chatId \"1f04c259-5854-6e4c-bba2-ca9a267b707c\" --limit 10)"
+      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_messages --chatId \"1f04c259-5854-6e4c-bba2-ca9a267b707c\" --limit 10)",
+      "Bash(\"venv/Scripts/python.exe\" test_logging.py)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_tests_extractors.py invalid_extractor)"
     ],
     "deny": [],
     "ask": [],
