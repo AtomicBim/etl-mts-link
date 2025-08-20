@@ -20,7 +20,7 @@ def organization_groups():
     pass
 
 
-@endpoint("/userapi/partner-applications")
+@endpoint("/partner-applications")
 def partner_applications():
     """Получить данные об интеграциях, подключенных к организации через OAuth"""
     pass

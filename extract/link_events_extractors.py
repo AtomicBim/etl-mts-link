@@ -74,10 +74,12 @@ def event_series_stats():
     pass
 
 
-@endpoint("/stats/events")
-def events_stats():
-    """Получить агрегированную статистику по всем мероприятиям"""
-    pass
+# NOTE: This endpoint does not exist in the MTS Link API (returns 404)
+# Tested alternatives: /organization/stats/events, /events/stats, etc. - all return 404
+# @endpoint("/stats/events")
+# def events_stats():
+#     """Получить агрегированную статистику по всем мероприятиям"""
+#     pass
 
 
 @endpoint("/stats/users")
