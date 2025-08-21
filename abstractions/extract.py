@@ -153,3 +153,65 @@ def run_extractor(extractor_name: str, **kwargs) -> Optional[str]:
     endpoint_path = _endpoint_registry[extractor_name]
     extractor = UniversalExtractor(endpoint_path)
     return extractor.extract_and_save(**kwargs)
+
+
+class BaseExtractorCLI:
+    """Base class for extractor CLI implementations"""
+    
+    def __init__(self, module_name: str, description: str):
+        self.module_name = module_name
+        self.description = description
+    
+    def create_parser(self):
+        """Create argument parser with common options"""
+        import argparse
+        
+        parser = argparse.ArgumentParser(description=self.description)
+        parser.add_argument('extractor', nargs='?', help='Name of the extractor to run')
+        parser.add_argument('--list', '-l', action='store_true', help='List available extractors')
+        parser.add_argument('--all', '-a', action='store_true', help='Run all extractors')
+        
+        return parser
+    
+    def run_all_extractors(self, logger, **kwargs):
+        """Run all non-parameterized extractors"""
+        endpoints = get_registered_endpoints()
+        no_param_endpoints = [name for name, path in endpoints.items() if '{' not in path]
+        
+        logger.info(f"Running {len(no_param_endpoints)} extractors (excluding parameterized ones)...")
+        for extractor_name in no_param_endpoints:
+            logger.info(f"\n--- Running {extractor_name} ---")
+            result = run_extractor(extractor_name, **kwargs)
+            if result:
+                logger.success(f"{extractor_name} completed: {result}")
+            else:
+                logger.error(f"{extractor_name} failed")
+        
+        param_endpoints = [name for name, path in endpoints.items() if '{' in path]
+        if param_endpoints:
+            logger.warning(f"\nSkipped {len(param_endpoints)} parameterized endpoints:")
+            for name in param_endpoints:
+                logger.warning(f"  {name} (requires parameters)")
+    
+    def interactive_mode(self, logger, list_func, **kwargs):
+        """Run interactive mode for extractor selection"""
+        endpoints = list_func()
+        logger.info(f"\nEnter extractor name to run:")
+        logger.info("Note: For parameterized endpoints, use command line arguments")
+        
+        while True:
+            choice = input("> ").strip()
+            
+            if choice == 'quit' or choice == 'exit':
+                break
+            elif choice == 'all':
+                self.run_all_extractors(logger, **kwargs)
+            elif choice in endpoints:
+                result = run_extractor(choice, **kwargs)
+                if result:
+                    logger.success(f"Extraction completed: {result}")
+                else:
+                    logger.error(f"Extraction failed")
+            elif choice:
+                logger.error(f"Unknown extractor: {choice}")
+                logger.info("Available extractors: " + ", ".join(list(endpoints.keys())))

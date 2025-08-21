@@ -1,63 +1,13 @@
 import sys
 import os
-import logging
 from typing import Optional
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from abstractions.extract import endpoint, run_extractor, get_registered_endpoints
+from abstractions.logging_config import setup_logger
 
-
-# Configure colored logging
-class ColoredFormatter(logging.Formatter):
-    """Custom formatter with colors for different log levels"""
-    
-    # ANSI color codes
-    COLORS = {
-        'DEBUG': '\033[36m',     # Cyan
-        'INFO': '\033[37m',      # White
-        'SUCCESS': '\033[32m',   # Green
-        'WARNING': '\033[33m',   # Yellow
-        'ERROR': '\033[31m',     # Red
-        'CRITICAL': '\033[35m',  # Magenta
-        'RESET': '\033[0m'       # Reset
-    }
-    
-    def format(self, record):
-        # Add color to the level name
-        levelname = record.levelname
-        if levelname in self.COLORS:
-            colored_levelname = f"{self.COLORS[levelname]}{levelname}{self.COLORS['RESET']}"
-            record.levelname = colored_levelname
-        
-        return super().format(record)
-
-
-# Add SUCCESS level
-logging.SUCCESS = 25
-logging.addLevelName(logging.SUCCESS, 'SUCCESS')
-
-def success(self, message, *args, **kwargs):
-    if self.isEnabledFor(logging.SUCCESS):
-        self._log(logging.SUCCESS, message, args, **kwargs)
-
-logging.Logger.success = success
-
-# Configure logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-# Create console handler
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
-
-# Create formatter
-formatter = ColoredFormatter('%(levelname)s: %(message)s')
-console_handler.setFormatter(formatter)
-
-# Add handler to logger
-if not logger.handlers:
-    logger.addHandler(console_handler)
+logger = setup_logger(__name__)
 
 
 # MTS Link Addressbook & Users Extractors - All addressbook and user-related API endpoints
