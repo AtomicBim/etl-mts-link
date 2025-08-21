@@ -1,11 +1,11 @@
 import sys
 import os
 import logging
-from typing import Optional
+from typing import Optional, Dict, Any
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from abstractions.extract import endpoint, run_extractor, get_registered_endpoints
+from abstractions.extract import endpoint, run_extractor, get_registered_endpoints, BaseExtractor
 
 
 # Configure colored logging
@@ -62,9 +62,36 @@ if not logger.handlers:
 
 # MTS Link Tests & Voting Extractors - All test and voting-related API endpoints
 
+class TestInfoExtractor(BaseExtractor):
+    """Специализированный экстрактор для получения информации о тесте с дополнительными параметрами"""
+    
+    def get_endpoint(self) -> str:
+        return "/tests/{testId}"
+    
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
+        params = {}
+        
+        # Дополнительный параметр testSessionId
+        if 'testSessionId' in kwargs and kwargs['testSessionId']:
+            params['testSessionId'] = kwargs['testSessionId']
+            
+        return params if params else None
+    
+    def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
+        """Extract data and automatically save to file"""
+        data = self.extract(**kwargs)
+        if data is not None:
+            return self.save_to_file(data, filename)
+        return None
+
+
 @endpoint("/tests/{testId}")
 def test_info():
-    """Получить детальную информацию о созданном тесте или голосовании"""
+    """Получить детальную информацию о созданном тесте или голосовании
+    
+    Дополнительные параметры:
+    - testSessionId: уникальный идентификатор результата теста для ограничения выборки
+    """
     pass
 
 
@@ -116,6 +143,7 @@ def main():
     # Tests-related parameters
     parser.add_argument('--testId', help='Test ID for test-specific endpoints')
     parser.add_argument('--userId', help='User ID for user-specific endpoints')
+    parser.add_argument('--testSessionId', help='Test Session ID for limiting test_info results')
     
     args = parser.parse_args()
     
@@ -128,6 +156,8 @@ def main():
         kwargs['testId'] = args.testId
     if args.userId:
         kwargs['userId'] = args.userId
+    if args.testSessionId:
+        kwargs['testSessionId'] = args.testSessionId
     
     if args.all:
         endpoints = get_registered_endpoints()
@@ -153,11 +183,23 @@ def main():
         return
     
     if args.extractor:
-        result = run_extractor(args.extractor, **kwargs)
-        if result:
-            logger.success(f"Extraction completed: {result}")
+        # Special handling for test_info which requires custom extractor
+        if args.extractor == 'test_info':
+            try:
+                extractor = TestInfoExtractor()
+                result = extractor.extract_and_save(**kwargs)
+                if result:
+                    logger.success(f"Extraction completed: {result}")
+                else:
+                    logger.error(f"Extraction failed")
+            except Exception as e:
+                logger.error(f"Unexpected error: {e}")
         else:
-            logger.error(f"Extraction failed")
+            result = run_extractor(args.extractor, **kwargs)
+            if result:
+                logger.success(f"Extraction completed: {result}")
+            else:
+                logger.error(f"Extraction failed")
         return
     
     endpoints = list_available_extractors()
@@ -183,11 +225,24 @@ def main():
                 else:
                     logger.error(f"{extractor_name} failed")
         elif choice in endpoints:
-            result = run_extractor(choice, **kwargs)
-            if result:
-                logger.success(f"Extraction completed: {result}")
+            # Special handling for test_info in interactive mode
+            if choice == 'test_info':
+                try:
+                    extractor = TestInfoExtractor()
+                    result = extractor.extract_and_save(**kwargs)
+                    if result:
+                        logger.success(f"Extraction completed: {result}")
+                    else:
+                        logger.error(f"Extraction failed")
+                except Exception as e:
+                    logger.error(f"Unexpected error: {e}")
+                    logger.info("Note: test_info may require --testId parameter. Use command line for parameters.")
             else:
-                logger.error(f"Extraction failed")
+                result = run_extractor(choice, **kwargs)
+                if result:
+                    logger.success(f"Extraction completed: {result}")
+                else:
+                    logger.error(f"Extraction failed")
         elif choice:
             logger.error(f"Unknown extractor: {choice}")
             logger.info("Available extractors: " + ", ".join(list(endpoints.keys())))

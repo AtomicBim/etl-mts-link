@@ -136,6 +136,20 @@ def run_extractor(extractor_name: str, **kwargs) -> Optional[str]:
         print(f"Available extractors: {available}")
         return None
     
+    # Check if there's a custom function implementation
+    import sys
+    for module_name, module in sys.modules.items():
+        if hasattr(module, extractor_name):
+            func = getattr(module, extractor_name)
+            if callable(func) and hasattr(func, '__name__') and func.__name__ == extractor_name:
+                # Call the custom function
+                try:
+                    return func(**kwargs)
+                except Exception as e:
+                    print(f"Error running custom extractor {extractor_name}: {e}")
+                    break
+    
+    # Fall back to universal extractor
     endpoint_path = _endpoint_registry[extractor_name]
     extractor = UniversalExtractor(endpoint_path)
     return extractor.extract_and_save(**kwargs)
