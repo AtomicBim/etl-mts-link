@@ -16,6 +16,8 @@
   - Унифицированная система логирования с цветовым выводом
 
 - **Экстракторы** (`extract/`) - модули для извлечения данных из различных API endpoints
+- **Трансформаторы** (`transform/`) - модули для обработки и трансформации данных
+- **Загрузчики** (`load/`) - модули для загрузки данных в целевые системы
 - **Конфигурация** (`config/`) - настройки API токенов и параметров подключения
 
 ## Структура проекта
@@ -34,6 +36,11 @@ etl-mts-link/
 │   ├── link_files_extractors.py          # Файлы и записи
 │   ├── link_organisation_extractors.py   # Организация и настройки
 │   └── link_tests_extractors.py          # Тесты и голосования
+├── transform/            # Модули трансформации данных
+│   └── active_channels.py    # Анализ активности каналов
+├── load/                 # Модули загрузки данных
+├── fetch_all_messages.py # Скрипт для полного извлечения сообщений
+├── requirements.txt      # Зависимости проекта
 └── README.md             # Данный файл
 ```
 
@@ -41,7 +48,7 @@ etl-mts-link/
 
 ### Требования
 - Python 3.7+
-- Библиотеки: `requests`, `python-dotenv`
+- Библиотеки: `requests`, `python-dotenv`, `pandas`, `pip-tools`
 
 ### Установка зависимостей
 ```bash
@@ -109,6 +116,11 @@ EXTRACTION_PATH=./extracted_data
 - **`channel_messages`** - Сообщения из канала (с расширенными параметрами)
   ```bash
   python extract/link_chats_extractors.py channel_messages --chatId "channel-id" --limit 100
+  ```
+  
+  **Важно**: API ограничивает лимит до 100 сообщений на запрос. Для получения всех сообщений используйте:
+  ```bash
+  python fetch_all_messages.py "channel-id" --direction Before
   ```
 
 - **`channel_users`** - Участники канала
@@ -332,8 +344,14 @@ python extract/link_events_extractors.py event_participants --eventsessionID 228
 # Получить всех пользователей чатов
 python extract/link_chats_extractors.py chats_organization_members
 
-# Получить сообщения из конкретного канала
-python extract/link_chats_extractors.py channel_messages --chatId "channel-uuid" --limit 1000
+# Получить сообщения из конкретного канала (ограничено 100 сообщениями)
+python extract/link_chats_extractors.py channel_messages --chatId "channel-uuid" --limit 100
+
+# Получить ВСЕ сообщения из канала без ограничений (с пагинацией)
+python fetch_all_messages.py "channel-uuid"
+
+# Анализ активности каналов  
+python transform/active_channels.py --output active_channels_report.csv
 ```
 
 ### Аудит файлов и записей
@@ -345,4 +363,30 @@ python extract/link_files_extractors.py files_list
 python extract/link_files_extractors.py converted_records_list
 ```
 
-Этот проект предоставляет полный инструментарий для извлечения и анализа данных из всех модулей МТС Линк, обеспечивая гибкость использования и высокую надежность извлечения данных.
+## Решение проблемы ограничений API
+
+### Получение всех сообщений чата без ограничений
+
+API МТС Линк ограничивает выдачу сообщений до 100 на запрос. Проект включает специальный скрипт `fetch_all_messages.py` для обхода этого ограничения:
+
+```bash
+# Получить все сообщения канала
+python fetch_all_messages.py "channel-id"
+
+# С дополнительными параметрами
+python fetch_all_messages.py "channel-id" --direction Before --viewerId user123
+```
+
+**Принцип работы пагинации:**
+1. Запрос первых 100 сообщений
+2. Использование ID последнего сообщения как стартовой точки для следующего запроса
+3. Повторение до получения всех сообщений
+4. Автоматическое объединение результатов в один файл
+
+### Модуль трансформации данных
+
+Папка `transform/` содержит модули для обработки и анализа извлеченных данных:
+
+- **`active_channels.py`** - Анализирует активность каналов, создает отчеты
+
+Этот проект предоставляет полный инструментарий для извлечения, трансформации и анализа данных из всех модулей МТС Линк, обеспечивая гибкость использования и высокую надежность извлечения данных.

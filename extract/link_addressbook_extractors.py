@@ -13,10 +13,37 @@ logger = setup_logger(__name__)
 # MTS Link Addressbook & Users Extractors - All addressbook and user-related API endpoints
 
 @endpoint("/contacts/{contactsID}")
-def contact_details():
-    """Получить детальную информацию о конкретном контакте из адресной книги"""
-    # UNAVAILABLE - 404 Error: Not Found (depends on specific contactsID)
-    pass
+def contact_details(**kwargs):
+    """Получить детальную информацию о конкретном контакте из адресной книги
+    
+    Параметры:
+    - contactsID: ID контакта (обязательный)
+    
+    Возвращает информацию о контакте включая:
+    - id: ID контакта
+    - userId: ID пользователя
+    - name: Фамилия
+    - secondName: Имя
+    - company: Компания
+    - position: Должность
+    - phoneMain: Основной телефон
+    - email: Электронная почта
+    - tags: Список тегов
+    """
+    from abstractions.extract import BaseExtractor
+    
+    class ContactDetailsExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/contacts/{contactsID}"
+    
+    extractor = ContactDetailsExtractor()
+    data = extractor.extract(**kwargs)
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/contacts/search")
@@ -28,14 +55,20 @@ def contacts_search():
 @endpoint("/organization/members")
 def organization_members():
     """Выгрузить список всех сотрудников, добавленных в аккаунт МТС Линк"""
-    pass
-
-
-@endpoint("/profile")
-def user_profile():
-    """Получить информацию о профиле пользователя, от имени которого выполняется запрос (OAuth)"""
-    # UNAVAILABLE - 403 Error: The provided token is not allowed to perform this request
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class OrganizationMembersExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/organization/members"
+    
+    extractor = OrganizationMembersExtractor()
+    data = extractor.extract()
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 def list_available_extractors():

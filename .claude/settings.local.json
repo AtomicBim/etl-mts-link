@@ -101,7 +101,14 @@
       "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_info --channelId \"123456\")",
       "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py course_details --Courseid 1)",
       "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py course_details --courseID 1)",
-      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py course_details --Courseid 456)"
+      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py course_details --Courseid 456)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_addressbook_extractors.py contact_details --help)",
+      "Bash(\"venv/Scripts/pip-sync.exe\" requirements.txt)",
+      "Bash(\"venv/Scripts/python.exe\" transform/active_chats.py)",
+      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py user_channels --userId 1ef8c1ae-a4c8-6326-aa53-a0423f4d30a4)",
+      "Bash(\"venv/Scripts/python.exe\" transform/active_channels.py)",
+      "Bash(\"venv/Scripts/python.exe\" transform/active_channels.py --output active_channels_test.csv)",
+      "Bash(\"venv/Scripts/python.exe\" fetch_all_messages.py \"1f015145-a13c-665a-a41b-339e68cbf293\")"
     ],
     "deny": [],
     "ask": [],

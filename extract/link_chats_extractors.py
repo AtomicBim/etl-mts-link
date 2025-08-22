@@ -18,13 +18,39 @@ logger = setup_logger(__name__)
 @endpoint("/chats/organization/members")
 def chats_organization_members():
     """Получить список всех пользователей организации, использующих Чаты"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class ChatsOrganizationMembersExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/chats/organization/members"
+    
+    extractor = ChatsOrganizationMembersExtractor()
+    data = extractor.extract()
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/chats/channels/{userId}")
-def user_channels():
+def user_channels(**kwargs):
     """Получить список каналов из Линк Чатов для определенного пользователя"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class UserChannelsExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/chats/channels/{userId}"
+    
+    extractor = UserChannelsExtractor()
+    data = extractor.extract(**kwargs)
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/chats/channel/{chatId}/messages")
@@ -134,7 +160,20 @@ def channel_info(**kwargs):
 @endpoint("/organization/courses")
 def organization_courses():
     """Получить список всех курсов, созданных в организации"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class OrganizationCoursesExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/organization/courses"
+    
+    extractor = OrganizationCoursesExtractor()
+    data = extractor.extract()
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/courses/{Courseid}")
@@ -177,19 +216,58 @@ def course_details(**kwargs):
 @endpoint("/organization/courses/groups")
 def courses_groups():
     """Выгрузить список всех учебных групп, созданных в рамках курсов"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class CoursesGroupsExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/organization/courses/groups"
+    
+    extractor = CoursesGroupsExtractor()
+    data = extractor.extract()
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/contacts/{contactID}/user")
-def contact_user_info():
+def contact_user_info(**kwargs):
     """Получить информацию о студенте по его ID в адресной книге"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class ContactUserInfoExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/contacts/{contactID}/user"
+    
+    extractor = ContactUserInfoExtractor()
+    data = extractor.extract(**kwargs)
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 @endpoint("/organization/users/{userID}/statistics")
-def user_course_statistics():
+def user_course_statistics(**kwargs):
     """Получить статистику прохождения курсов конкретным пользователем"""
-    pass
+    from abstractions.extract import BaseExtractor
+    
+    class UserCourseStatisticsExtractor(BaseExtractor):
+        def get_endpoint(self):
+            return "/organization/users/{userID}/statistics"
+    
+    extractor = UserCourseStatisticsExtractor()
+    data = extractor.extract(**kwargs)
+    
+    if data:
+        filename = extractor.save_to_file(data)
+        return filename
+    
+    return None
 
 
 def list_available_extractors():
