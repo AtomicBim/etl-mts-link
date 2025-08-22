@@ -38,7 +38,7 @@ class AllMessagesExtractor(BaseExtractor):
         else:
             params['limit'] = 100  # Use maximum allowed
         
-        return params
+        return params if params else None
     
     def fetch_all_messages(self, chat_id: str, **kwargs) -> List[Dict[Any, Any]]:
         """
@@ -71,11 +71,22 @@ class AllMessagesExtractor(BaseExtractor):
             # Fetch current page
             try:
                 data = self.extract(**request_kwargs)
-                if not data or 'data' not in data:
+                if not data:
                     logger.info("No more data available")
                     break
                 
-                messages = data['data']
+                # Handle both direct array response and wrapped response
+                if isinstance(data, list):
+                    messages = data
+                elif isinstance(data, dict) and 'data' in data:
+                    if isinstance(data['data'], dict) and 'items' in data['data']:
+                        messages = data['data']['items']
+                    else:
+                        messages = data['data']
+                else:
+                    logger.warning(f"Unexpected data format: {type(data)}")
+                    break
+                
                 if not messages:
                     logger.info("No more messages available")
                     break
@@ -83,20 +94,26 @@ class AllMessagesExtractor(BaseExtractor):
                 logger.info(f"Fetched {len(messages)} messages on page {page}")
                 all_messages.extend(messages)
                 
+                # If we got fewer than 100 messages, we've reached the end
+                if len(messages) < 100:
+                    logger.info("Reached the end (fewer than 100 messages returned)")
+                    break
+                
                 # Get the last message ID for next iteration
                 if direction == 'Before':
                     # When going backwards, use the oldest message as the next starting point
-                    from_message_id = messages[-1]['id']
+                    last_message = messages[-1]
+                    from_message_id = last_message.get('id') or last_message.get('messageId')
                 elif direction == 'After':
                     # When going forwards, use the newest message as the next starting point
-                    from_message_id = messages[0]['id']
+                    first_message = messages[0]
+                    from_message_id = first_message.get('id') or first_message.get('messageId')
                 else:  # Around
                     logger.warning("'Around' direction doesn't support pagination well")
                     break
                 
-                # If we got fewer than 100 messages, we've reached the end
-                if len(messages) < 100:
-                    logger.info("Reached the end (fewer than 100 messages returned)")
+                if not from_message_id:
+                    logger.warning("Could not find message ID for pagination")
                     break
                 
                 page += 1
@@ -127,13 +144,9 @@ def fetch_all_messages_from_channel(chat_id: str, **kwargs) -> Optional[str]:
     all_messages = extractor.fetch_all_messages(chat_id, **kwargs)
     
     if all_messages:
-        # Save all messages to file
-        data = {
-            'data': all_messages,
-            'total_count': len(all_messages),
-            'channel_id': chat_id
-        }
-        filename = extractor.save_to_file(data)
+        # Save all messages to file - use same format as channel_messages
+        filename = extractor.save_to_file(all_messages)
+        logger.info(f"Saved {len(all_messages)} messages to {filename}")
         return filename
     
     return None
@@ -168,8 +181,10 @@ def main():
     
     if result:
         logger.success(f"All messages saved to: {result}")
+        print(f"File saved: {result}")
     else:
         logger.error("Failed to fetch messages")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

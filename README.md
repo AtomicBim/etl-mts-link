@@ -1,62 +1,14 @@
 # ETL MTS Link - Экстракторы API данных
 
-Этот проект представляет собой набор экстракторов для работы с API МТС Линк - корпоративной платформы для проведения видеоконференций, обучения и совместной работы.
+Набор экстракторов для извлечения данных из API МТС Линк - корпоративной платформы для видеоконференций, обучения и совместной работы.
 
-## Описание проекта
+## Установка
 
-Проект реализует паттерн ETL (Extract, Transform, Load) для извлечения данных из различных модулей МТС Линк через REST API. Все экстракторы организованы по функциональным модулям и поддерживают как командную строку, так и интерактивный режим работы.
-
-### Архитектура
-
-- **Базовые классы** (`abstractions/`):
-  - `BaseExtractor` - базовый класс для всех экстракторов
-  - `UniversalExtractor` - универсальный экстрактор для простых endpoints
-  - `BaseExtractorCLI` - базовый класс для CLI интерфейсов
-  - Система декораторов для регистрации endpoints
-  - Унифицированная система логирования с цветовым выводом
-
-- **Экстракторы** (`extract/`) - модули для извлечения данных из различных API endpoints
-- **Трансформаторы** (`transform/`) - модули для обработки и трансформации данных
-- **Загрузчики** (`load/`) - модули для загрузки данных в целевые системы
-- **Конфигурация** (`config/`) - настройки API токенов и параметров подключения
-
-## Структура проекта
-
-```
-etl-mts-link/
-├── abstractions/          # Базовые классы и утилиты
-│   ├── extract.py         # Базовые классы экстракторов
-│   └── logging_config.py  # Настройка логирования
-├── config/               # Конфигурационные файлы
-│   └── tokens.json       # API токены и настройки
-├── extract/              # Модули экстракторов
-│   ├── link_addressbook_extractors.py    # Адресная книга и пользователи
-│   ├── link_chats_extractors.py          # Чаты и курсы
-│   ├── link_events_extractors.py         # Мероприятия и встречи
-│   ├── link_files_extractors.py          # Файлы и записи
-│   ├── link_organisation_extractors.py   # Организация и настройки
-│   └── link_tests_extractors.py          # Тесты и голосования
-├── transform/            # Модули трансформации данных
-│   └── active_channels.py    # Анализ активности каналов
-├── load/                 # Модули загрузки данных
-├── fetch_all_messages.py # Скрипт для полного извлечения сообщений
-├── requirements.txt      # Зависимости проекта
-└── README.md             # Данный файл
-```
-
-## Установка и настройка
-
-### Требования
-- Python 3.7+
-- Библиотеки: `requests`, `python-dotenv`, `pandas`, `pip-tools`
-
-### Установка зависимостей
 ```bash
 pip install -r requirements.txt
 ```
 
-### Настройка конфигурации
-1. Создайте файл `config/tokens.json`:
+Создайте файл `config/tokens.json`:
 ```json
 {
   "api_token": "ваш_api_токен_мтс_линк",
@@ -64,197 +16,152 @@ pip install -r requirements.txt
 }
 ```
 
-2. Опционально создайте `.env` файл для настройки пути сохранения данных:
-```bash
-EXTRACTION_PATH=./extracted_data
-```
-
 ## Экстракторы
 
-### 1. Адресная книга и пользователи (`link_addressbook_extractors.py`)
+### 1. События и мероприятия (`link_events_extractors.py`)
 
-Экстракторы для работы с контактами и информацией о пользователях организации.
+```bash
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_events_extractors.py --list
 
-**Доступные экстракторы:**
+# Основные экстракторы
+"venv/Scripts/python.exe" extract/link_events_extractors.py organization_events_schedule
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_session_details --eventsessionID 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py user_events_schedule --userID 74817491
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_series_data --eventID 2293097334
 
-- **`contacts_search`** - Поиск по контактам в адресной книге
-  ```bash
-  python extract/link_addressbook_extractors.py contacts_search --query "поисковый запрос"
-  ```
+# Статистика (обязательный параметр from)
+"venv/Scripts/python.exe" extract/link_events_extractors.py events_stats --from "2025-01-01+00:00:00"
+"venv/Scripts/python.exe" extract/link_events_extractors.py users_stats
+"venv/Scripts/python.exe" extract/link_events_extractors.py visits_stats --userID 74817491
 
-- **`organization_members`** - Список всех сотрудников организации
-  ```bash
-  python extract/link_addressbook_extractors.py organization_members
-  ```
+# Участники и взаимодействие
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_participants --eventsessionID 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_chat_messages --eventsessionID 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_questions --eventsessionID 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py attention_checkpoints --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py attention_interactions --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py raising_hands --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py event_likes --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py emoji_reactions --eventSessionId 2282834298
 
-- **`contact_details`** - Детальная информация о конкретном контакте
-  ```bash
-  python extract/link_addressbook_extractors.py contact_details --contactsID 12345
-  ```
+# Записи и файлы
+"venv/Scripts/python.exe" extract/link_events_extractors.py transcript_list --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py converted_records --eventSessionId 2282834298
+"venv/Scripts/python.exe" extract/link_events_extractors.py online_records_list
+"venv/Scripts/python.exe" extract/link_events_extractors.py stream_files_urls
 
-- **`user_profile`** - Профиль текущего пользователя (требует OAuth)
-  ```bash
-  python extract/link_addressbook_extractors.py user_profile
-  ```
+# Постоянные встречи
+"venv/Scripts/python.exe" extract/link_events_extractors.py endless_meetings_list
+"venv/Scripts/python.exe" extract/link_events_extractors.py endless_meetings_activities
+```
 
 ### 2. Чаты и курсы (`link_chats_extractors.py`)
 
-Экстракторы для работы с чатами МТС Линк и системой дистанционного обучения.
+```bash
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_chats_extractors.py --list
 
-**Экстракторы чатов:**
+# Пользователи и каналы
+"venv/Scripts/python.exe" extract/link_chats_extractors.py chats_organization_members
+"venv/Scripts/python.exe" extract/link_chats_extractors.py user_channels --userId 74817491
+"venv/Scripts/python.exe" extract/link_chats_extractors.py channel_users --channelId "1f04c259-5854-6e4c-bba2-ca9a267b707c"
+"venv/Scripts/python.exe" extract/link_chats_extractors.py channel_info --channelId "1f04c259-5854-6e4c-bba2-ca9a267b707c"
 
-- **`chats_organization_members`** - Пользователи организации в чатах
-  ```bash
-  python extract/link_chats_extractors.py chats_organization_members
-  ```
+# Сообщения (лимит до 100 за запрос)
+"venv/Scripts/python.exe" extract/link_chats_extractors.py channel_messages --chatId "1f04c259-5854-6e4c-bba2-ca9a267b707c" --limit 10
+"venv/Scripts/python.exe" extract/link_chats_extractors.py channel_messages --chatId "1f04c259-5854-6e4c-bba2-ca9a267b707c" --viewerId "user456" --direction "Before" --limit 5
 
-- **`user_channels`** - Каналы конкретного пользователя
-  ```bash
-  python extract/link_chats_extractors.py user_channels --userId 74817491
-  ```
+# Получение ВСЕХ сообщений без ограничений (специальный скрипт)
+"venv/Scripts/python.exe" fetch_all_messages.py "1f04c259-5854-6e4c-bba2-ca9a267b707c"
+"venv/Scripts/python.exe" fetch_all_messages.py "1f04c259-5854-6e4c-bba2-ca9a267b707c" --fromMessageId "1f050b8d-3ff0-62de-8f23-03bad8f244fa"
 
-- **`channel_messages`** - Сообщения из канала (с расширенными параметрами)
-  ```bash
-  python extract/link_chats_extractors.py channel_messages --chatId "channel-id" --limit 100
-  ```
-  
-  **Важно**: API ограничивает лимит до 100 сообщений на запрос. Для получения всех сообщений используйте:
-  ```bash
-  python fetch_all_messages.py "channel-id" --direction Before
-  ```
+# Курсы
+"venv/Scripts/python.exe" extract/link_chats_extractors.py organization_courses
+"venv/Scripts/python.exe" extract/link_chats_extractors.py course_details --Courseid 123
+"venv/Scripts/python.exe" extract/link_chats_extractors.py courses_groups
+"venv/Scripts/python.exe" extract/link_chats_extractors.py user_course_statistics --userID 74817491
+```
 
-- **`channel_users`** - Участники канала
-  ```bash
-  python extract/link_chats_extractors.py channel_users --channelId "channel-id"
-  ```
+### 3. Адресная книга (`link_addressbook_extractors.py`)
 
-- **`channel_info`** - Информация о канале
-  ```bash
-  python extract/link_chats_extractors.py channel_info --channelId "channel-id"
-  ```
+```bash
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_addressbook_extractors.py --list
 
-**Экстракторы курсов:**
-
-- **`organization_courses`** - Список всех курсов организации
-- **`course_details`** - Детали конкретного курса
-- **`courses_groups`** - Учебные группы курсов
-- **`user_course_statistics`** - Статистика прохождения курсов пользователем
-
-### 3. Мероприятия и встречи (`link_events_extractors.py`)
-
-Самый обширный набор экстракторов для работы с видеоконференциями и мероприятиями.
-
-**Основные экстракторы:**
-
-- **`organization_events_schedule`** - Расписание всех мероприятий организации
-- **`event_session_details`** - Детали конкретного мероприятия
-  ```bash
-  python extract/link_events_extractors.py event_session_details --eventsessionID 2282834298
-  ```
-
-- **`user_events_schedule`** - Мероприятия конкретного пользователя
-  ```bash
-  python extract/link_events_extractors.py user_events_schedule --userID 74817491
-  ```
-
-**Статистика и аналитика:**
-
-- **`events_stats`** - Статистика мероприятий (требует обязательный параметр from)
-  ```bash
-  python extract/link_events_extractors.py events_stats --from "2025-01-01+00:00:00"
-  ```
-
-- **`users_stats`** - Статистика пользователей
-- **`event_participants`** - Участники мероприятия
-- **`event_series_stats`** - Статистика серии мероприятий
-
-**Интерактивные данные:**
-
-- **`event_chat_messages`** - История чата мероприятия
-- **`event_questions`** - Вопросы от участников
-- **`attention_checkpoints`** - Точки контроля внимания
-- **`attention_interactions`** - Реакции на контроль внимания
-- **`raising_hands`** - "Поднятые руки" участников
-- **`event_likes`** - Реакции "огонек"
-- **`emoji_reactions`** - Эмодзи реакции
-
-**Записи и файлы:**
-
-- **`transcript_list`** - Список расшифровок
-- **`converted_records`** - MP4 записи мероприятий
-- **`stream_files_urls`** - URL видеопотоков
+# Основные экстракторы
+"venv/Scripts/python.exe" extract/link_addressbook_extractors.py organization_members
+"venv/Scripts/python.exe" extract/link_addressbook_extractors.py contacts_search
+"venv/Scripts/python.exe" extract/link_addressbook_extractors.py contact_details --contactsID 1341627
+```
 
 ### 4. Файлы и записи (`link_files_extractors.py`)
 
-Экстракторы для работы с файловой системой МТС Линк.
+```bash
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_files_extractors.py --list
 
-- **`files_list`** - Полный список файлов организации
-- **`file_details`** - Детали конкретного файла
-  ```bash
-  python extract/link_files_extractors.py file_details --fileID 578924551 --name "filename.png"
-  ```
+# Основные экстракторы
+"venv/Scripts/python.exe" extract/link_files_extractors.py files_list
+"venv/Scripts/python.exe" extract/link_files_extractors.py converted_records_list
+"venv/Scripts/python.exe" extract/link_files_extractors.py file_details --fileID 578924551
+"venv/Scripts/python.exe" extract/link_files_extractors.py file_details --fileID 578924551 --name "filename.png"
 
-- **`event_session_files`** - Файлы, прикрепленные к мероприятию
-- **`event_series_files`** - Файлы серии мероприятий
-- **`converted_records_list`** - Список MP4 записей
+# Файлы событий
+"venv/Scripts/python.exe" extract/link_files_extractors.py event_session_files --eventsessionsID 2282834298
+"venv/Scripts/python.exe" extract/link_files_extractors.py event_series_files --eventsID 2293097334
+```
 
-### 5. Организация и настройки (`link_organisation_extractors.py`)
-
-Экстракторы для административных данных организации.
-
-- **`brandings_list`** - Брендинги организации
-- **`organization_groups`** - Группы пользователей
-- **`partner_applications`** - Интеграции через OAuth
-- **`timezones_list`** - Доступные часовые пояса
-
-### 6. Тесты и голосования (`link_tests_extractors.py`)
-
-Экстракторы для системы тестирования и опросов.
-
-- **`tests_list`** - Список всех тестов
-- **`test_info`** - Детали конкретного теста
-  ```bash
-  python extract/link_tests_extractors.py test_info --testId 1439438553 --testSessionId 646357
-  ```
-
-- **`test_results`** - Результаты теста
-- **`user_tests_stats`** - Статистика тестов пользователя
-- **`test_custom_answers`** - Текстовые ответы на открытые вопросы
-
-## Использование
-
-### Командная строка
-
-Каждый экстрактор поддерживает стандартные команды:
+### 5. Тесты (`link_tests_extractors.py`)
 
 ```bash
-# Показать список доступных экстракторов
-python extract/link_events_extractors.py --list
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_tests_extractors.py --list
+
+# Основные экстракторы
+"venv/Scripts/python.exe" extract/link_tests_extractors.py tests_list
+"venv/Scripts/python.exe" extract/link_tests_extractors.py test_info --testId 1439438553
+"venv/Scripts/python.exe" extract/link_tests_extractors.py test_info --testId 1439438553 --testSessionId 646357
+"venv/Scripts/python.exe" extract/link_tests_extractors.py user_tests_stats --userId 74817491
+"venv/Scripts/python.exe" extract/link_tests_extractors.py test_results --testId 1439438553
+"venv/Scripts/python.exe" extract/link_tests_extractors.py test_custom_answers --testId 1439438553
+```
+
+### 6. Организация (`link_organisation_extractors.py`)
+
+```bash
+# Показать все доступные экстракторы
+"venv/Scripts/python.exe" extract/link_organisation_extractors.py --list
+
+# Основные экстракторы
+"venv/Scripts/python.exe" extract/link_organisation_extractors.py timezones_list
+"venv/Scripts/python.exe" extract/link_organisation_extractors.py brandings_list
+"venv/Scripts/python.exe" extract/link_organisation_extractors.py organization_groups
+"venv/Scripts/python.exe" extract/link_organisation_extractors.py partner_applications
+```
+
+## Общие команды
+
+```bash
+# Показать список всех экстракторов в модуле
+"venv/Scripts/python.exe" extract/link_events_extractors.py --list
 
 # Запустить все экстракторы без параметров
-python extract/link_events_extractors.py --all
+"venv/Scripts/python.exe" extract/link_events_extractors.py --all
 
-# Запустить конкретный экстрактор
-python extract/link_events_extractors.py organization_events_schedule
-
-# Запустить с параметрами
-python extract/link_events_extractors.py event_session_details --eventsessionID 12345
+# Интерактивный режим
+"venv/Scripts/python.exe" extract/link_events_extractors.py
 ```
 
-### Интерактивный режим
-
-Запуск без параметров открывает интерактивный режим:
+## Трансформация данных
 
 ```bash
-python extract/link_events_extractors.py
-
-# В интерактивном режиме доступны команды:
-# - имя экстрактора для его запуска
-# - 'all' для запуска всех экстракторов
-# - 'quit' или 'exit' для выхода
+# Анализ активности каналов
+"venv/Scripts/python.exe" transform/active_channels.py
+"venv/Scripts/python.exe" transform/active_channels.py --output active_channels_report.csv
 ```
 
-### Программный интерфейс
+## Использование как модуль
 
 ```python
 from abstractions.extract import run_extractor, UniversalExtractor
@@ -268,125 +175,9 @@ data = extractor.extract()
 filename = extractor.save_to_file(data)
 ```
 
-## Особенности реализации
+## Особенности
 
-### Система регистрации endpoints
-
-Используется декоратор `@endpoint()` для автоматической регистрации API точек:
-
-```python
-@endpoint("/organization/events/schedule")
-def organization_events_schedule():
-    """Получить информацию о всех мероприятиях организации"""
-    pass
-```
-
-### Специализированные экстракторы
-
-Некоторые endpoints требуют специальной обработки параметров и реализованы как отдельные классы:
-
-- `EventsStatsExtractor` - для статистики с обязательным параметром `from`
-- `FileDetailsExtractor` - для файлов с дополнительными параметрами
-- `TestInfoExtractor` - для тестов с опциональными параметрами
-
-### Обработка ошибок
-
-Все экстракторы включают обработку следующих ошибок:
-- HTTP ошибки (401, 403, 404, etc.)
-- Ошибки сети и таймауты
-- Ошибки парсинга JSON
-- Недоступные endpoints (помечены как UNAVAILABLE в комментариях)
-
-### Сохранение данных
-
-- Автоматическое создание имен файлов с временными метками
-- Сохранение в JSON формате с правильной кодировкой UTF-8
-- Структурированное логирование процесса извлечения
-
-## Конфигурация токенов
-
-Файл `config/tokens.json` должен содержать:
-
-```json
-{
-  "api_token": "ваш_api_токен",
-  "base_url": "https://api.mts-link.ru/v3"
-}
-```
-
-API токен можно получить в административной панели МТС Линк в разделе интеграций.
-
-## Логирование
-
-Проект использует цветное логирование с уровнями:
-- **INFO** (белый) - общая информация
-- **SUCCESS** (зеленый) - успешные операции  
-- **WARNING** (желтый) - предупреждения
-- **ERROR** (красный) - ошибки
-- **DEBUG** (голубой) - отладочная информация
-
-## Примеры использования
-
-### Массовое извлечение данных о мероприятиях
-```bash
-# Получить все мероприятия
-python extract/link_events_extractors.py organization_events_schedule
-
-# Получить статистику за период
-python extract/link_events_extractors.py events_stats --from "2024-01-01+00:00:00" --to "2024-12-31+23:59:59"
-
-# Получить участников конкретного мероприятия
-python extract/link_events_extractors.py event_participants --eventsessionID 2282834298
-```
-
-### Анализ чатовой активности
-```bash
-# Получить всех пользователей чатов
-python extract/link_chats_extractors.py chats_organization_members
-
-# Получить сообщения из конкретного канала (ограничено 100 сообщениями)
-python extract/link_chats_extractors.py channel_messages --chatId "channel-uuid" --limit 100
-
-# Получить ВСЕ сообщения из канала без ограничений (с пагинацией)
-python fetch_all_messages.py "channel-uuid"
-
-# Анализ активности каналов  
-python transform/active_channels.py --output active_channels_report.csv
-```
-
-### Аудит файлов и записей
-```bash
-# Получить все файлы организации
-python extract/link_files_extractors.py files_list
-
-# Получить все готовые MP4 записи
-python extract/link_files_extractors.py converted_records_list
-```
-
-## Решение проблемы ограничений API
-
-### Получение всех сообщений чата без ограничений
-
-API МТС Линк ограничивает выдачу сообщений до 100 на запрос. Проект включает специальный скрипт `fetch_all_messages.py` для обхода этого ограничения:
-
-```bash
-# Получить все сообщения канала
-python fetch_all_messages.py "channel-id"
-
-# С дополнительными параметрами
-python fetch_all_messages.py "channel-id" --direction Before --viewerId user123
-```
-
-**Принцип работы пагинации:**
-1. Запрос первых 100 сообщений
-2. Использование ID последнего сообщения как стартовой точки для следующего запроса
-3. Повторение до получения всех сообщений
-4. Автоматическое объединение результатов в один файл
-
-### Модуль трансформации данных
-
-Папка `transform/` содержит модули для обработки и анализа извлеченных данных:
-
-- **`active_channels.py`** - Анализирует активность каналов, создает отчеты
-
-Этот проект предоставляет полный инструментарий для извлечения, трансформации и анализа данных из всех модулей МТС Линк, обеспечивая гибкость использования и высокую надежность извлечения данных.
+- **Ограничение сообщений**: API ограничивает выдачу сообщений до 100 за запрос. Используйте `fetch_all_messages.py` для получения всех сообщений
+- **Обязательные параметры**: Экстрактор `events_stats` требует параметр `from`
+- **Автосохранение**: Все данные автоматически сохраняются в JSON файлы с временными метками
+- **Цветное логирование**: Используется для удобного отслеживания процесса извлечения
