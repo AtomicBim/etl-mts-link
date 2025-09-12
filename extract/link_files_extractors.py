@@ -10,8 +10,6 @@ from abstractions.logging_config import setup_logger
 logger = setup_logger(__name__)
 
 
-# MTS Link Files & Records Extractors - All file and record-related API endpoints
-
 class FileDetailsExtractor(BaseExtractor):
     """Специализированный экстрактор для получения информации о файле с дополнительными параметрами"""
     
@@ -27,13 +25,6 @@ class FileDetailsExtractor(BaseExtractor):
             
         return params if params else None
     
-    def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
-        """Extract data and automatically save to file"""
-        data = self.extract(**kwargs)
-        if data is not None:
-            return self.save_to_file(data, filename)
-        return None
-
 
 @endpoint("/fileSystem/file/{fileID}")
 def file_details():
@@ -149,8 +140,9 @@ def main():
         if args.extractor == 'file_details':
             try:
                 extractor = FileDetailsExtractor()
-                result = extractor.extract_and_save(**kwargs)
-                if result:
+                data = extractor.extract(**kwargs)
+                if data is not None:
+                    result = extractor.save_to_file(data)
                     logger.success(f"Extraction completed: {result}")
                 else:
                     logger.error(f"Extraction failed")
@@ -192,8 +184,9 @@ def main():
             if choice == 'file_details':
                 try:
                     extractor = FileDetailsExtractor()
-                    result = extractor.extract_and_save(**kwargs)
-                    if result:
+                    data = extractor.extract(**kwargs)
+                    if data is not None:
+                        result = extractor.save_to_file(data)
                         logger.success(f"Extraction completed: {result}")
                     else:
                         logger.error(f"Extraction failed")

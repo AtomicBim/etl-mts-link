@@ -10,9 +10,6 @@ from abstractions.logging_config import setup_logger
 logger = setup_logger(__name__)
 
 
-# MTS Link Organisation & Settings Extractors - All organization and settings-related API endpoints
-
-
 @endpoint("/brandings")
 def brandings_list():
     """Получить информацию о брендингах организации"""

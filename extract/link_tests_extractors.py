@@ -10,8 +10,6 @@ from abstractions.logging_config import setup_logger
 logger = setup_logger(__name__)
 
 
-# MTS Link Tests & Voting Extractors - All test and voting-related API endpoints
-
 class TestInfoExtractor(BaseExtractor):
     """Специализированный экстрактор для получения информации о тесте с дополнительными параметрами"""
     
@@ -27,13 +25,6 @@ class TestInfoExtractor(BaseExtractor):
             
         return params if params else None
     
-    def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
-        """Extract data and automatically save to file"""
-        data = self.extract(**kwargs)
-        if data is not None:
-            return self.save_to_file(data, filename)
-        return None
-
 
 @endpoint("/tests/{testId}")
 def test_info():
@@ -137,8 +128,9 @@ def main():
         if args.extractor == 'test_info':
             try:
                 extractor = TestInfoExtractor()
-                result = extractor.extract_and_save(**kwargs)
-                if result:
+                data = extractor.extract(**kwargs)
+                if data is not None:
+                    result = extractor.save_to_file(data)
                     logger.success(f"Extraction completed: {result}")
                 else:
                     logger.error(f"Extraction failed")
@@ -179,8 +171,9 @@ def main():
             if choice == 'test_info':
                 try:
                     extractor = TestInfoExtractor()
-                    result = extractor.extract_and_save(**kwargs)
-                    if result:
+                    data = extractor.extract(**kwargs)
+                    if data is not None:
+                        result = extractor.save_to_file(data)
                         logger.success(f"Extraction completed: {result}")
                     else:
                         logger.error(f"Extraction failed")

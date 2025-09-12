@@ -127,7 +127,8 @@
       "Bash(\"venv/Scripts/python.exe\" fetch_all_messages.py \"1f04ff1d-6e00-66e0-8409-f8a68bf3f9e6\" --limit 5)",
       "Bash(\"venv/Scripts/python.exe\" fetch_all_messages.py \"1f04ff1d-6e00-66e0-8409-f8a68bf3f9e6\" --fromMessageId \"1f050b8d-3ff0-62de-8f23-03bad8f244fa\")",
       "Bash(\"venv/Scripts/python.exe\" fetch_all_messages.py \"1f072bb4-22d2-6f71-aee9-53f671e58a01\")",
-      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_info --channelId \"1f072bb4-22d2-6f71-aee9-53f671e58a01\")"
+      "Bash(\"venv/Scripts/python.exe\" extract/link_chats_extractors.py channel_info --channelId \"1f072bb4-22d2-6f71-aee9-53f671e58a01\")",
+      "Bash(\"venv/Scripts/python.exe\":*)"
     ],
     "deny": [],
     "ask": [],

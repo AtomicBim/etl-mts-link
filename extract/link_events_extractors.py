@@ -10,17 +10,14 @@ from abstractions.logging_config import setup_logger
 logger = setup_logger(__name__)
 
 
-# MTS Link Events Extractors - All event-related API endpoints
-
 @endpoint("/organization/events/schedule")
 def organization_events_schedule():
     """Получить информацию о всех мероприятиях организации"""
     pass
 
-
-@endpoint("/eventsessions/{eventsessionID}")
-def event_session_details():
-    """Получить детальную информацию о конкретном мероприятии"""
+@endpoint("/organization/events/{eventID}")
+def event_series_data():
+    """Получить данные о шаблоне или серии мероприятий"""
     pass
 
 
@@ -30,9 +27,9 @@ def user_events_schedule():
     pass
 
 
-@endpoint("/organization/events/{eventID}")
-def event_series_data():
-    """Получить данные о шаблоне или серии мероприятий"""
+@endpoint("/eventsessions/endless/activities")
+def endless_meetings_activities():
+    """Получить данные об отдельных сессиях в рамках постоянных встреч"""
     pass
 
 
@@ -42,9 +39,9 @@ def endless_meetings_list():
     pass
 
 
-@endpoint("/eventsessions/endless/activities")
-def endless_meetings_activities():
-    """Получить данные об отдельных сессиях в рамках постоянных встреч"""
+@endpoint("/eventsessions/{eventsessionID}")
+def event_session_details():
+    """Получить детальную информацию о конкретном мероприятии"""
     pass
 
 
@@ -57,12 +54,6 @@ def transcript_list():
 @endpoint("/transcript/{transcriptId}")
 def transcript_summary():
     """Получить готовую краткую сводку (саммари) и полную текстовую расшифровку"""
-    pass
-
-
-@endpoint("/eventsessions/{eventsessionID}/participations")
-def event_participants():
-    """Получить список всех зарегистрированных участников для конкретного мероприятия"""
     pass
 
 
@@ -99,13 +90,6 @@ class EventsStatsExtractor(BaseExtractor):
             
         return params if params else None
     
-    def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
-        """Extract data and automatically save to file"""
-        data = self.extract(**kwargs)
-        if data is not None:
-            return self.save_to_file(data, filename)
-        return None
-
 
 @endpoint("/stats/events")
 def events_stats():
@@ -128,22 +112,9 @@ def users_stats():
     pass
 
 
-@endpoint("/stats/users/visits/{userID}")
-def visits_stats():
-    """Получить общую статистику всех посещений мероприятий для конкретного пользователя"""
-    # UNAVAILABLE - 404 Error: No route found for "GET /userapi/stats/users/visits/{userID}"
-    pass
-
-
 @endpoint("/records")
 def online_records_list():
     """Получить список всех доступных онлайн-записей мероприятий"""
-    pass
-
-
-@endpoint("/records/conversions/{conversionID}")
-def conversion_status():
-    """Узнать текущий статус конвертации записи в формат MP4"""
     pass
 
 
@@ -156,48 +127,6 @@ def converted_records():
 @endpoint("/eventsessions/{eventsessionID}/chat")
 def event_chat_messages():
     """Выгрузить всю историю сообщений из чата конкретного мероприятия"""
-    pass
-
-
-@endpoint("/eventsessions/{eventsessionID}/questions")
-def event_questions():
-    """Выгрузить все вопросы, заданные участниками через специальный модуль"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/attention-control/checkpoints")
-def attention_checkpoints():
-    """Получить информацию о точках контроля внимания, показанных участникам"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/attention-control/interactions")
-def attention_interactions():
-    """Получить данные о реакциях участников на чекпоинты контроля внимания"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/raising-hands")
-def raising_hands():
-    """Получить список участников, которые "поднимали руку" во время сессии"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/likes")
-def event_likes():
-    """Получить данные по реакциям "огонек", отправленным участниками"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/emoji-reactions")
-def emoji_reactions():
-    """Получить список всех реакций с эмодзи, отправленных во время сессии"""
-    pass
-
-
-@endpoint("/organization/eventsessions/streamFilesUrls")
-def stream_files_urls():
-    """Получить URL-адреса видеопотоков спикеров"""
     pass
 
 
@@ -293,8 +222,9 @@ def main():
         if args.extractor == 'events_stats':
             try:
                 extractor = EventsStatsExtractor()
-                result = extractor.extract_and_save(**kwargs)
-                if result:
+                data = extractor.extract(**kwargs)
+                if data is not None:
+                    result = extractor.save_to_file(data)
                     logger.success(f"Extraction completed: {result}")
                 else:
                     logger.error(f"Extraction failed")
@@ -337,8 +267,9 @@ def main():
             if choice == 'events_stats':
                 try:
                     extractor = EventsStatsExtractor()
-                    result = extractor.extract_and_save(**kwargs)
-                    if result:
+                    data = extractor.extract(**kwargs)
+                    if data is not None:
+                        result = extractor.save_to_file(data)
                         logger.success(f"Extraction completed: {result}")
                     else:
                         logger.error(f"Extraction failed")

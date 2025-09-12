@@ -10,51 +10,20 @@ from abstractions.logging_config import setup_logger
 logger = setup_logger(__name__)
 
 
-# MTS Link Chats & Courses Extractors - All chat and course-related API endpoints
-
-# МТС Линк Чаты (MTS Link Chats)
-
-
 @endpoint("/chats/organization/members")
 def chats_organization_members():
     """Получить список всех пользователей организации, использующих Чаты"""
-    from abstractions.extract import BaseExtractor
-    
-    class ChatsOrganizationMembersExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/chats/organization/members"
-    
-    extractor = ChatsOrganizationMembersExtractor()
-    data = extractor.extract()
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/chats/channels/{userId}")
-def user_channels(**kwargs):
+def user_channels():
     """Получить список каналов из Линк Чатов для определенного пользователя"""
-    from abstractions.extract import BaseExtractor
-    
-    class UserChannelsExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/chats/channels/{userId}"
-    
-    extractor = UserChannelsExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/chats/channel/{chatId}/messages")
-def channel_messages(**kwargs):
+def channel_messages():
     """Чтение сообщений из Линк Чатов
     
     Дополнительные параметры:
@@ -64,39 +33,11 @@ def channel_messages(**kwargs):
     - direction: Направление поиска от fromMessageId (Before, After, Around). По умолчанию - Before
     - limit: лимит сообщений
     """
-    from abstractions.extract import BaseExtractor
-    
-    class ChannelMessagesExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/chats/channel/{chatId}/messages"
-        
-        def get_url_params(self, **kwargs):
-            params = {}
-            if 'viewerId' in kwargs:
-                params['viewerId'] = kwargs['viewerId']
-            if 'fromMessageId' in kwargs:
-                params['fromMessageId'] = kwargs['fromMessageId']
-            if 'parrentMessageId' in kwargs:
-                params['parrentMessageId'] = kwargs['parrentMessageId']
-            if 'direction' in kwargs:
-                params['direction'] = kwargs['direction']
-            if 'limit' in kwargs:
-                params['limit'] = kwargs['limit']
-            
-            return params if params else None
-    
-    extractor = ChannelMessagesExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/chats/channels/{channelId}/users")
-def channel_users(**kwargs):
+def channel_users():
     """Получение списка участников канала LinkChat
     
     Поля ответа:
@@ -104,24 +45,11 @@ def channel_users(**kwargs):
     - role: роль пользователя
     - status: статус пользователя
     """
-    from abstractions.extract import BaseExtractor
-    
-    class ChannelUsersExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/chats/channels/{channelId}/users"
-    
-    extractor = ChannelUsersExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/chats/channel/{channelId}")
-def channel_info(**kwargs):
+def channel_info():
     """Получить информацию о канале в Линк Чатах
     
     Поля ответа:
@@ -139,20 +67,7 @@ def channel_info(**kwargs):
     - description: описание чата
     - isNotifiable: true/false включены ли оповещения
     """
-    from abstractions.extract import BaseExtractor
-    
-    class ChannelInfoExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/chats/channel/{channelId}"
-    
-    extractor = ChannelInfoExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 # МТС Линк Курсы (MTS Link Courses)
@@ -160,24 +75,11 @@ def channel_info(**kwargs):
 @endpoint("/organization/courses")
 def organization_courses():
     """Получить список всех курсов, созданных в организации"""
-    from abstractions.extract import BaseExtractor
-    
-    class OrganizationCoursesExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/organization/courses"
-    
-    extractor = OrganizationCoursesExtractor()
-    data = extractor.extract()
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/courses/{Courseid}")
-def course_details(**kwargs):
+def course_details():
     """Получить данные о конкретном курсе
     
     Позволяет получить название, статус, список групп курса и их настройки.
@@ -197,77 +99,19 @@ def course_details(**kwargs):
     - additionalFields: дополнительные поля курса (массив параметров)
     - locale: язык курса
     """
-    from abstractions.extract import BaseExtractor
-    
-    class CourseDetailsExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/courses/{Courseid}"
-    
-    extractor = CourseDetailsExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
-
-
-@endpoint("/organization/courses/groups")
-def courses_groups():
-    """Выгрузить список всех учебных групп, созданных в рамках курсов"""
-    from abstractions.extract import BaseExtractor
-    
-    class CoursesGroupsExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/organization/courses/groups"
-    
-    extractor = CoursesGroupsExtractor()
-    data = extractor.extract()
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/contacts/{contactID}/user")
-def contact_user_info(**kwargs):
+def contact_user_info():
     """Получить информацию о студенте по его ID в адресной книге"""
-    from abstractions.extract import BaseExtractor
-    
-    class ContactUserInfoExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/contacts/{contactID}/user"
-    
-    extractor = ContactUserInfoExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 @endpoint("/organization/users/{userID}/statistics")
-def user_course_statistics(**kwargs):
+def user_course_statistics():
     """Получить статистику прохождения курсов конкретным пользователем"""
-    from abstractions.extract import BaseExtractor
-    
-    class UserCourseStatisticsExtractor(BaseExtractor):
-        def get_endpoint(self):
-            return "/organization/users/{userID}/statistics"
-    
-    extractor = UserCourseStatisticsExtractor()
-    data = extractor.extract(**kwargs)
-    
-    if data:
-        filename = extractor.save_to_file(data)
-        return filename
-    
-    return None
+    pass
 
 
 def list_available_extractors():
