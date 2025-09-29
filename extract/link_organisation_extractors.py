@@ -28,12 +28,6 @@ def partner_applications():
     pass
 
 
-@endpoint("/timezones")
-def timezones_list():
-    """Получить список доступных часовых поясов"""
-    pass
-
-
 def list_available_extractors():
     """List all available extractors"""
     endpoints = get_registered_endpoints()

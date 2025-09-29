@@ -144,11 +144,13 @@ def run_extractor(extractor_name: str, **kwargs) -> Optional[str]:
             if callable(func) and hasattr(func, '__name__') and func.__name__ == extractor_name:
                 # Call the custom function
                 try:
-                    return func(**kwargs)
+                    result = func(**kwargs)
+                    if result is not None:
+                        return result
                 except Exception as e:
                     print(f"Error running custom extractor {extractor_name}: {e}")
-                    break
-    
+                break
+
     # Fall back to universal extractor
     endpoint_path = _endpoint_registry[extractor_name]
     extractor = UniversalExtractor(endpoint_path)
