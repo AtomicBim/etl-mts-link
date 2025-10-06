@@ -8,7 +8,12 @@ from abstractions.extract import endpoint, run_extractor, get_registered_endpoin
 
 @endpoint("/chats/organization/members")
 def chats_organization_members():
-    """Получить список всех пользователей организации, использующих Чаты"""
+    """Получить список всех пользователей организации, использующих Чаты
+
+    Дополнительные параметры:
+    - page: номер страницы (по умолчанию: 1)
+    - perPage: количество записей на одной странице
+    """
     pass
 
 
@@ -35,6 +40,13 @@ def channel_messages():
 @endpoint("/chats/channels/{channelId}/users")
 def channel_users():
     """Получение списка участников канала LinkChat
+
+    Обязательные параметры:
+    - channelId: идентификатор канала (в URL)
+
+    Дополнительные параметры:
+    - offset: смещение результатов (по умолчанию: 0)
+    - limit: количество отображаемых результатов (по умолчанию: 100)
 
     Поля ответа:
     - userId: идентификатор пользователя
@@ -73,7 +85,7 @@ if __name__ == "__main__":
     parser.add_argument('extractor', nargs='?', help='Name of the extractor to run')
     parser.add_argument('--list', '-l', action='store_true', help='List available extractors')
 
-    for arg in ['channelId', 'chatId', 'userId', 'viewerId', 'fromMessageId', 'parrentMessageId', 'direction', 'limit']:
+    for arg in ['channelId', 'chatId', 'userId', 'viewerId', 'fromMessageId', 'parrentMessageId', 'direction', 'limit', 'page', 'perPage', 'offset']:
         parser.add_argument(f'--{arg}', help=f'{arg} parameter')
 
     args = parser.parse_args()

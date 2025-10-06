@@ -3,7 +3,11 @@
     "allow": [
       "Bash(python:*)",
       "Read(//c/Users/AI-agent/Yandex.Disk/Обмен/**)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Read(//c/Users/AI-agent/Desktop/Obsidian-документация к сервисам 1С/00_Data/01_Задачи/**)",
+      "Bash(dir)",
+      "Bash(dir extract)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": [],

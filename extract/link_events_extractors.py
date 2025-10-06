@@ -7,9 +7,53 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from abstractions.extract import endpoint, run_extractor, get_registered_endpoints, BaseExtractor
 
 
+class OrganizationEventsExtractor(BaseExtractor):
+    """Экстрактор для расписания мероприятий организации с обязательным параметром from"""
+
+    def get_endpoint(self) -> str:
+        return "/organization/events/schedule"
+
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
+        params = {}
+
+        # Обязательный параметр from
+        if 'from_date' in kwargs:
+            params['from'] = kwargs['from_date']
+        elif 'from' in kwargs:
+            params['from'] = kwargs['from']
+        else:
+            raise ValueError("Parameter 'from' (or 'from_date') is required. Format: yyyy-mm-dd+hh:mm:ss")
+
+        # Дополнительные параметры
+        for param in ['name', 'to', 'page', 'perPage']:
+            if param in kwargs and kwargs[param]:
+                params[param] = kwargs[param]
+
+        # Обработка status[] как массива
+        if 'status' in kwargs and kwargs['status']:
+            if isinstance(kwargs['status'], list):
+                for i, status in enumerate(kwargs['status']):
+                    params[f'status[{i}]'] = status
+            else:
+                params['status[0]'] = kwargs['status']
+
+        return params if params else None
+
+
 @endpoint("/organization/events/schedule")
 def organization_events_schedule():
-    """Получить информацию о всех мероприятиях организации"""
+    """Получить информацию о всех мероприятиях организации
+
+    Обязательные параметры:
+    - from: дата начала периода выборки (формат: yyyy-mm-dd+hh:mm:ss)
+
+    Дополнительные параметры:
+    - name: названия вебинара
+    - status: статус вебинаров (ACTIVE, STOP, START)
+    - to: дата окончания периода выборки
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
     pass
 
 
@@ -19,9 +63,54 @@ def event_series_data():
     pass
 
 
+class UserEventsExtractor(BaseExtractor):
+    """Экстрактор для расписания мероприятий пользователя с обязательным параметром from"""
+
+    def get_endpoint(self) -> str:
+        return "/users/{userID}/events/schedule"
+
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
+        params = {}
+
+        # Обязательный параметр from
+        if 'from_date' in kwargs:
+            params['from'] = kwargs['from_date']
+        elif 'from' in kwargs:
+            params['from'] = kwargs['from']
+        else:
+            raise ValueError("Parameter 'from' (or 'from_date') is required. Format: yyyy-mm-dd+hh:mm:ss")
+
+        # Дополнительные параметры
+        for param in ['name', 'to', 'page', 'perPage']:
+            if param in kwargs and kwargs[param]:
+                params[param] = kwargs[param]
+
+        # Обработка status[] как массива
+        if 'status' in kwargs and kwargs['status']:
+            if isinstance(kwargs['status'], list):
+                for i, status in enumerate(kwargs['status']):
+                    params[f'status[{i}]'] = status
+            else:
+                params['status[0]'] = kwargs['status']
+
+        return params if params else None
+
+
 @endpoint("/users/{userID}/events/schedule")
 def user_events_schedule():
-    """Получить информацию о мероприятиях, созданных конкретным сотрудником"""
+    """Получить информацию о мероприятиях, созданных конкретным сотрудником
+
+    Обязательные параметры:
+    - userID: идентификатор пользователя (в URL)
+    - from: дата начала периода выборки (формат: yyyy-mm-dd+hh:mm:ss)
+
+    Дополнительные параметры:
+    - name: названия вебинара
+    - status: статус вебинаров (ACTIVE, STOP, START)
+    - to: дата окончания периода выборки
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
     pass
 
 
@@ -49,69 +138,6 @@ def event_series_stats():
     pass
 
 
-class EventsStatsExtractor(BaseExtractor):
-    """Специализированный экстрактор для статистики мероприятий с обязательными параметрами"""
-
-    def get_endpoint(self) -> str:
-        return "/stats/events"
-
-    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
-        params = {}
-
-        if 'from_date' in kwargs:
-            params['from'] = kwargs['from_date']
-        elif 'from' in kwargs:
-            params['from'] = kwargs['from']
-        else:
-            raise ValueError("Parameter 'from' (or 'from_date') is required. Format: yyyy-mm-dd+hh:mm:ss")
-
-        if 'to' in kwargs and kwargs['to']:
-            params['to'] = kwargs['to']
-        if 'userId' in kwargs and kwargs['userId']:
-            params['userId'] = kwargs['userId']
-        if 'eventId' in kwargs and kwargs['eventId']:
-            params['eventId'] = kwargs['eventId']
-
-        return params if params else None
-
-
-@endpoint("/stats/events")
-def events_stats():
-    """Выгрузить статистику по мероприятиям
-
-    Обязательные параметры:
-    - from_date или from: дата начала периода (формат: yyyy-mm-dd+hh:mm:ss)
-
-    Дополнительные параметры:
-    - to: дата окончания периода (формат: yyyy-mm-dd+hh:mm:ss)
-    - userId: ID сотрудника для ограничения выборки
-    - eventId: ID конкретного мероприятия
-    """
-    pass
-
-
-@endpoint("/stats/users")
-def users_stats():
-    """Получить данные по активности и посещениям конкретных пользователей"""
-    pass
-
-
-@endpoint("/records")
-def online_records_list():
-    """Получить список всех доступных онлайн-записей мероприятий"""
-    pass
-
-
-@endpoint("/eventsessions/{eventSessionId}/converted-records")
-def converted_records():
-    """Получить информацию о готовой MP4-записи мероприятия"""
-    pass
-
-
-@endpoint("/eventsessions/{eventsessionID}/chat")
-def event_chat_messages():
-    """Выгрузить всю историю сообщений из чата конкретного мероприятия"""
-    pass
 
 
 if __name__ == "__main__":
@@ -121,7 +147,7 @@ if __name__ == "__main__":
     parser.add_argument('extractor', help='Name of the extractor to run')
     parser.add_argument('--list', '-l', action='store_true', help='List available extractors')
 
-    for arg in ['eventSessionId', 'eventsessionID', 'userID', 'eventID', 'transcriptId', 'from_date', 'to', 'userId', 'eventId']:
+    for arg in ['eventSessionId', 'eventsessionID', 'userID', 'eventID', 'transcriptId', 'from_date', 'from', 'to', 'userId', 'eventId', 'name', 'status', 'page', 'perPage', 'cursor']:
         parser.add_argument(f'--{arg}', help=f'{arg} parameter')
 
     args = parser.parse_args()
@@ -134,9 +160,21 @@ if __name__ == "__main__":
 
     kwargs = {k: v for k, v in vars(args).items() if v is not None and k != 'extractor' and k != 'list'}
 
-    if args.extractor == 'events_stats':
+    # Специальная обработка для endpoints с обязательными параметрами
+    if args.extractor == 'organization_events_schedule':
         try:
-            extractor = EventsStatsExtractor()
+            extractor = OrganizationEventsExtractor()
+            data = extractor.extract(**kwargs)
+            if data is not None:
+                result = extractor.save_to_file(data)
+                print(f"Result: {result}")
+            else:
+                print("Extraction failed")
+        except ValueError as e:
+            print(f"Error: {e}")
+    elif args.extractor == 'user_events_schedule':
+        try:
+            extractor = UserEventsExtractor()
             data = extractor.extract(**kwargs)
             if data is not None:
                 result = extractor.save_to_file(data)

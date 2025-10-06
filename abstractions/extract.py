@@ -71,9 +71,11 @@ class BaseExtractor(ABC):
         url = f"{self.base_url}{endpoint}"
         headers = self._get_headers()
         params = self.get_url_params(**query_params)
-        
+
         print(f"Sending request to: {url}")
-        
+        if params:
+            print(f"With query parameters: {params}")
+
         try:
             response = requests.get(url, headers=headers, params=params)
             response.raise_for_status()
@@ -112,14 +114,19 @@ class BaseExtractor(ABC):
 
 class UniversalExtractor(BaseExtractor):
     """Universal extractor that can work with any endpoint"""
-    
+
     def __init__(self, endpoint_path: str, config_path: str = "config/tokens.json"):
         super().__init__(config_path)
         self.endpoint_path = endpoint_path
-        
+
     def get_endpoint(self) -> str:
         return self.endpoint_path
-    
+
+    def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
+        """Return query parameters for the request"""
+        # Return all provided kwargs as query parameters
+        return kwargs if kwargs else None
+
     def extract_and_save(self, filename: Optional[str] = None, **kwargs) -> Optional[str]:
         """Extract data and automatically save to file"""
         data = self.extract(**kwargs)
