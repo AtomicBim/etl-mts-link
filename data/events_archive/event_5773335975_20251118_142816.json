@@ -1,0 +1,98 @@
+{
+  "event_session_id": "5773335975",
+  "event_name": "Новое мероприятие сегодня",
+  "extraction_timestamp": "2025-11-18T14:28:16.030516",
+  "event_info": {
+    "event_session_id": "5773335975",
+    "event_id": "5973328052",
+    "name": "Новое мероприятие сегодня",
+    "description": "",
+    "status": "ACTIVE",
+    "start_time": "2025-10-17T14:30:14+0500",
+    "end_time": "2025-10-17T23:59:59+0500",
+    "duration_minutes": "569",
+    "owner_id": "119333281",
+    "organization_id": "",
+    "is_public": "",
+    "is_recurring": "False",
+    "max_participants": "",
+    "event_type": "meeting",
+    "discovered_via_user_id": "",
+    "extraction_timestamp": "2025-11-18T14:22:28.914480"
+  },
+  "event_details": {
+    "id": 5773335975,
+    "name": "Новое мероприятие сегодня",
+    "description": "",
+    "status": "ACTIVE",
+    "access": 1,
+    "accessSettings": {
+      "isPasswordRequired": false,
+      "isRegistrationRequired": false,
+      "isModerationRequired": false
+    },
+    "lang": "RU",
+    "startsAt": "2025-10-17T14:30:14+0500",
+    "utcStartsAt": 1760693414,
+    "createUserId": 119333281,
+    "timezoneId": 159,
+    "timezone": {
+      "id": 159,
+      "name": "Asia/Yekaterinburg",
+      "description": "Екатеринбург",
+      "offset": 18000,
+      "isDeleted": false,
+      "shortDescription": "Екатеринбург",
+      "abbreviation": "+05"
+    },
+    "organizationId": 10764563,
+    "type": "meeting",
+    "maxParticipationSettings": "",
+    "createUser": {
+      "id": 119333281,
+      "name": "Эмиль",
+      "secondName": "Ибрагимов",
+      "email": "ibragimov@it-ip.ru"
+    },
+    "isEndless": false,
+    "image": {
+      "id": 842502449,
+      "createAt": "2024-04-02T18:39:16+0300",
+      "name": "DEFAULT",
+      "thumbnails": {
+        "640x1920": "https://my.mts-link.ru/images/event-default.png",
+        "1920x1080": "https://my.mts-link.ru/images/event-default.png",
+        "1333x1000": "https://my.mts-link.ru/images/event-default.png",
+        "224x199": "https://my.mts-link.ru/images/event-default.png",
+        "200x50": "https://my.mts-link.ru/images/event-default.png",
+        "50x50": "https://my.mts-link.ru/images/event-default.png",
+        "34x34": "https://my.mts-link.ru/images/event-default.png",
+        "148x112": "https://my.mts-link.ru/images/event-default.png"
+      },
+      "typeFile": "file",
+      "type": "file",
+      "url": "https://my.mts-link.ru/images/event-default.png",
+      "downloadUrl": "https://my.mts-link.ru/images/event-default.png",
+      "thumbnailUrl": "https://my.mts-link.ru/images/event-default.png",
+      "size": 0,
+      "mimeType": "",
+      "uri": "//my.mts-link.ru/images/event-default.png"
+    },
+    "startType": "manual",
+    "lectors": [],
+    "tags": [],
+    "announceFiles": [],
+    "files": [],
+    "link": "https://my.mts-link.ru/j/119333281/5973328052/session/5773335975",
+    "isPaid": false
+  },
+  "participants": [],
+  "attention_control": {
+    "checkpoints": [],
+    "interactions": [],
+    "checkpoint_count": 0,
+    "interaction_count": 0
+  },
+  "recordings": [],
+  "transcripts": []
+}

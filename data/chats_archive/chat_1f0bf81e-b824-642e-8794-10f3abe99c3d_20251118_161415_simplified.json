@@ -1,0 +1,1770 @@
+{
+  "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+  "chat_name": "Арт_этюд архитектура",
+  "extraction_timestamp": "2025-11-18T16:14:15.747073",
+  "original_total_messages": 176,
+  "simplified_messages_count": 176,
+  "processing_timestamp": "2025-11-18T16:14:15.747073",
+  "messages": [
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-18 16:08:33"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Коридоры вспомогательные и помещения вспомогательного назначения 2,2м",
+      "createdAt": "2025-11-14 15:35:02"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Коридоры - 2,6 м, но лучше 3м",
+      "createdAt": "2025-11-14 15:34:05"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Рекреации - 3 м",
+      "createdAt": "2025-11-14 15:31:33"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Административные и служебные помещения 2,7м",
+      "createdAt": "2025-11-14 15:31:20"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Классы 3, 3 м",
+      "createdAt": "2025-11-14 15:31:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Минимальная высота потолков",
+      "createdAt": "2025-11-14 15:30:59"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "АР2_Изм.1 . Блок 3  (14.11.2025)\r\n\r\n*л.8 - 1 этаж\r\n- Маркировка разрезов комплекта АР4\r\n- корректировка отметки отв.№322 (поднялось)\r\n\r\n*л.9 - 2 этаж\r\n- Маркировка разрезов\r\n- Исключен кирпич из шахт ОВ сцены (замена на гипсокартон) →\r\n( исключено отверстие №3.60 и перемычку ПР25 - 2 шт; уменьшился объем кирпича 120)\r\n- Корректировка отметки отв  №3.61 и №3.54 \r\n- Новые отверстия ОВ (под сценой ) 3.79 - 5шт\r\n- Новый вид 10.1 (перепад толщины стен санузла)→(корректировка объема кирпича 380/120)\r\n\r\n*л.10 - 3 этаж\r\n- Маркировка разрезов\r\n- Корректировка наруж. стены у витража по оси жж/20-21  → (корректировка объема кирпича 250- наруж.стены)\r\n- Сдвинута перегородка кабинета физики по замечаниям экспертизы (увеличена площадь за счет лаборантской)\r\n- Вид 12.1-12.1  - КЖ балку вверху у подъемника заменили на твинблок\r\n- Вид 13-13  - КЖ добавились балки → (уменьшился объем кирпича 120)\r\n- Корректировка отметки отв.№3.106\r\n\r\n*л.11 - 4 этаж\r\n - Маркировка разрезов\r\n - Корректировка отметки отв.№3.145 \r\n\r\n\r\n* л.13 - спецификации и материалы\r\n- корректировка спецификаций перемычек и их элементов →\r\n        удалены перемычки ПР25 (1 этаж- 1шт, 2этаж- 2шт ) и их элементы \r\n\r\n- ведомость объема кирпича:→\r\nоткорректированы объемы кирпича\r\n\r\n(2 этаж:  Убрали шахты на сцене (120мм); под новые балки подрезаны кирпичные перегородки (120мм); в санузле под креслами зала верхнюю часть стенки (380) сделала 120 - указано на видах 10.1 и 11.\r\n3 этаж:  Вид 13-13  - уменьшили кирпич. перегородки по высоте, т.к. появились новые балки в звукооператорской.)\r\n\r\n- НОВАЯ спецификация на твинблок  ТБ400  для  2 и 3  этажи. Блок 3:→\r\n(звукооператорской, подъемника, ступени лестниц)\r\n- НОВАЯ спецификация со звукоизоляцией (Кладка). Блоки 3,6,7→\r\n(Блок 3. по сечению Б-Б, л.9)\r\n(Блоки 6,7 ...)",
+      "createdAt": "2025-11-14 15:27:15"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Спасибо!",
+      "createdAt": "2025-11-14 12:26:06"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "Линию разреза на планах  из оранжевой можно перевести в белый цвет",
+      "createdAt": "2025-11-14 12:21:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-14 11:14:58"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-14 11:14:18"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-14 11:11:25"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-14 11:11:18"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "я все отправила уже",
+      "createdAt": "2025-11-12 15:50:12"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Юлия Николаевна, сложили в папку всю имеющуюся у нас анкеровку и изделия. \nНадо приписывать на листах, что это выдано в рабочем порядке? Сейчас на листах нет такой приписки",
+      "createdAt": "2025-11-12 15:49:32"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "мы с Леной закинули анкеровку",
+      "createdAt": "2025-11-12 15:37:25"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "там же папка",
+      "createdAt": "2025-11-12 15:37:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "и АРИ еще, если они присылали",
+      "createdAt": "2025-11-12 15:36:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Девочки, вот сюда сложите по своим блокам",
+      "createdAt": "2025-11-12 15:35:16"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "P:\\01_АКТИВНЫЕ ПРОЕКТЫ\\АТОМ-073_Школа Арт-Этюд\\06_РД\\02_АР\\ВЫДАЧА\\В рабочем порядке\\2025.11.12_Анкеровка в рабочем порядке",
+      "createdAt": "2025-11-12 15:35:00"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Давайте тогда сделаем в выдаче папку и туда сложим",
+      "createdAt": "2025-11-12 15:34:05"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "В почте у него не все файлы",
+      "createdAt": "2025-11-12 15:33:46"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Да. Я отправлю, скажите только, где брать?",
+      "createdAt": "2025-11-12 15:33:34"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "вам скинуть?",
+      "createdAt": "2025-11-12 15:33:17"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "6,7 : 1-4 этажи все проверено",
+      "createdAt": "2025-11-12 15:33:12"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Мы должны отправить в рабочем порядке?",
+      "createdAt": "2025-11-12 15:33:07"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Отправить то, что у Бараца в почте было, можно?",
+      "createdAt": "2025-11-12 15:32:34"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Где мне их все искать?",
+      "createdAt": "2025-11-12 15:31:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Официально без приписок не будем выдавать",
+      "createdAt": "2025-11-12 15:31:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "в рабочем порядке выдаем",
+      "createdAt": "2025-11-12 15:31:03"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Юлия Николаевна, посмотрела анкеровку 4,5 блоков. \n1 этаж уже не смотрю...\nНа 2 этаже у них поправлено уже с учетом шахты под системы для студии звукозаписи. \nПо 3,4 этажам всё нормально, кроме привязок стоек фахверка - они опять сделаны некладочными размерами. \nНи на одном листе нет приписки в примечаниях, что учитывать кладочные размеры при расстановке стоек.",
+      "createdAt": "2025-11-12 15:27:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "лист 38.",
+      "createdAt": "2025-11-12 15:21:08"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "сложила в папку : \n\nP:\\01_АКТИВНЫЕ ПРОЕКТЫ\\АТОМ-073_Школа Арт-Этюд\\06_РД\\02_АР\\Анкеровка\\Блоки 3,4,5\\1-4 этажи\\2025.11.12_Блок 3_1этаж",
+      "createdAt": "2025-11-12 15:20:17"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "сейчас в папку закину",
+      "createdAt": "2025-11-12 15:18:07"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "Нашла",
+      "createdAt": "2025-11-12 15:18:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Я и говорю, что не вложил л.38",
+      "createdAt": "2025-11-12 15:17:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "",
+      "createdAt": "2025-11-12 15:09:11"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "оформление и внесение изменения, ссылки на листы",
+      "createdAt": "2025-11-12 15:06:16"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "А нету л.38 среди них. Хотя в письме Барац написал, что есть",
+      "createdAt": "2025-11-12 15:05:47"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "в Анкеровке",
+      "createdAt": "2025-11-12 15:04:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "P:\\01_АКТИВНЫЕ ПРОЕКТЫ\\АТОМ-073_Школа Арт-Этюд\\06_РД\\02_АР\\Анкеровка\\Блоки 3,4,5\\1-4 этажи\\2025.11.10_Блоки 3,4,5 для выдачи изм.1 + АРИ",
+      "createdAt": "2025-11-12 15:03:54"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Лена, они прислали на выдачу листы, посмотри, там наверное и твой блок поправленный",
+      "createdAt": "2025-11-12 15:03:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Существенные?",
+      "createdAt": "2025-11-12 15:03:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "Замечания на анкеровку по Блоку 3  (1этаж) были отправлены - обратно чертежи не приходили",
+      "createdAt": "2025-11-12 15:02:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Последний на сегодня рывок. Анкеровка",
+      "createdAt": "2025-11-12 14:57:42"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Молодцы!",
+      "createdAt": "2025-11-12 14:57:18"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "25 лист обновили",
+      "createdAt": "2025-11-12 14:54:31"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "25 корректируем",
+      "createdAt": "2025-11-12 14:47:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "25 лист не откорректирован по замечаниям",
+      "createdAt": "2025-11-12 14:46:38"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Разрешение сделала",
+      "createdAt": "2025-11-12 14:34:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "обновляю листы с разрезами 19,20,21",
+      "createdAt": "2025-11-12 14:09:08"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Жду отмашки, что все листы готовы",
+      "createdAt": "2025-11-12 14:08:33"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Доделайте",
+      "createdAt": "2025-11-12 14:07:58"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Юлия Николаевна, листы по фасадам заменены, л.22,23 тоже.",
+      "createdAt": "2025-11-12 14:07:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Юлия Николаевна, Вы сами доделаете лист с разрешением на изменение или мне доделать?",
+      "createdAt": "2025-11-12 13:21:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "я свое да, Лена скоро придет ответит, 17,18 листы обновила, мне осталось подкорректировать 25й",
+      "createdAt": "2025-11-12 13:00:24"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Девочки, вы в фасадах всё поправили? Могу пдф делать?",
+      "createdAt": "2025-11-12 12:58:18"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Поняла. Спасибо",
+      "createdAt": "2025-11-12 12:29:17"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Анкеровку сегодня в рабочем порядке",
+      "createdAt": "2025-11-12 12:29:12"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "В пятницу АР2",
+      "createdAt": "2025-11-12 12:28:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Я правильно поняла, что сегодня анкеровку нужно послать в рабочем порядке, а завтра мы выдаем изменение в АР2?",
+      "createdAt": "2025-11-12 12:26:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Мы все равно его не будем ждать",
+      "createdAt": "2025-11-12 12:24:25"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Он может перемычки согласовать? Там большие проемы в спортзалах были",
+      "createdAt": "2025-11-12 12:21:05"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Лиля, Лена, тоже смотрим",
+      "createdAt": "2025-11-12 12:20:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Перемычки по 3,4 этажам по блокам 4,5 он не согласовал",
+      "createdAt": "2025-11-12 12:19:53"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "помимо этого было еще по 3 блоку 1 этаж и по 6,7 блоку все этажи",
+      "createdAt": "2025-11-12 12:19:00"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Надо сегодня посмотреть",
+      "createdAt": "2025-11-12 12:18:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Ну новое, что он прислал",
+      "createdAt": "2025-11-12 12:18:30"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "4,5 блоки 3 и 4 этажи?",
+      "createdAt": "2025-11-12 12:17:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "А Вы про какой блок?",
+      "createdAt": "2025-11-12 12:17:31"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Нет. Сейчас закончу с АР3 и посмотрю.",
+      "createdAt": "2025-11-12 12:16:36"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Можно на стройку передать?",
+      "createdAt": "2025-11-12 12:15:52"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Анкеровку Бараца смотрели?",
+      "createdAt": "2025-11-12 12:15:25"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Спасибо",
+      "createdAt": "2025-11-12 12:12:05"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "ок",
+      "createdAt": "2025-11-12 12:12:03"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "КР16",
+      "createdAt": "2025-11-12 12:11:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "там тоже д.ш., но покрытие в 3 блоке по плите ж.б., а не по настилу",
+      "createdAt": "2025-11-12 12:11:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "А место примыкания к 3 блоку, там какой узел примыкания?",
+      "createdAt": "2025-11-12 12:11:19"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "хорошо",
+      "createdAt": "2025-11-12 12:11:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Ну пока так давайте, одинаково",
+      "createdAt": "2025-11-12 12:10:43"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "КР18.1 тогда без д.ш. С д.ш. КР18",
+      "createdAt": "2025-11-12 12:09:47"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "В принципе нет. У большого спортзала окна книгохранилища очень низко у кровли, а в маленьких окна выше",
+      "createdAt": "2025-11-12 12:09:28"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Точно",
+      "createdAt": "2025-11-12 12:08:37"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "А в маленьком спортзале сильно примыкание отличается конструктивно?",
+      "createdAt": "2025-11-12 12:07:53"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "но здесь же д.ш.",
+      "createdAt": "2025-11-12 12:07:38"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Такой же",
+      "createdAt": "2025-11-12 12:07:22"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "",
+      "createdAt": "2025-11-12 12:04:10"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "А вот тут какой будет узел?",
+      "createdAt": "2025-11-12 12:04:06"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Тут я поняла.",
+      "createdAt": "2025-11-12 12:03:48"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "",
+      "createdAt": "2025-11-12 12:03:13"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "в модели вижу, что вот это поправлено, в пдф не так было",
+      "createdAt": "2025-11-12 12:03:08"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "и у маленьких спортзалов тоже КР18?",
+      "createdAt": "2025-11-12 12:01:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Кровля спортзала - примыкание к стене, будет узел КР18",
+      "createdAt": "2025-11-12 11:57:59"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Я да, на удаленке",
+      "createdAt": "2025-11-12 11:56:16"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Юля на удаленке сегодня? девочки могут посмотреть?",
+      "createdAt": "2025-11-12 11:55:59"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На планах, где ручкой замаркировано, на столе моем, я, по-моему, правила",
+      "createdAt": "2025-11-12 11:55:16"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Но в узлах я вижу, что 15.1 это высокий парапет, а не узел примыкания",
+      "createdAt": "2025-11-12 11:39:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "",
+      "createdAt": "2025-11-12 11:39:27"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Надо будет проверить все маркировки, потому что сейчас замаркировано например вот так:",
+      "createdAt": "2025-11-12 11:39:22"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На столе у меня еще почеркушки",
+      "createdAt": "2025-11-12 11:37:30"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Там я правила на плане кровле, вроде бы",
+      "createdAt": "2025-11-12 11:37:11"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Маркирую узлы по кровле и поняла, что что-то не сходится в маркировке узлов по примыканию кровель спортзалов к зданию",
+      "createdAt": "2025-11-12 11:36:34"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "ясно",
+      "createdAt": "2025-11-12 11:34:27"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Узлы маркирую. Лист 24 это лист по спускам и крыльцам, оформить не успеваю его.",
+      "createdAt": "2025-11-12 11:33:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f091f8f-4665-637a-ac7c-6cb3115313f8",
+      "full_name": "Лилия Сергеева",
+      "text": "принято, спасибо!",
+      "createdAt": "2025-11-12 11:33:44"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "По спускам то же самое, что и на л.18",
+      "createdAt": "2025-11-12 11:32:37"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "на обоих разрезах",
+      "createdAt": "2025-11-12 11:31:39"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Узлы, размеры по окнам",
+      "createdAt": "2025-11-12 11:31:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 11:30:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.25",
+      "createdAt": "2025-11-12 11:30:48"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.24 - где?",
+      "createdAt": "2025-11-12 11:30:42"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "л.22, 23 - замаркировать узлы",
+      "createdAt": "2025-11-12 11:28:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "См. п.3 л.14",
+      "createdAt": "2025-11-12 11:04:58"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 11:04:39"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 11:02:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 11:01:58"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "сейчас чище сделаю",
+      "createdAt": "2025-11-12 11:00:31"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Тут каша какая-то",
+      "createdAt": "2025-11-12 11:00:09"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:59:55"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.21",
+      "createdAt": "2025-11-12 10:59:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Закрыла",
+      "createdAt": "2025-11-12 10:59:41"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "закройте пожалуйста ПДФ 20 листа - заменю его",
+      "createdAt": "2025-11-12 10:59:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "уже отключено, стены маркирую",
+      "createdAt": "2025-11-12 10:57:13"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На 20 листе оборудование будете отключать?",
+      "createdAt": "2025-11-12 10:56:33"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Ок, этот лист всё",
+      "createdAt": "2025-11-12 10:55:22"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "убрала",
+      "createdAt": "2025-11-12 10:54:59"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f048-7646-6902-affc-9eb1aa747b17",
+      "full_name": "Елена Вялкова",
+      "text": "уже отключены",
+      "createdAt": "2025-11-12 10:54:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Вот на этом разрезе я бы стулья отключила",
+      "createdAt": "2025-11-12 10:53:11"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:52:52"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:51:53"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.19",
+      "createdAt": "2025-11-12 10:51:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На л.17 еще проставить цепочки размеров по конным проемам изнутри здания",
+      "createdAt": "2025-11-12 10:48:08"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Узлы в АР1 есть",
+      "createdAt": "2025-11-12 10:39:13"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:37:28"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:34:22"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Над стрелкой к отделке стен спуска написать - см п.3, л.14",
+      "createdAt": "2025-11-12 10:27:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Если лист известен, то с листом",
+      "createdAt": "2025-11-12 10:26:15"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:25:53"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.18",
+      "createdAt": "2025-11-12 10:25:47"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Когда маркируем узел из другого раздела, писать лист, на котором он расположен или можно просто ссылку на раздел?",
+      "createdAt": "2025-11-12 10:25:39"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Включить вентиляторы. Вчера же вроде научилась Юля, как оставить вентиляторы, отключив все остальное",
+      "createdAt": "2025-11-12 10:20:43"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На разрезе по спуску засыпку показать",
+      "createdAt": "2025-11-12 10:19:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "сечения по стенам из АР 2 тоже",
+      "createdAt": "2025-11-12 10:18:20"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Узлы верха, низа окон и витражей частично замаркировать",
+      "createdAt": "2025-11-12 10:18:01"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На разрезах шахты подписать со ссылкой на листы",
+      "createdAt": "2025-11-12 10:16:46"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:16:07"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Состав стен НС 7.1 убрать. Добавим в АР2, все равно корректировка будет сейчас",
+      "createdAt": "2025-11-12 10:14:35"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Перепад потолков дорисовать пока аннотациями",
+      "createdAt": "2025-11-12 10:13:50"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Линия перелома должна быть сплошная жирная",
+      "createdAt": "2025-11-12 10:13:19"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:12:49"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.17",
+      "createdAt": "2025-11-12 10:12:43"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Да",
+      "createdAt": "2025-11-12 10:08:29"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Тени выключаем",
+      "createdAt": "2025-11-12 10:08:20"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На отливах видны костыли",
+      "createdAt": "2025-11-12 10:07:41"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "На листе отсутствует ссылка на обозначения и примечания",
+      "createdAt": "2025-11-12 10:05:38"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Нет таких плоскостей в условных обозначениях",
+      "createdAt": "2025-11-12 10:04:56"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 10:04:21"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Л.16",
+      "createdAt": "2025-11-12 10:04:17"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Ладно, позже. Впопыхах наделаем не того",
+      "createdAt": "2025-11-12 10:04:07"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Мы сейчас успеем их только замаркировать",
+      "createdAt": "2025-11-12 09:57:03"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Фаадные узлы по рамкам решили не делать? Добавлять потом придется. На Гагарина такие были",
+      "createdAt": "2025-11-12 09:56:12"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 09:52:07"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Совершенно спокойно строители могут их нарисовать))",
+      "createdAt": "2025-11-12 09:51:11"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "У меня сомнение по поводу теней на фасадах.",
+      "createdAt": "2025-11-12 09:50:39"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Ну хорошо",
+      "createdAt": "2025-11-12 09:49:44"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Наверное, мы еще не раз перевыдадим",
+      "createdAt": "2025-11-12 09:49:33"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "потом замаркируем, когда сделаем?",
+      "createdAt": "2025-11-12 09:48:30"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "нет еще",
+      "createdAt": "2025-11-12 09:48:09"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Мы же их не делали",
+      "createdAt": "2025-11-12 09:48:04"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "А выше 0,000 что маркировать?",
+      "createdAt": "2025-11-12 09:47:45"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Ниже 0,000 были ДШп1...Дшп4",
+      "createdAt": "2025-11-12 09:47:35"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f977-4c48-6d98-ba0c-9eb1aa747b17",
+      "full_name": "Юлия Сосновских",
+      "text": "Доброе утро.\nЮлия Николаевна, а есть маркировки узлов по Д.Ш. по полу и потолку выше 0,000?",
+      "createdAt": "2025-11-12 09:47:09"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Оставить только один пункт. написать   .... с цветной пленкой",
+      "createdAt": "2025-11-12 09:46:23"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "",
+      "createdAt": "2025-11-12 09:45:18"
+    },
+    {
+      "chat_id": "1f0bf81e-b824-642e-8794-10f3abe99c3d",
+      "chat_name": "Арт_этюд архитектура",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f08f046-038b-670c-a97f-50ebf6510ebb",
+      "full_name": "Юлия Рудакова",
+      "text": "Доброе утро",
+      "createdAt": "2025-11-12 09:44:53"
+    }
+  ]
+}

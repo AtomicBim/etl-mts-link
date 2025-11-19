@@ -1,0 +1,40 @@
+{
+  "chat_id": "1f08727f-4e1d-6421-8e0c-758142b53e03",
+  "chat_name": "Тестовый канал с гостями",
+  "extraction_timestamp": "2025-11-18T16:10:03.995414",
+  "original_total_messages": 3,
+  "simplified_messages_count": 3,
+  "processing_timestamp": "2025-11-18T16:10:03.995414",
+  "messages": [
+    {
+      "chat_id": "1f08727f-4e1d-6421-8e0c-758142b53e03",
+      "chat_name": "Тестовый канал с гостями",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efabc07-8360-6512-a063-9eb1aa747b17",
+      "full_name": "Эмиль Ибрагимов",
+      "text": "оба сообшения вижу",
+      "createdAt": "2025-09-01 16:38:23"
+    },
+    {
+      "chat_id": "1f08727f-4e1d-6421-8e0c-758142b53e03",
+      "chat_name": "Тестовый канал с гостями",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8ca35-0c9e-6962-9a28-a0423f4d30a4",
+      "full_name": "Владислав ТестовыйКушнарев",
+      "text": "Тестовая",
+      "createdAt": "2025-09-01 16:38:12"
+    },
+    {
+      "chat_id": "1f08727f-4e1d-6421-8e0c-758142b53e03",
+      "chat_name": "Тестовый канал с гостями",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ee9575d-1fb4-656a-8722-49eedcc35cd4",
+      "full_name": "Владислав Кушнарев",
+      "text": "Рабочая учетка",
+      "createdAt": "2025-09-01 16:37:59"
+    }
+  ]
+}

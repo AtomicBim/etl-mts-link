@@ -1,0 +1,30 @@
+{
+  "chat_id": "1f0b0a27-77de-6468-a480-1c9d22b04fea",
+  "chat_name": "*Блок совещаний(АПУ.ИС.и др)",
+  "extraction_timestamp": "2025-11-18T16:13:21.873000",
+  "original_total_messages": 2,
+  "simplified_messages_count": 2,
+  "processing_timestamp": "2025-11-18T16:13:21.873000",
+  "messages": [
+    {
+      "chat_id": "1f0b0a27-77de-6468-a480-1c9d22b04fea",
+      "chat_name": "*Блок совещаний(АПУ.ИС.и др)",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f09cf11-4386-6a32-8eb3-04421acbe57b",
+      "full_name": "Анна Ковязина",
+      "text": "хорошо",
+      "createdAt": "2025-10-24 11:30:48"
+    },
+    {
+      "chat_id": "1f0b0a27-77de-6468-a480-1c9d22b04fea",
+      "chat_name": "*Блок совещаний(АПУ.ИС.и др)",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Анна, можете в этом канале размещать все ваши вопросы",
+      "createdAt": "2025-10-24 11:30:25"
+    }
+  ]
+}

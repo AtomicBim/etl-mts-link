@@ -1,0 +1,196 @@
+{
+  "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+  "extraction_timestamp": "2025-11-18T14:08:59.071344",
+  "total_messages": 7,
+  "chat_info": {
+    "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+    "name": "IT-IP. Смена имени в appstore",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+    "extraction_timestamp": "2025-11-18T13:54:34.790483"
+  },
+  "messages": [
+    {
+      "id": "1f0a9c72-3d88-6af9-a480-3b4bacceb5ac",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "Пока в интерфейсе такой возможности не появилось",
+      "createdAtMs": 1760533321346,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c6f-b7a3-6184-a790-614260b7e0d7",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "",
+      "createdAtMs": 1760533253619,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "53ac8128-6fcd-4293-9982-72d421199b7c",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/53ac8128-6fcd-4293-9982-72d421199b7c",
+          "size": 77262,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a9c62-8990-62dc-a480-900e52e0eb54",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "надо убрать",
+      "createdAtMs": 1760532899822,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "9428acf6-6535-4187-b09f-7a6bd5d0853f",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/9428acf6-6535-4187-b09f-7a6bd5d0853f",
+          "size": 42303,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c5f-cb63-64ad-9d4a-2adbee630e94",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "ого.. надо принять какое-то обновление",
+      "createdAtMs": 1760532826193,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5aef9467-a6ed-4955-8841-d1e604c06a31",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5aef9467-a6ed-4955-8841-d1e604c06a31",
+          "size": 49333,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c5d-5154-638f-a480-8c19a4e67bfd",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "еще интереснее)",
+      "createdAtMs": 1760532759707,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c5b-a787-625a-9d4a-a45abdc1a064",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "Мы взяли тогда у Cтаса account)))",
+      "createdAtMs": 1760532715059,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a9c5a-0dea-6e91-9d4a-95c237e2a5da",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "text": "Там вообще INTELLEKT-SERVIS OOO",
+      "createdAtMs": 1760532672108,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "59fca23e-4885-4e7a-bd24-4ad9172fb774",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/59fca23e-4885-4e7a-bd24-4ad9172fb774",
+          "size": 78263,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

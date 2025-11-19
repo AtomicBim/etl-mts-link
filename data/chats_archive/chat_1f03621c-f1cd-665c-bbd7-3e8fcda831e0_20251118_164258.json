@@ -1,0 +1,260 @@
+{
+  "chat_id": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+  "extraction_timestamp": "2025-11-18T16:42:58.206626",
+  "total_messages": 9,
+  "chat_info": {
+    "chat_id": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+    "name": "Лендинг IT-IP Team",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Оносова Мария",
+    "owner_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efb8754-236b-63b4-a58e-04421acbfbde",
+    "extraction_timestamp": "2025-11-18T16:29:57.362626"
+  },
+  "messages": [
+    {
+      "id": "1f0992df-0210-6910-a893-b22c6fc444b7",
+      "authorId": "1efb8754-236b-63b4-a58e-04421acbfbde",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Добрый день. \r\n1. Презентация по продукту в статичном варианте здесь. Есть еще интерактивный вариант. Разместила на Атом Облако - пдф и ссылку на интерактивную презентацию онлайн. \r\n2. Готова РК для продвижения в Я.Директе. \r\nПредлагаю стартовать с октября, с бюджетом 5000 руб/месяц\r\nПродвижение на всю Росиию, 5 ключей - фразы с самыми высокими показателями и четким коммерческим интентом\r\n\r\nплатформа управления персоналом\r\nкорпоративное мобильное приложение\r\nмобильное приложение для сотрудников\r\nрешение для HR автоматизации\r\nприложение для управления персоналом",
+      "createdAtMs": 1758708302976,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "7c415644-b23c-4cb4-b76e-b59d77aebc69",
+          "name": "Презентация IT-IP Team сент.2025.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/7c415644-b23c-4cb4-b76e-b59d77aebc69",
+          "size": 3662207,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "8aeccaa5-1955-49c7-bc20-6b26e2567555",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/8aeccaa5-1955-49c7-bc20-6b26e2567555",
+          "size": 129600,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f060aed-a554-67b1-9345-235aab0fce84",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Документы подготовлены и направлены для размещения",
+      "createdAtMs": 1752496455208,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f05c8c1-9866-6f1b-a436-e7aa1b93676b",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "<@u:1efabc07-8360-6512-a063-9eb1aa747b17> Эмиль привет, написала письмо Наташе (ты в копии) с просьбой дать оценку документам. Если есть что добавить, напиши пожалуйста",
+      "createdAtMs": 1752041724190,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1efabc07-8360-6512-a063-9eb1aa747b17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f05b2d0-e97f-67b9-a436-70efe54e3b77",
+      "authorId": "1efabc07-8360-6512-a063-9eb1aa747b17",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Анна, осталось лишь разместить \"политики\" для сайта.\nНеобходимо окончательно проверить документы и при необходимости актуализировать информацию.",
+      "createdAtMs": 1751890952498,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f05b127-f994-6f50-9940-f6b0cd74739e",
+        "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+        "text": "Коллеги привет, подскажите на какой стадии сейчас проект? все закончено?",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "a7aaa8b4-e898-42cc-962f-f8bfe8e194f9",
+          "name": "Политика_конфиденциальности. Для сайта ТП..docx",
+          "url": "https://prod-storage-chat.mts-link.ru/a7aaa8b4-e898-42cc-962f-f8bfe8e194f9",
+          "size": 27418,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "3d93894a-ce7f-47bf-902d-d02688dba6c5",
+          "name": "Политика_обработки_файлов_cookie. Для сайта ТП..docx",
+          "url": "https://prod-storage-chat.mts-link.ru/3d93894a-ce7f-47bf-902d-d02688dba6c5",
+          "size": 24607,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "17d22a0f-ee0d-43b6-ad02-0096d52eae7f",
+          "name": "Согласие_на_обработку_персональных_данных. Для сайта ТП .docx",
+          "url": "https://prod-storage-chat.mts-link.ru/17d22a0f-ee0d-43b6-ad02-0096d52eae7f",
+          "size": 15772,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f05b239-3501-67f2-b5ba-0054393855a0",
+      "authorId": "1ef8c862-1b3b-6efe-ae1a-a0423f4d30a4",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Все работы завершены",
+      "createdAtMs": 1751886880196,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1efc1c52-bd7f-6868-8e57-0242472fe5d1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f05b127-f994-6f50-9940-f6b0cd74739e",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Коллеги привет, подскажите на какой стадии сейчас проект? все закончено?",
+      "createdAtMs": 1751879545677,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f036264-cd65-6305-bbd7-3c032385317a",
+      "authorId": "1f0219a6-b9bd-6156-ba53-50ebf6510ebb",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "Правки пока не сделаны, было много задач по атомстройнету, я их сегодня закрою и приступлю к лендингу",
+      "createdAtMs": 1747819857425,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f036221-2497-6278-800e-be226c539fcb",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "https://team.it-ip.ru/",
+      "createdAtMs": 1747818041207,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f03621f-30fc-63dd-bbd7-3e79e558ef73",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f03621c-f1cd-665c-bbd7-3e8fcda831e0",
+      "text": "<@u:1f0219a6-b9bd-6156-ba53-50ebf6510ebb> подскажи а правки по лендингу сделаны?",
+      "createdAtMs": 1747817988820,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

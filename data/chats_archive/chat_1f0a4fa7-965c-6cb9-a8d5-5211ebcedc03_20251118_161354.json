@@ -1,0 +1,1535 @@
+{
+  "chat_id": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+  "extraction_timestamp": "2025-11-18T16:13:54.798949",
+  "total_messages": 66,
+  "chat_info": {
+    "chat_id": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+    "name": "Клиентский опыт",
+    "type": "Channel",
+    "is_public": "True",
+    "is_read_only": "False",
+    "owner_name": "Мартын Яна",
+    "owner_id": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Проект «Клиентский сервис после подписания договора (ДДУ или ДКП)». Здесь: новости, итоги встреч, ссылки, файлы.",
+    "is_notifiable": "False",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f0323e5-2240-60f4-b01c-04421acbe58e",
+    "extraction_timestamp": "2025-11-18T15:23:07.779725"
+  },
+  "messages": [
+    {
+      "id": "1f0c391a-3ca4-628a-9488-516d44996496",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 18.11.2025 в 14:30\n\nКатегория барьеров: Вопросы по отделке\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=6b3c3009-f013-4300-ff6b-9ed84ba1a1f1\n\nСсылка на видеовстречу \r\n\r\rhttps://my.mts-link.ru/j/103337061/7871874817\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8> \n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>",
+      "createdAtMs": 1763369073410,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1763369113,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c3916-f95f-67f6-a3d4-2f9c42220669",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1763368985825,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0c379b-e65b-6d78-a3d4-97b25f77e63e",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 17.11.2025 в 11:00\n\nКатегория барьеров: Получение подписанного АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=032f5a0a-ef32-40f7-92cb-fce80a650115\n\nСсылка на видеовстречу \r\n\rhttps://my.mts-link.ru/j/103337061/7871660418\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "79502314-f8f5-493b-a397-f72a9b5e6e98",
+          "name": "Протокол 2025.11.17 Получение подписанного АПП.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/79502314-f8f5-493b-a397-f72a9b5e6e98",
+          "size": 12903,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3916-bb2e-60be-9488-72aa81f9536f",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1763368979304,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0ba03a-b923-6c22-b2ab-4a688f1e52cd",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 6.11.2025 в 13:30\n\nКатегория барьеров: Подписание АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=a64142af-8b03-425f-97b5-69cde662b9bc\n\nСсылка на видеовстречу \r\nhttps://my.mts-link.ru/j/103337061/7095015444\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c5259733-f3f8-47c7-bb93-d60e7d2d86dc",
+          "name": "Протокол 2025.11.06 Тревоги клиентов после получения ключей.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/c5259733-f3f8-47c7-bb93-d60e7d2d86dc",
+          "size": 15761,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c379b-e65b-6d78-a3d4-97b25f77e63e",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 17.11.2025 в 11:00\n\nКатегория барьеров: Получение подписанного АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=032f5a0a-ef32-40f7-92cb-fce80a650115\n\nСсылка на видеовстречу \r\n\rhttps://my.mts-link.ru/j/103337061/7871660418\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>",
+      "createdAtMs": 1763358810128,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1763358824,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ba03a-b923-6c22-b2ab-4a688f1e52cd",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 6.11.2025 в 13:30\n\nКатегория барьеров: Подписание АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=a64142af-8b03-425f-97b5-69cde662b9bc\n\nСсылка на видеовстречу \r\nhttps://my.mts-link.ru/j/103337061/7095015444\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1762318537464,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ba029-54b1-6ab3-a6ff-83e3960ac90c",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1762318070591,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b63d0-fdd6-6e95-901d-34fcf5da017b",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 1.11.2025 в 14:30\n\nКатегория барьеров: Подписание АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=03afbbf9-dad0-4b4a-fdc3-12d4bb8744b7\n\nСсылка на видеовстречу \r\nhttps://my.mts-link.ru/j/103337061/6870544382\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "b017047c-5dc5-4c43-a7ee-8ce57d905db6",
+          "name": "Протокол 2025.11.01 Подписание АПП.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/b017047c-5dc5-4c43-a7ee-8ce57d905db6",
+          "size": 12970,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b63d0-fdd6-6e95-901d-34fcf5da017b",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 1.11.2025 в 14:30\n\nКатегория барьеров: Подписание АПП\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=03afbbf9-dad0-4b4a-fdc3-12d4bb8744b7\n\nСсылка на видеовстречу \r\nhttps://my.mts-link.ru/j/103337061/6870544382\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>",
+      "createdAtMs": 1761903382391,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b639e-41c9-6685-9be2-924ebed21aee",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1761902020495,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b614c-a6b2-6bba-b16e-d0e673d42ba8",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 31.10.2025 в 10:30\n\nКатегория барьеров: Устранение замечаний\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=e6e8459a-6109-47c6-83b5-087b3c5811e3\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6852110780\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "6ebda3a3-a461-43d2-9ab6-fd99cacf8ad6",
+          "name": "Протокол 2025.10.31 Устранение замечаний.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/6ebda3a3-a461-43d2-9ab6-fd99cacf8ad6",
+          "size": 12874,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b639d-d10e-6980-b799-471d483316af",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1761902008674,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b47a5-354d-6a35-b16e-a6622828d272",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 29.10.2025 в 14:30\n\nКатегория барьеров: Информация по заявке\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=84c090f3-86c5-44a9-ba43-c327a2d1b18e\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6688255573\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "77637eda-733e-4b9d-b603-d8e8bc223656",
+          "name": "Протокол 2025.10.29 Информация по заявке.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/77637eda-733e-4b9d-b603-d8e8bc223656",
+          "size": 12982,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b614c-a6b2-6bba-b16e-d0e673d42ba8",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 31.10.2025 в 10:30\n\nКатегория барьеров: Устранение замечаний\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=e6e8459a-6109-47c6-83b5-087b3c5811e3\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6852110780\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1761886086010,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761886195,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b47f2-5ad3-6d49-b16e-82a335a4122c",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "перенесли на 14:30",
+      "createdAtMs": 1761711863444,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b47ee-8059-63db-901d-24f2d740d1c4",
+        "authorId": "1f0939f4-db22-6f1a-bc83-04421acbe57b",
+        "text": "Коллеги, добрый день! Сегодня в 14 не могу, у меня встреча с банком, можно сдвинуть на 14-30? Или без меня",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b47ee-8059-63db-901d-24f2d740d1c4",
+      "authorId": "1f0939f4-db22-6f1a-bc83-04421acbe57b",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, добрый день! Сегодня в 14 не могу, у меня встреча с банком, можно сдвинуть на 14-30? Или без меня",
+      "createdAtMs": 1761711760004,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b47a5-354d-6a35-b16e-a6622828d272",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 29.10.2025 в 14:30\n\nКатегория барьеров: Информация по заявке\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=84c090f3-86c5-44a9-ba43-c327a2d1b18e\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6688255573\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1761709792556,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761711871,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b4792-f78f-63ac-901d-339df6f627b2",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1761709302898,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b3b78-b0df-6ad2-b16e-3dcf4b6b3d52",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 28.10.2025 в 10:30\n\nКатегория барьеров: Первые впечатления, ожидания\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=6ca553b8-2141-47b4-d76d-244f88936f27\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6532205381\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n\nУчастники:\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "7c9d2b68-8941-44fe-88ae-eae2b039527e",
+          "name": "Протокол 2025.10.28 Первые впечатления, ожидания.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/7c9d2b68-8941-44fe-88ae-eae2b039527e",
+          "size": 13107,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b3bc1-4112-64fe-b799-5d00d2db3282",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1761628082037,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0b2fb8-7878-65e3-a8d5-2896afa62c6c",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 27.10.2025 в 15:00\n\nКатегория барьеров: Процесс приемки\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=4720b8b8-294b-4ff9-e56e-1fdd2a5e719e\r\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/6532614343\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1f092036-2788-6a04-9136-9eb1aa747b17> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "3ec2268f-5263-4261-8d60-c14d561b40d3",
+          "name": "Протокол 2025.10.27 Процесс приемки.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/3ec2268f-5263-4261-8d60-c14d561b40d3",
+          "size": 13127,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b3b7b-6f32-6578-b16e-547b69296d43",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, всем доброе утро! Я сегодня без голоса, поэтому буду тихонько сидеть, слушать вас и клеить стикеры)\nВ обсуждении с вами будет участвовать Ксенья и Елена",
+      "createdAtMs": 1761626207826,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761626218,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b3b78-b0df-6ad2-b16e-3dcf4b6b3d52",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 28.10.2025 в 10:30\n\nКатегория барьеров: Первые впечатления, ожидания\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=6ca553b8-2141-47b4-d76d-244f88936f27\r\n\nСсылка на видеовстречу \nhttps://my.mts-link.ru/j/103337061/6532205381\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n\nУчастники:\n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1761626134182,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b31e3-6a35-650c-a790-dfe48321efe0",
+      "authorId": "1efb60f7-9249-6e62-8247-6cb3115313f8",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Яна, я к сожалению вынужден переключиться на следующее совещание((( Сегодняшняя тема не совсем про Контакт центр, так что Вы должны меня простить)))",
+      "createdAtMs": 1761560279554,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0b2fb8-7878-65e3-a8d5-2896afa62c6c",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 27.10.2025 в 15:00\n\nКатегория барьеров: Процесс приемки\nhttps://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=4720b8b8-294b-4ff9-e56e-1fdd2a5e719e\r\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/6532614343\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1f092036-2788-6a04-9136-9eb1aa747b17> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1761545382882,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761548061,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b2fb7-ceed-638b-a790-7725324e2444",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1761545365104,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0ad903-ed50-650e-a790-e67dc1b2a6ee",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 23.10.2025 в 13:30\n\nКатегория барьеров: ДКП\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/6105487980\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8aa76e55-328a-4081-ae1b-61c6f309a90a",
+          "name": "Протокол 2025.10.23 ДКП.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/8aa76e55-328a-4081-ae1b-61c6f309a90a",
+          "size": 12972,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afe02-c088-67cf-9d4a-7b714b9a18b0",
+      "authorId": "1efe2dad-df39-658a-8386-0242472fe5d1",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "https://my.mts-link.ru/j/103337061/6105487980",
+      "createdAtMs": 1761203779477,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afe02-a8aa-62d1-a8d5-6ba37c9db74f",
+      "authorId": "1efe2dad-df39-658a-8386-0242472fe5d1",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Добрый день!",
+      "createdAtMs": 1761203776974,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afdff-97d0-64b6-9d4a-e7b1809d7038",
+      "authorId": "1ef8c805-c95f-6b82-9499-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Яна, а можно ссылку на встречу сегодня в 13-30",
+      "createdAtMs": 1761203694677,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ae3d9-e743-6f7d-9d4a-01d3278fbdbb",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Добрый день! Хорошо. Перенесла на четверг 13:30",
+      "createdAtMs": 1761024012314,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0ae3d2-2de4-62c8-a480-962259fe1c65",
+        "authorId": "1ef8c617-46d6-61f6-981a-a0423f4d30a4",
+        "text": "Добрый день! 22го, завтра с 10.00 до 11.00 другое совещание назначено. Прошу перенести нашу встречу.",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ae3d2-2de4-62c8-a480-962259fe1c65",
+      "authorId": "1ef8c617-46d6-61f6-981a-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Добрый день! 22го, завтра с 10.00 до 11.00 другое совещание назначено. Прошу перенести нашу встречу.",
+      "createdAtMs": 1761023804971,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ada36-228d-6f57-a8d5-9ca575d27759",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760957768660,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0ab323-235e-6513-a790-71465f70b827",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 20.10.2025 в 11:00\n\nКатегория барьеров: Промежуточные результаты штурмов и ДКП\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5668099703\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "a4de8213-bae9-4d9a-9f81-05ea2ef8b5fd",
+          "name": "Протокол 2025.10.20 Промежуточные результаты штурмов и ДКП.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/a4de8213-bae9-4d9a-9f81-05ea2ef8b5fd",
+          "size": 13529,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0ad903-ed50-650e-a790-e67dc1b2a6ee",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 23.10.2025 в 13:30\n\nКатегория барьеров: ДКП\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/6105487980\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1760949548952,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761545350,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab333-8f5b-6136-9d4a-b00dd25636af",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760689693579,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a9a33-16a9-6adf-9d4a-e83f8093ddbd",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 17.10.2025 в 10:00\n\nКатегория барьеров: Подготовка отдела регистрации к передаче\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5667687924\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "79607739-cdff-4cb9-9c9d-c6306d43ecb0",
+          "name": "Протокол 2025.10.17 Подготовка отдела регистрации к передаче.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/79607739-cdff-4cb9-9c9d-c6306d43ecb0",
+          "size": 13085,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0ab323-235e-6513-a790-71465f70b827",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 20.10.2025 в 11:00\n\nКатегория барьеров: Промежуточные результаты штурмов и ДКП\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5668099703\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1760689252759,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760957756,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab2f8-3517-65d9-9d4a-fdf108452353",
+      "authorId": "1ef8c617-46d6-61f6-981a-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "во сколько?",
+      "createdAtMs": 1760688100345,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab2b3-dcf9-6b85-a480-e107269344a3",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, встречу переносим на понедельник",
+      "createdAtMs": 1760686265744,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0ab16a-8686-6317-a8d5-86444e5b2deb",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "https://my.mts-link.ru/j/103337061/5667687924",
+      "createdAtMs": 1760677425152,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab13d-8bb8-6ed2-9d4a-e0c8f9f876be",
+      "authorId": "1ef8c805-c95f-6b82-9499-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "все ок",
+      "createdAtMs": 1760676217738,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab13c-d1de-60c9-a790-7ba27adc1323",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "попробуй еще раз, убрала",
+      "createdAtMs": 1760676198250,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab13c-4903-6b14-a8d5-128af86dae06",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Я поставила ограничение \"просмотр только внутри организации\", может быть в этом дело....",
+      "createdAtMs": 1760676183900,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0ab13a-66fc-6715-a480-5263ad1674e8",
+      "authorId": "1ef8c805-c95f-6b82-9499-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Яна, не получается открыть",
+      "createdAtMs": 1760676133355,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "697026e8-a553-4691-a0d5-e65d78ca1d9c",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/697026e8-a553-4691-a0d5-e65d78ca1d9c",
+          "size": 14765,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0ab137-7cee-6185-9d4a-055fcd3956cc",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, доброе утро! Обновили таблицу с барьерами и решениями https://disk.yandex.ru/i/DFCteCG41ao8yA. Сегодня предлагаю коротко пробежаться по следующим шагам, ответственным и срокам",
+      "createdAtMs": 1760676055126,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0aa3ed-0627-6434-9d4a-75ba37eae517",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760584720929,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a8edb-7107-6fc0-a790-974c6d6691fe",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 15.10.2025 в 10:00\n\nКатегория барьеров: Запись на приемку\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=6da5e880-d5f9-402a-cdf6-38635097edbd\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5667339908\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "92d6f15d-f1c3-4266-8795-ec98ced3e7b4",
+          "name": "Протокол 2025.10.15 Запись на приемку.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/92d6f15d-f1c3-4266-8795-ec98ced3e7b4",
+          "size": 12678,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0aa3e5-76ca-6f5d-a790-bc9fc3d6b543",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, доброе утро! Перенесла встречу на пятницу. Если вы не против, чтобы не отставать от графика в пятницу проведем 2 встречи: в 10:00 и в 13:00.",
+      "createdAtMs": 1760584517992,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c55-5429-685d-a790-844789f9f0c8",
+      "authorId": "1f0939f4-db22-6f1a-bc83-04421acbe57b",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Давайте,это будет лучше всего",
+      "createdAtMs": 1760532545256,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c51-4058-6ff5-9d4a-cd7936dea366",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Давайте, на пятницу?",
+      "createdAtMs": 1760532435804,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9c12-fcf6-6b70-9d4a-9d0a89ee027e",
+      "authorId": "1f0939f4-db22-6f1a-bc83-04421acbe57b",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, я не смогу завтра присутствовать в это время, у нас подготовка к презентации по Бабушкина, могу только с утра в 10-00 или на другой день давайте перенесем, пож-та",
+      "createdAtMs": 1760530764439,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9a33-16a9-6adf-9d4a-e83f8093ddbd",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 17.10.2025 в 10:00\n\nКатегория барьеров: Подготовка отдела регистрации к передаче\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=140adcc6-52c7-4bf3-d204-fe377a03dba7\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5667687924\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4>",
+      "createdAtMs": 1760517882231,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760689680,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9825-e0a3-62b3-a790-048d964b5e49",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Сергеева, Поздин, Капралов, Овсянкин, Григорьев и Вы, Оля, Лера, попробуем договориться и протестировать на первом доме.",
+      "createdAtMs": 1760503783705,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a9813-d152-6011-9d4a-db471678d152",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Каким составом организовать встречу?",
+      "createdAtMs": 1760503298915,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a9810-c557-6694-9d4a-642d34c0402e",
+        "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+        "text": "Нам нужна техническая встреча с БИМ. Буду признательна за ее организацию. По моей команде они ничего делать не будут.",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a9810-c557-6694-9d4a-642d34c0402e",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Нам нужна техническая встреча с БИМ. Буду признательна за ее организацию. По моей команде они ничего делать не будут.",
+      "createdAtMs": 1760503217128,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a980d-e577-6dd9-a790-9c76bebb217a",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Также, вчера обсудили запуск рассылки планов разводки коммуникаций по объекту Северное сияние, 10 очередь и необходимые подготовительные действия для этого:\n1. обсудить детали с BIM-командой (выгрузка поквартирно)\n2. настроить техническую часть (рассылка)\nЧтобы успеть реализовать этот план, уже сейчас нужно запустить процесс, поэтому предлагаем тут обсудить, кто более компетентен в этих вопросах.",
+      "createdAtMs": 1760503139966,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a97df-4540-64e4-a790-2ec77d190696",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, добрый день!\nВчера обсудили с Жанной Михайловной тему, связанную с техпланами БТИ. По её словам, эти документы нужны клиентам в основном для оценки — и то не всегда. Это значит, что, вероятно, клиенты используют их и для решения других задач. Чтобы понять, каких именно, нужно провести дополнительный ресерч. Когда выясним, какие цели они преследуют, сможем предложить более удобную и эффективную альтернативу.",
+      "createdAtMs": 1760501888363,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8c805-c95f-6b82-9499-a0423f4d30a4"
+          ]
+        },
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a97a4-b3a3-6eb2-a790-e1acfaeb547c",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760500316169,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a8232-18dd-6e62-a790-2812e68f1692",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 14.10.2025 в 13:00\n\nКатегория барьеров: Техническая документация\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=1ce4615a-0c2a-4c17-8e50-b179c647c3c2\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5395072079\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4> \n<@u:1f0323e5-2240-60f4-b01c-04421acbe58e>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "2380556d-363b-40c4-9b3d-d016b4d1576d",
+          "name": "Протокол 2025.10.14 Техническая документация.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/2380556d-363b-40c4-9b3d-d016b4d1576d",
+          "size": 13230,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a8edb-7107-6fc0-a790-974c6d6691fe",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 15.10.2025 в 10:00\n\nКатегория барьеров: Запись на приемку\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=6da5e880-d5f9-402a-cdf6-38635097edbd\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5667339908\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4>",
+      "createdAtMs": 1760439938051,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a8d34-13f8-6097-a8d5-b5b7317cedf5",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, напоминаю, что встречаемся через 5 минут)",
+      "createdAtMs": 1760428573473,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a8232-18dd-6e62-a790-2812e68f1692",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 14.10.2025 в 13:00\n\nКатегория барьеров: Техническая документация\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=1ce4615a-0c2a-4c17-8e50-b179c647c3c2\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5395072079\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b>\n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>\n<@u:1ef8c805-c95f-6b82-9499-a0423f4d30a4> \n<@u:1f0323e5-2240-60f4-b01c-04421acbe58e>",
+      "createdAtMs": 1760352928875,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760352971,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a80e2-bf3b-6df9-a790-f82c3313ec8a",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760343926888,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a5819-42b4-6ef3-a8d5-ae2a9832d08e",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 13.10.2025 в 10:00\n\nКатегория барьеров: Ожидание приемки и получения ключей\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=bbad4b28-46ba-4db4-ffeb-3fc74eb5807e\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394897842\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "9864992b-a12d-4e10-acee-63ebd9927750",
+          "name": "Протокол 2025.10.13 Ожидание приемки и получение ключей.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/9864992b-a12d-4e10-acee-63ebd9927750",
+          "size": 13105,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a7f2a-fbf5-6d77-a790-e6cdc65b7f01",
+      "authorId": "1efb60f7-9249-6e62-8247-6cb3115313f8",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "В 11-00 Полина Юрьевна",
+      "createdAtMs": 1760332122096,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a7f29-c507-6a83-9d4a-597d082c7562",
+        "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+        "text": "Добрый день! Совещаемся сегодня?",
+        "files": null
+      },
+      "childrenCount": 1,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a7f2a-cdfa-6758-a790-13c636142ab9",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Придете?",
+      "createdAtMs": 1760332117274,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a7f2a-780d-61ce-a480-9e521e89865f",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Да, перенесли на 11:00",
+      "createdAtMs": 1760332108264,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a7f29-c507-6a83-9d4a-597d082c7562",
+        "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+        "text": "Добрый день! Совещаемся сегодня?",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a7f29-c507-6a83-9d4a-597d082c7562",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Добрый день! Совещаемся сегодня?",
+      "createdAtMs": 1760332089492,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a7ed9-f43b-6a09-a8d5-f53f4cc9f6bc",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Коллеги, добрый день! Дмитрий не сможет подключиться в 10:00, перенесли штурм на 11:00",
+      "createdAtMs": 1760329946958,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a4feb-966e-6f47-a790-426e761511d0",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 10.10.2025 в 11:30\n\nКатегория барьеров: СМС о вводе объекта в эксплуатацию\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=02e817ca-6641-413b-94ca-3e8c97fb8081\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394385747\n\nКлючевые участники:\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a5b85-9fb5-6978-a8d5-c688ab2f7932",
+      "authorId": "1efe2dad-df39-658a-8386-0242472fe5d1",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Добрый день! Коллеги, пропустили один барьер в обсуждении, озвученный Владимиром Витальевичем - формулировки смс (клиенты после получения смс думают заселение начнется условно через 5 дней). Если вы не против поставим вес - 3 и сложность - 1.",
+      "createdAtMs": 1760087165069,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 2,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+            "1efb60f7-9249-6e62-8247-6cb3115313f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a5b5d-42f1-602b-9d4a-7a151be759d2",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760086081600,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a4feb-966e-6f47-a790-426e761511d0",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 10.10.2025 в 11:30\n\nКатегория барьеров: СМС о вводе объекта в эксплуатацию\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=02e817ca-6641-413b-94ca-3e8c97fb8081\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394385747\n\nКлючевые участники:\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "683e99f6-fd55-436a-8c17-20bc4992f74b",
+          "name": "Протокол 2025.10.10 СМС о вводе объекта в эксплуатацию.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/683e99f6-fd55-436a-8c17-20bc4992f74b",
+          "size": 12965,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a5a18-6673-6f9a-a480-b666040df5f7",
+      "authorId": "1efb60f7-9249-6e62-8247-6cb3115313f8",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Бег с барьерами... 110 метров... Олимпийская дисциплина в Лёгкой атлетике, если что... Бежим...",
+      "createdAtMs": 1760077361171,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "😄",
+          "count": 2,
+          "users": [
+            "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+            "1f08fc7e-475c-6d48-b622-6cb3116537ae"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a5a11-9773-6ce3-a790-e46b0b681a77",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Всем доброго дня! Коллеги, напоминаю про встречу в 11:30. Сейчас самое время открыть доску и быстро пробежаться по барьерам, чтобы на встрече вы были \" в теме\". До встречи!",
+      "createdAtMs": 1760077178404,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a4feb-966e-6f47-a790-426e761511d0",
+        "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+        "text": "Следующая встреча 10.10.2025 в 11:30\n\nКатегория барьеров: СМС о вводе объекта в эксплуатацию\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=02e817ca-6641-413b-94ca-3e8c97fb8081\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394385747\n\nКлючевые участники:\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>",
+        "files": null
+      },
+      "childrenCount": 1,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 2,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+            "1f08fc7e-475c-6d48-b622-6cb3116537ae"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0a5819-42b4-6ef3-a8d5-ae2a9832d08e",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 13.10.2025 в 10:00\n\nКатегория барьеров: Ожидание приемки и получения ключей\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=bbad4b28-46ba-4db4-ffeb-3fc74eb5807e\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394897842\n\nКлючевые участники:\n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8>",
+      "createdAtMs": 1760063640371,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a4feb-966e-6f47-a790-426e761511d0",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Следующая встреча 10.10.2025 в 11:30\n\nКатегория барьеров: СМС о вводе объекта в эксплуатацию\nСсылка на доску https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631?linkToWidget=02e817ca-6641-413b-94ca-3e8c97fb8081\n\nСсылка на видеовстречу https://my.mts-link.ru/j/103337061/5394385747\n\nКлючевые участники:\n<@u:1efb60f7-9249-6e62-8247-6cb3115313f8> \n<@u:1f0939f4-db22-6f1a-bc83-04421acbe57b> \n\nУчастники:\n<@u:1ef8c617-46d6-61f6-981a-a0423f4d30a4> \n<@u:1f0921ba-f888-6174-9c85-6cb3115313f8> \n<@u:1ef8ccef-d218-6df2-985b-a0423f4d30a4> \n<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> \n<@u:1ef8ca99-9f77-640a-9772-a0423f4d30a4>",
+      "createdAtMs": 1760007438766,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760007675,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a4fca-21be-62aa-a8d5-7be9e3f366a2",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "",
+      "createdAtMs": 1760006540693,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "bc05647c-2636-4e84-94a1-20340c7290a3",
+          "name": "Протокол 2025.10.09 Информация о ходе строительства.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/bc05647c-2636-4e84-94a1-20340c7290a3",
+          "size": 12986,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a4fbd-1c15-6d3b-9d4a-77a96605f0ba",
+      "authorId": "1ef8cb98-2ccc-62fc-8b0f-a0423f4d30a4",
+      "chatId": "1f0a4fa7-965c-6cb9-a8d5-5211ebcedc03",
+      "text": "Всем привет! 👋\n\nСоздали этот канал для быстрой связи, обмена протоколами, полезными материалами и всякими рабочими штуками.\n\nПочта и календарь пока не до конца подружились 😅 — поэтому здесь буду дублировать информацию о встречах, чтобы ничего не потерялось.\n\n📎 Сразу прикрепляю полезные ссылки:\nCJM-доска проекта - https://my.mts-link.ru/boards/board/85796654-6e17-4ad8-ae2e-fa78a5a70631\nТаблица с барьерами и решениями - https://disk.yandex.ru/i/DFCteCG41ao8yA\nПлан-график встреч - https://disk.yandex.ru/i/gs4pf33K9ISsVA \n\nЕсли появятся идеи, вопросы или классные находки — пишите сюда.\nПусть этот канал будет не просто чатом, а пространством, где рождаются хорошие решения 💪",
+      "createdAtMs": 1760006191134,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760676004,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 2,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+            "1f08fc7e-475c-6d48-b622-6cb3116537ae"
+          ]
+        }
+      ]
+    }
+  ]
+}

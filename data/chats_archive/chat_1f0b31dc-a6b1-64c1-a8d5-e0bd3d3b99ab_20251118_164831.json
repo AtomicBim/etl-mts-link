@@ -1,0 +1,42 @@
+{
+  "chat_id": "1f0b31dc-a6b1-64c1-a8d5-e0bd3d3b99ab",
+  "extraction_timestamp": "2025-11-18T16:48:31.328033",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f0b31dc-a6b1-64c1-a8d5-e0bd3d3b99ab",
+    "name": "АТОМ-027_Юг-центр_2оч_Паркинг",
+    "type": "Channel",
+    "is_public": "True",
+    "is_read_only": "True",
+    "owner_name": "Пятков Роман",
+    "owner_id": "1f04cc17-e7ed-669a-92c5-50ebf6510ebb",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "08-12.П_Московская_оч.2_Паркинг_Р",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef90751-2200-6acc-a49b-0242a5f5a55b",
+    "extraction_timestamp": "2025-11-18T16:31:25.553428"
+  },
+  "messages": [
+    {
+      "id": "1f0b31ed-7caa-6a96-a480-179e090eac74",
+      "authorId": "1f04cc17-e7ed-669a-92c5-50ebf6510ebb",
+      "chatId": "1f0b31dc-a6b1-64c1-a8d5-e0bd3d3b99ab",
+      "text": "Добрый день, коллеги!\nВыполнена проверка на пересечения между разделами ОВ-ВК-ЭЛ по паркингу АТОМ-027_Юг-центр_2оч\nОтчеты выложены в папку \\\\PROEKT\\Work\\01_АКТИВНЫЕ ПРОЕКТЫ\\АТОМ-027_Юг-центр_2оч\\06_РД\\00_МОДЕЛИ\\Контроль\\Отчеты",
+      "createdAtMs": 1761560549925,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

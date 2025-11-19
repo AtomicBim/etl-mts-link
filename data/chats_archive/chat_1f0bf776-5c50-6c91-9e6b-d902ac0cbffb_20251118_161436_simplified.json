@@ -1,0 +1,30 @@
+{
+  "chat_id": "1f0bf776-5c50-6c91-9e6b-d902ac0cbffb",
+  "chat_name": "Мемы ИКП",
+  "extraction_timestamp": "2025-11-18T16:14:36.809979",
+  "original_total_messages": 2,
+  "simplified_messages_count": 2,
+  "processing_timestamp": "2025-11-18T16:14:36.809979",
+  "messages": [
+    {
+      "chat_id": "1f0bf776-5c50-6c91-9e6b-d902ac0cbffb",
+      "chat_name": "Мемы ИКП",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8c997-c37b-644e-9447-a0423f4d30a4",
+      "full_name": "Полина Махнева",
+      "text": "ИКП переезжают",
+      "createdAt": "2025-11-12 08:42:47"
+    },
+    {
+      "chat_id": "1f0bf776-5c50-6c91-9e6b-d902ac0cbffb",
+      "chat_name": "Мемы ИКП",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8c997-c37b-644e-9447-a0423f4d30a4",
+      "full_name": "Полина Махнева",
+      "text": "",
+      "createdAt": "2025-11-12 08:41:29"
+    }
+  ]
+}

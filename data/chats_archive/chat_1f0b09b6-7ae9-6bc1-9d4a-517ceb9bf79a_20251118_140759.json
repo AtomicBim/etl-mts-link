@@ -1,0 +1,626 @@
+{
+  "chat_id": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+  "extraction_timestamp": "2025-11-18T14:07:59.802002",
+  "total_messages": 24,
+  "chat_info": {
+    "chat_id": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+    "name": "HR. Заявки на обучение",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1ef8244d-5114-6843-aa65-0405b53981f9",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+    "extraction_timestamp": "2025-11-18T13:53:34.355022"
+  },
+  "messages": [
+    {
+      "id": "1f0bf8bb-deb5-6810-9e6b-2882c29dafde",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "Если где-то не на тот вопрос ответил, я на связи, вчера не удалось ответить",
+      "createdAtMs": 1762926735616,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bf8b9-67a9-6137-80d0-65338c8056dd",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "Доброе утро,\n\nЗдесь отображается представление, в нем порядок полей их свойства фильтры и тд настраиваются в \"настройка представлений\"\n\nПосмотрел, вижу что в сущностях созданных используется Табличное представление по умолчанию. Для него по идее тоже можно настраивать порядок столбцов (второй скрин) Внизу настроек поля, Настройки таблицы. Но обычно используем свои представления\n\nСоздается представление, в нем есть настройка отображаемых в таблице стобцов-полей, и в каждом из них можно дать позицию столбца в таблице, фильтрацию\\сортировку, если она включена у поля в сущности. Настроить общие права\\сортировки для таблицы, покрасить поля в зависимости от условий, сделать фильтр среди элементов сущности, например, если нужно показать пользователю не все, а только экземпляры в статусе \"Согласовано\". И везде у настроек, где есть \"Дизайнер\" формируется JSON формат, который иногда удобнее редактировать\\копировать",
+      "createdAtMs": 1762926669445,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0bdeb1-3c9a-6103-91a9-67fef3f03699",
+        "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+        "text": "",
+        "files": [
+          {
+            "id": "38ef9917-3184-4a51-b53a-5445e763f719",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/38ef9917-3184-4a51-b53a-5445e763f719",
+            "size": 13449,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "4fc253ad-d324-4a67-b76b-a8c3d52e4b0e",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4fc253ad-d324-4a67-b76b-a8c3d52e4b0e",
+          "size": 3617,
+          "mime": "image/png"
+        },
+        {
+          "id": "42211383-741b-490d-8f74-96c81d5d6d74",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/42211383-741b-490d-8f74-96c81d5d6d74",
+          "size": 96199,
+          "mime": "image/png"
+        },
+        {
+          "id": "a40cf6c9-3c23-42ad-9c15-e1ecf8674bfe",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/a40cf6c9-3c23-42ad-9c15-e1ecf8674bfe",
+          "size": 83480,
+          "mime": "image/png"
+        },
+        {
+          "id": "5ed1e1bb-10e2-43c4-a67d-aeb37a68322f",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5ed1e1bb-10e2-43c4-a67d-aeb37a68322f",
+          "size": 18029,
+          "mime": "image/png"
+        },
+        {
+          "id": "801e27e7-efc4-4bdb-8a42-87d22cae507a",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/801e27e7-efc4-4bdb-8a42-87d22cae507a",
+          "size": 105276,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bdeb1-3c9a-6103-91a9-67fef3f03699",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "",
+      "createdAtMs": 1762747779543,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "38ef9917-3184-4a51-b53a-5445e763f719",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/38ef9917-3184-4a51-b53a-5445e763f719",
+          "size": 13449,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bdeb1-1d7a-60e6-a6ff-a885ccc59288",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "вопрос почему я сделал форму в таком виде, но выдает другое",
+      "createdAtMs": 1762747776279,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1762747934,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "f014f860-a698-43f6-bea9-e758616f76fd",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/f014f860-a698-43f6-bea9-e758616f76fd",
+          "size": 27527,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bbc89-2631-6005-91a9-2242028ebd33",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "В списке сущностей верхняя панель при выбранной сущности \"Настройка предствлений\" на второй картинке видно в пересланном",
+      "createdAtMs": 1762513057230,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0bbba9-4aaa-6a26-a6ff-276bf83ef188",
+        "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+        "text": "и советую сразу включить экспериментальные формы и в панели пользоваться конфигурацией форм, они куда более гибкие чем дефолтный дизайнер по крайней мере насколько эта платформа позволяет..",
+        "files": [
+          {
+            "id": "480162b6-ea6d-44c9-8cb7-bd7645f3f6bf",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/480162b6-ea6d-44c9-8cb7-bd7645f3f6bf",
+            "size": 53899,
+            "mime": "image/png"
+          },
+          {
+            "id": "3a724179-3cb4-44f3-a336-7ecd70a7305c",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/3a724179-3cb4-44f3-a336-7ecd70a7305c",
+            "size": 83381,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bbc86-e87a-6347-9a4d-bf9f6e1d2913",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "а как таблицы делать?",
+      "createdAtMs": 1762512997072,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bbba9-4aaa-6a26-a6ff-276bf83ef188",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "и советую сразу включить экспериментальные формы и в панели пользоваться конфигурацией форм, они куда более гибкие чем дефолтный дизайнер по крайней мере насколько эта платформа позволяет..",
+      "createdAtMs": 1762507048100,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1762507075,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "480162b6-ea6d-44c9-8cb7-bd7645f3f6bf",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/480162b6-ea6d-44c9-8cb7-bd7645f3f6bf",
+          "size": 53899,
+          "mime": "image/png"
+        },
+        {
+          "id": "3a724179-3cb4-44f3-a336-7ecd70a7305c",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/3a724179-3cb4-44f3-a336-7ecd70a7305c",
+          "size": 83381,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bbba8-e099-6af7-b2ab-3fe6d615332f",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "пон пон",
+      "createdAtMs": 1762507036979,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bbba4-abd8-6bbe-a6ff-eaf1316f885c",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "",
+      "createdAtMs": 1762506924073,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "3ab639d7-25b7-401a-bc23-1beaa221179b",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/3ab639d7-25b7-401a-bc23-1beaa221179b",
+          "size": 71268,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bbb9b-5d04-615f-91a9-f83455affb1e",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "у полей в сущности/формах есть\n\n*возможность редактирования\n*условия отображения\n\nСкорее всего первого нет для них, если нет то в условиях отображения просто true поставь\n\n",
+      "createdAtMs": 1762506674215,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bbb95-5edb-6682-9a4d-14e767f324e3",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "",
+      "createdAtMs": 1762506513347,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "4a7b9d45-a9e6-4dc0-9414-d4b5c8941991",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4a7b9d45-a9e6-4dc0-9414-d4b5c8941991",
+          "size": 6050,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bbb94-dfff-6975-a6ff-742696ca94df",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "сделал форму но не вижу ее в итоговом варианте",
+      "createdAtMs": 1762506500045,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d4812eaf-3426-4961-8b3f-02e1cbcb5300",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d4812eaf-3426-4961-8b3f-02e1cbcb5300",
+          "size": 36657,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bafa9-38bc-676b-b2ab-4e6521f8f382",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "Коллеги, добрый день! поставила завтра установочную встречу по сервису на 12.00, в планерке https://atomsk.mts-link.ru/j/75016547/1803343074",
+      "createdAtMs": 1762424582848,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0baf3b-28b0-68b1-9a4d-0648b25bb02c",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "<@u:1f0ba2d6-242d-695c-adcb-6cb3116537ae> сделала временный доступ на dev стенд, как войти выслала в личное сообщение",
+      "createdAtMs": 1762421628376,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0baf2e-3768-6af5-9a4d-c2b95b503892",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "<@u:1efa64e1-39d9-6dc6-82c8-6cb3115313f8> тестовый стенд не синхронизируется с AD поэтому Александра там нет",
+      "createdAtMs": 1762421280953,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "cedcce70-102b-440a-a5f6-76f2a79b4205",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/cedcce70-102b-440a-a5f6-76f2a79b4205",
+          "size": 68015,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0baf28-f38e-6945-b2ab-e564b5104742",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "<@u:1f0ba2d6-242d-695c-adcb-6cb3116537ae> <@u:1ef8ccb3-2ea3-6474-b149-a0423f4d30a4> процесс который необходимо реализовать",
+      "createdAtMs": 1762421139620,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "9e5ceaee-f5ab-4f71-841a-7d9e13cb9107",
+          "name": "Подача и учет заявок на обучение в Департамент HR-трансформации_22.10.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/9e5ceaee-f5ab-4f71-841a-7d9e13cb9107",
+          "size": 63154,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0baf28-2b45-67a6-a6ff-ef9d81763ce0",
+      "authorId": "1ef8244d-5114-6843-aa65-0405b53981f9",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "https://my.mts-link.ru/boards/board/c81a60be-86a6-4561-a046-e0baaec16453 - попробуйте по этой ссылке",
+      "createdAtMs": 1762421118619,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0baf25-bfa7-6d41-a6ff-130e8d961868",
+      "authorId": "1f0ba2d6-242d-695c-adcb-6cb3116537ae",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "",
+      "createdAtMs": 1762421053648,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "43491979-2477-4bda-89fc-e702fc0f61b8",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/43491979-2477-4bda-89fc-e702fc0f61b8",
+          "size": 33244,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0baf25-39ca-62cd-91a9-8f998c651646",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "",
+      "createdAtMs": 1762421039611,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "adebf9f3-3846-42a6-bffa-de47b3b98047",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/adebf9f3-3846-42a6-bffa-de47b3b98047",
+          "size": 68921,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0baf25-281d-61a5-9a4d-36b283f41841",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "что то с доступом",
+      "createdAtMs": 1762421037757,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0baf23-711d-644d-91a9-dabf6d3d9aff",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "<@u:1f0ba2d6-242d-695c-adcb-6cb3116537ae> попробуй открыть доску  https://my.mts-link.ru/boards/board/c81a60be-86a6-4561-a046-e0baaec16453 есть доступ?",
+      "createdAtMs": 1762420991725,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0baf22-6002-6de7-91a9-e1738eb30aa9",
+      "authorId": "1ef8244d-5114-6843-aa65-0405b53981f9",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "добавила",
+      "createdAtMs": 1762420963088,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0baf20-3ee4-659f-b2ab-8af9dc36edcd",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "\" <@u:1ef8244d-5114-6843-aa65-0405b53981f9> добавь в группу Шароглазова и Буркова",
+      "createdAtMs": 1762420905928,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0b09f5-497d-69fc-a790-f0d88370f1a4",
+      "authorId": "1ef8244d-5114-6843-aa65-0405b53981f9",
+      "chatId": "1f0b09b6-7ae9-6bc1-9d4a-517ceb9bf79a",
+      "text": "Коллеги, добрый день! Создала проект в системе и перенесла требования для процесса на доску. Ссылка: https://my.mts-link.ru/boards/board/c81a60be-86a6-4561-a046-e0baaec16453",
+      "createdAtMs": 1761285881401,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8c872-8e73-63f8-a020-a0423f4d30a4"
+          ]
+        }
+      ]
+    }
+  ]
+}

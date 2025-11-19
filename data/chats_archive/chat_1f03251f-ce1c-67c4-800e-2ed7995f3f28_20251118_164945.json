@@ -1,0 +1,94 @@
+{
+  "chat_id": "1f03251f-ce1c-67c4-800e-2ed7995f3f28",
+  "extraction_timestamp": "2025-11-18T16:49:45.491751",
+  "total_messages": 3,
+  "chat_info": {
+    "chat_id": "1f03251f-ce1c-67c4-800e-2ed7995f3f28",
+    "name": "HR. Анкетирование уволившихся",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Оносова Мария",
+    "owner_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T16:35:30.099262"
+  },
+  "messages": [
+    {
+      "id": "1f03252d-3992-6b41-800e-5b5d76361302",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f03251f-ce1c-67c4-800e-2ed7995f3f28",
+      "text": "Так же импорт архивных данных xls 4 часа (На импорт потребуется примерно 2 часа с проверкой + 1 час на подключение в отчет)",
+      "createdAtMs": 1747399176722,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f032527-4339-671c-b54a-56aabdd945bd",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f03251f-ce1c-67c4-800e-2ed7995f3f28",
+      "text": "Спец. страница страница с QR + права - 4 часа, Минимальный дизайн 1 час, инструкция и обучение 1,5 часа",
+      "createdAtMs": 1747399016673,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f032523-220c-6469-bbd7-33ba93f7d859",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f03251f-ce1c-67c4-800e-2ed7995f3f28",
+      "text": "Один из вариантов сценария по  анкетированию с помощью планшета. Оценка трудозатрат 8 часов. ",
+      "createdAtMs": 1747398905820,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "63b4913b-81cc-4ab4-9805-657efa66e2bd",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/63b4913b-81cc-4ab4-9805-657efa66e2bd",
+          "size": 107950,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

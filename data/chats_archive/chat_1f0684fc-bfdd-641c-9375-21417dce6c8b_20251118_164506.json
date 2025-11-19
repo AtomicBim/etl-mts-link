@@ -1,0 +1,367 @@
+{
+  "chat_id": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+  "extraction_timestamp": "2025-11-18T16:45:06.381231",
+  "total_messages": 14,
+  "chat_info": {
+    "chat_id": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+    "name": "АТОМ. СЗ. MS Word в pdf",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Мельникова Евгения",
+    "owner_id": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Внешний сервис: преобразовать текстовый файл MS Word в .pdf для сервиса Крайон Служебные записки",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efc4285-fe29-6874-a027-d85ed36b7d02",
+    "extraction_timestamp": "2025-11-18T16:29:58.532740"
+  },
+  "messages": [
+    {
+      "id": "1f09856e-d8e6-6eb9-8baf-5b9014cd5d86",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Актуальный URL для обращения к функционалу конвертации: http://ask-it/ws-tsheetsKry/api/MiscMethods\nВ настоящий момент базовый функционал конвертации не доступен, поскольку не восстановлена ВМ misc-web, на которой он был развернут.",
+      "createdAtMs": 1758615956862,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": 1,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1efa59f1-7196-63d6-9b86-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0984f4-2d62-6fa5-956c-444c0244be4b",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Коллеги, хотел узнать про конвертер word to pdf, мне сообщили что внутренний адрес должен был смениться, соответственно ссылка, есть ли информация по поводу его работоспособности\\безопасности сейчас?",
+      "createdAtMs": 1758612663965,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f087dc9-6f98-64c0-8e0c-82a95bb82949",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "<@u:1ef8bfd6-cd52-6758-8876-a0423f4d30a4> Проверил функционирование метода MiscMethods.ConvertWordToPdf, который вызывается из Крайон и выполняет конвертацию СЗ:\nРаботает, - создан новый pdf-файл Служебная записка в свободной форме №281П(4).pdf,\nКрайон-ссылка: https://newdoc.atomsk.ru/ui/ew__internal_docsa404f7e2e47a480d9ba1626b35a0252e/e72ecd5c-1765-48e5-b4e2-9299cc56aec4/view/instance/e2f40dca-8eca-49ff-9b9e-08f7373e776d?backUrl=/ui/memo?routeId=config_b5fd5ca1-aadc-40ea-a982-00de95a46210_multiview_forma404f7e2e47a480d9ba1626b35a0252e",
+      "createdAtMs": 1756804194397,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f078e63-a0c5-6c6d-9730-51384280ec6f",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Веб-метод ConvertWordToPdf, преобразующий СЗ в pdf и объединяющий ее с Листом согласований, опубликован и передан в работу Никите",
+      "createdAtMs": 1755159066018,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8c872-8e73-63f8-a020-a0423f4d30a4"
+          ]
+        },
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f071bc3-4337-64b2-87bd-4931463d83b7",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Файл о котором говорили на совещании",
+      "createdAtMs": 1754371359206,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "88089082-daac-40b1-891b-96c71b5f916d",
+          "name": "740-07.2-2677 от 29.07.2025.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/88089082-daac-40b1-891b-96c71b5f916d",
+          "size": 179871,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f06ea10-fd6d-6d40-aee9-5080bc8faac2",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Ну мы так и подменили",
+      "createdAtMs": 1754029848301,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f06ea0f-8518-64a0-a0c1-92f92684de7c",
+      "authorId": "1efa59f1-66d1-6e6e-bd0f-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "http://ask-it это https://api.atomsk.ru",
+      "createdAtMs": 1754029808840,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f06ea0d-384b-6e01-aee9-7ec4c3fb3a46",
+        "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+        "text": "РП настроили с Даниилом, документ вернули \n\nПредположили что Крайон не смог обратиться из-за незащищенного протокола \"http://ask-it\", так и оказалось",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 1,
+          "users": [
+            "1efc4285-fe29-6874-a027-d85ed36b7d02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f06ea0d-384b-6e01-aee9-7ec4c3fb3a46",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "РП настроили с Даниилом, документ вернули \n\nПредположили что Крайон не смог обратиться из-за незащищенного протокола \"http://ask-it\", так и оказалось",
+      "createdAtMs": 1754029747100,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f06e98f-7ac6-6997-a0c1-250ae3739bd5",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Коллеги, думаю сюда можно про этот вопрос написать,\n\nУслышал на планерке вопрос про работу с документами на Крайоне, вопрос о концах Библиотека документов <--> Сущность со списком. \n\nЕсли главный вопрос со списками - большое кол-во шагов, есть возможность Вложения вывести на список на скачивание по клику как один из вариантов, тогда с фильтрами и представлениями проще будет",
+      "createdAtMs": 1754026371784,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1754026444,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "59312538-256c-4168-b9b8-1bb5fba48460",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/59312538-256c-4168-b9b8-1bb5fba48460",
+          "size": 52847,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f06de98-e582-6cb9-b6de-0eac2d45f67b",
+      "authorId": "1efa59f1-7196-63d6-9b86-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "Коллеги, пока не удалось из Крайона обратиться к сервису, ищу ошибки",
+      "createdAtMs": 1753951033143,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0692c9-4430-6033-87a9-8ae4634c6396",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "коллеги, проект создан, IT-IP. Конвертор MS Word в pdf https://port.it-ip.ru/project/193 ",
+      "createdAtMs": 1753430063538,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f069280-aa3f-68f6-9345-eabf7ee6694a",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "",
+      "createdAtMs": 1753428114661,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "7f23d2af-138f-4c4c-bea7-d9098c954ca9",
+          "name": "УКБ АНО (клуб Точка) Договор  №ПС-ЮЛ (АНО) № 157 от 16.07.25.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/7f23d2af-138f-4c4c-bea7-d9098c954ca9",
+          "size": 156041,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f06927e-5fa7-62e8-a498-90b3baf9946a",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "",
+      "createdAtMs": 1753428053152,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "efa4a4b2-b1ce-4746-86b6-b2c5944b5cdf",
+          "name": "image_1.png",
+          "url": "https://prod-storage-chat.mts-link.ru/efa4a4b2-b1ce-4746-86b6-b2c5944b5cdf",
+          "size": 33781,
+          "mime": "image/png"
+        },
+        {
+          "id": "a274f977-f66d-48c7-a2a1-d60fe2d87c30",
+          "name": "image_2.png",
+          "url": "https://prod-storage-chat.mts-link.ru/a274f977-f66d-48c7-a2a1-d60fe2d87c30",
+          "size": 129677,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f06927d-cfd9-62c5-87a9-1b72c9cf0340",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "chatId": "1f0684fc-bfdd-641c-9375-21417dce6c8b",
+      "text": "😄",
+      "createdAtMs": 1753428038073,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

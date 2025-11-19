@@ -1,0 +1,42 @@
+{
+  "chat_id": "1efef764-90c6-6012-8110-ab716ee4b45d",
+  "extraction_timestamp": "2025-11-18T16:49:24.879814",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1efef764-90c6-6012-8110-ab716ee4b45d",
+    "name": "П78 Отсутствие и график работы",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Оносова Мария",
+    "owner_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "https://port.it-ip.ru/project/78",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+    "extraction_timestamp": "2025-11-18T16:33:01.074611"
+  },
+  "messages": [
+    {
+      "id": "1efef765-0dc7-6aa7-a853-78e9027bd69b",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1efef764-90c6-6012-8110-ab716ee4b45d",
+      "text": "Проекта https://port.it-ip.ru/project/78",
+      "createdAtMs": 1740047691358,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1740047712,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

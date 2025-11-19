@@ -1,0 +1,420 @@
+{
+  "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+  "chat_name": "IT-IP.Продуктовые решения",
+  "extraction_timestamp": "2025-11-18T16:08:36.313504",
+  "original_total_messages": 41,
+  "simplified_messages_count": 41,
+  "processing_timestamp": "2025-11-18T16:08:36.313504",
+  "messages": [
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Телефон заменили",
+      "createdAt": "2025-11-12 16:42:40"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "ок",
+      "createdAt": "2025-11-11 10:25:06"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Да",
+      "createdAt": "2025-11-11 10:24:58"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Коллеги, телефон заменить на номер ТП?",
+      "createdAt": "2025-11-11 10:23:58"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "последняя попытка тестирования продукта Заказчиком была 18.03",
+      "createdAt": "2025-11-10 13:51:58"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "В эксплуатацию ранее продукт не был запущен, обратную связь Заказчик так и не дал?",
+      "createdAt": "2025-11-10 13:44:35"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "указан не корректный номер, надо чтобы был телефон ТП?",
+      "createdAt": "2025-11-10 13:40:39"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "но надо по тексту править",
+      "createdAt": "2025-11-10 12:54:52"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "нашли)",
+      "createdAt": "2025-11-10 12:54:44"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "",
+      "createdAt": "2025-11-10 12:54:35"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Паша пусть ищет..",
+      "createdAt": "2025-11-10 12:13:24"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "у Вики только рыба есть, финальной нет",
+      "createdAt": "2025-11-10 12:13:07"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Коллеги, презентация была.. И она может быть у Вики",
+      "createdAt": "2025-11-10 12:12:29"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "у Паши нет, заново ее делать?",
+      "createdAt": "2025-11-10 12:10:10"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Хорошо свяжусь с Пашей",
+      "createdAt": "2025-11-10 10:05:19"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Презентация есть. Ее делал Паша Бурков",
+      "createdAt": "2025-11-10 10:03:40"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Коллеги привет, на прошлой неделе написала Заказчикам предложение провести презентацию по продукту (Атомакадемия), Горожанцева ТА попросила отложить вопрос до 17.11 (Шаров А до этого времени в отпуске). Вопрос по презентации, Маша у нас есть презентация или Вику попросить новую сделать?",
+      "createdAt": "2025-11-10 09:50:00"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Маша, у нас есть актуальная презентация по Атомакадемии?",
+      "createdAt": "2025-11-07 11:57:27"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Вика? пришли пожалуйста по возможности",
+      "createdAt": "2025-11-07 11:57:00"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Вика скинь пожалуйста презентацию, которая сделана, в канал",
+      "createdAt": "2025-11-05 17:23:03"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Будем ли ставить задачи по подготовке презентаций для других продуктовых решений?",
+      "createdAt": "2025-11-05 15:22:02"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Где будут храниться наши презентационные материалы, чтобы они были в удобном доступе?",
+      "createdAt": "2025-11-05 15:20:58"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Коллеги привет, предлагаю актуализировать вопрос по презентациям по нашим продуктам. На текущий момент у Вики готова презентация по IT-IP Team, мы вроде хотели встретиться и ее обсудить или я ошибаюсь, но почему-то ощущение, что мы ее до конца всеми нами не согласовали",
+      "createdAt": "2025-11-05 15:19:53"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Прошу собрать совещание на следующей неделе.",
+      "createdAt": "2025-08-27 14:53:11"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Коллеги привет, напоминаю по поводу презентаций по нашим продуктам, вопросы как понимаю на паузе. Также предложение доработать презентацию по Атомиксу, с учетом появления демостенда, и на странице продукта расширить информацию о возможностях Демо.",
+      "createdAt": "2025-08-27 11:20:30"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "На паузе",
+      "createdAt": "2025-07-15 18:57:15"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "привет по продвижению сайтов встречу ставить? или пока на паузе?",
+      "createdAt": "2025-07-15 18:07:28"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Надо его доработать..",
+      "createdAt": "2025-06-11 20:47:27"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "По пункту 6, Полина Юрьевна будем делать презентацию для внешнего рынка? и размещать о продукте информацию на сайте среди продуктовых решений?",
+      "createdAt": "2025-06-11 17:05:02"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Вика <@u:1efb8754-236b-63b4-a58e-04421acbfbde> поставила тебе задачи по подготовке презентаций для внешнего рынка (It-ip Team, Survey, приемка)",
+      "createdAt": "2025-06-11 17:03:41"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "6. По АТОМ Академии - предполагается создание решения для внешнего рынка? На нашем сайте информации о таком продукте нет",
+      "createdAt": "2025-05-29 11:55:01"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "по п.2 и п.4 прошу сказать какие есть наработки)",
+      "createdAt": "2025-05-29 11:31:37"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "по п.1 прошу дать положительный ответ)",
+      "createdAt": "2025-05-29 11:30:55"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Если не возражаете поставлю на каждую среду совещание про продвижению наших сайтов продуктовых решений (с Машей предварительно обсудили, что нужно это работу актуализировать)",
+      "createdAt": "2025-05-29 11:28:35"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "5. по О!Макет - презентация есть",
+      "createdAt": "2025-05-29 11:26:39"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "4. АКО приемка - не видела презентации для АТОМа и для внешнего рынка тоже",
+      "createdAt": "2025-05-29 11:24:55"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "3. Атомикс - презентация есть",
+      "createdAt": "2025-05-29 11:24:20"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "2. survey  - не видела финальной презентации для Атома, и для внешнего рынка тоже",
+      "createdAt": "2025-05-29 11:24:05"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "1. МП Мой Атом - общей презентации нет, есть новые слайды по зп и отпуску. IT-IP team - презентации для внешнего рынка нет. Прошу согласовать постановку задачи для себя и Вики",
+      "createdAt": "2025-05-29 11:22:58"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Я задалась вопросом все ли презентации по продуктам для внешнего рынка у нас есть, и как мне кажется для внешнего рынка у нас есть только презентация по Атомиксу. Если я ошибаюсь поправьте меня.",
+      "createdAt": "2025-05-29 11:20:45"
+    },
+    {
+      "chat_id": "1f03c545-e14e-6d4a-8a34-e601ead5bd06",
+      "chat_name": "IT-IP.Продуктовые решения",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "Полина Юрьевна, Маша, Вика привет) Нас тут пока четверо, если еще кто-то нужен, подскажите мне, я добавлю",
+      "createdAt": "2025-05-29 11:17:37"
+    }
+  ]
+}

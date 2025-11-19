@@ -1,0 +1,40 @@
+{
+  "chat_id": "1f0b0b6f-38b9-68f0-a480-a34c8b37102c",
+  "extraction_timestamp": "2025-11-18T14:08:41.330354",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f0b0b6f-38b9-68f0-a480-a34c8b37102c",
+    "name": "760 Северный химмаш",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Северный химмаш 1 участок 2 этап (ДУП Кривошеев Г.В.)",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+    "extraction_timestamp": "2025-11-18T13:54:25.010953"
+  },
+  "messages": [
+    {
+      "id": "1f0b0b76-4527-6960-a480-6d4975c0bf53",
+      "authorId": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+      "chatId": "1f0b0b6f-38b9-68f0-a480-a34c8b37102c",
+      "text": "Добрый день! Организован рабочий канал по объекту Уктус. Можно оперативно решать все вопросы, а так же канал является инструментом Отдела контроля.",
+      "createdAtMs": 1761296215711,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

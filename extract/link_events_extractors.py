@@ -138,6 +138,91 @@ def event_series_stats():
     pass
 
 
+@endpoint("/eventsessions/{eventSessionId}/participations")
+def event_session_participations():
+    """Получить информацию об участниках конкретного мероприятия
+    
+    Обязательные параметры:
+    - eventSessionId: идентификатор сессии мероприятия (в URL)
+    
+    Дополнительные параметры:
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
+    pass
+
+
+@endpoint("/eventsessions/{eventSessionId}/attention-control/checkpoints")
+def event_attention_checkpoints():
+    """Получить список контрольных точек присутствия на мероприятии
+    
+    Обязательные параметры:
+    - eventSessionId: идентификатор сессии мероприятия (в URL)
+    """
+    pass
+
+
+@endpoint("/eventsessions/{eventSessionId}/attention-control/interactions")
+def event_attention_interactions():
+    """Получить информацию о взаимодействиях участников (контроль присутствия)
+    
+    Обязательные параметры:
+    - eventSessionId: идентификатор сессии мероприятия (в URL)
+    
+    Дополнительные параметры:
+    - checkpointId: идентификатор контрольной точки
+    """
+    pass
+
+
+@endpoint("/eventsessions/endless")
+def endless_events_list():
+    """Получить список постоянных встреч (endless events)
+    
+    Дополнительные параметры:
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
+    pass
+
+
+@endpoint("/eventsessions/endless/activities")
+def endless_events_activities():
+    """Получить активности в постоянных встречах
+    
+    Дополнительные параметры:
+    - from: дата начала периода выборки (формат: yyyy-mm-dd+hh:mm:ss)
+    - to: дата окончания периода выборки
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
+    pass
+
+
+@endpoint("/eventsessions/{eventSessionId}/recordings")
+def event_session_recordings():
+    """Получить список записей мероприятия
+    
+    Обязательные параметры:
+    - eventSessionId: идентификатор сессии мероприятия (в URL)
+    """
+    pass
+
+
+@endpoint("/users/{userId}/events/participations")
+def user_events_participations():
+    """Получить информацию об участии пользователя в мероприятиях
+    
+    Обязательные параметры:
+    - userId: идентификатор пользователя (в URL)
+    
+    Дополнительные параметры:
+    - from: дата начала периода выборки (формат: yyyy-mm-dd+hh:mm:ss)
+    - to: дата окончания периода выборки
+    - page: номер страницы выборки (по умолчанию: 1)
+    - perPage: количество элементов на странице (10, 50, 100, 250)
+    """
+    pass
 
 
 if __name__ == "__main__":
@@ -147,7 +232,7 @@ if __name__ == "__main__":
     parser.add_argument('extractor', help='Name of the extractor to run')
     parser.add_argument('--list', '-l', action='store_true', help='List available extractors')
 
-    for arg in ['eventSessionId', 'eventsessionID', 'userID', 'eventID', 'transcriptId', 'from_date', 'from', 'to', 'userId', 'eventId', 'name', 'status', 'page', 'perPage', 'cursor']:
+    for arg in ['eventSessionId', 'eventsessionID', 'userID', 'eventID', 'transcriptId', 'from_date', 'from', 'to', 'userId', 'eventId', 'name', 'status', 'page', 'perPage', 'cursor', 'checkpointId']:
         parser.add_argument(f'--{arg}', help=f'{arg} parameter')
 
     args = parser.parse_args()

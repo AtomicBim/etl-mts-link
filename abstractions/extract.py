@@ -7,6 +7,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import urllib3
 import ssl
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -37,6 +38,9 @@ class BaseExtractor(ABC):
         self.base_url = self.config.get("base_url", "https://api.mts-link.ru/v3")
         self.api_token = self.config.get("api_token")
         self.extraction_path = os.getenv("EXTRACTION_PATH", ".")
+        self.last_response_status: Optional[int] = None
+        self.last_response_body: Optional[str] = None
+        self.last_error: Optional[str] = None
         
     def _load_config(self, config_path: str) -> Dict[str, Any]:
         try:
@@ -49,6 +53,7 @@ class BaseExtractor(ABC):
     def _get_headers(self) -> Dict[str, str]:
         return {
             "x-auth-token": self.api_token,
+            "Accept": "application/json",
             "Content-Type": "application/x-www-form-urlencoded"
         }
     
@@ -59,7 +64,22 @@ class BaseExtractor(ABC):
     def get_url_params(self, **kwargs) -> Optional[Dict[str, Any]]:
         return None
     
+    @retry(
+        retry=retry_if_exception_type((
+            requests.exceptions.ConnectionError,
+            requests.exceptions.Timeout,
+            requests.exceptions.ChunkedEncodingError
+        )),
+        stop=stop_after_attempt(5),
+        wait=wait_exponential(multiplier=1, min=1, max=30),
+        reraise=False
+    )
     def extract(self, **kwargs) -> Optional[Dict[str, Any]]:
+        # Reset last response metadata before each request
+        self.last_response_status = None
+        self.last_response_body = None
+        self.last_error = None
+
         endpoint = self.get_endpoint()
         # Separate path parameters from query parameters
         path_params = {k: v for k, v in kwargs.items() if '{' + k + '}' in endpoint}
@@ -77,22 +97,39 @@ class BaseExtractor(ABC):
             print(f"With query parameters: {params}")
 
         try:
-            response = requests.get(url, headers=headers, params=params)
+            response = requests.get(url, headers=headers, params=params, timeout=30)
             response.raise_for_status()
             
+            self.last_response_status = response.status_code
             data = response.json()
             print("Request successful!")
             return data
             
         except requests.exceptions.HTTPError as http_err:
+            self.last_response_status = response.status_code if 'response' in locals() else None
+            self.last_response_body = response.text if 'response' in locals() else None
+            self.last_error = str(http_err)
             print(f"HTTP error: {http_err}")
             print(f"Response code: {response.status_code}")
             print(f"Response body: {response.text}")
+            # Don't retry on 4xx/5xx errors (client/server errors)
+            return None
+        except (requests.exceptions.ConnectionError, 
+                requests.exceptions.Timeout,
+                requests.exceptions.ChunkedEncodingError) as net_err:
+            self.last_error = str(net_err)
+            print(f"Network error (will retry): {net_err}")
+            raise  # Let @retry handle it
         except requests.exceptions.RequestException as err:
-            print(f"Other error: {err}")
+            self.last_error = str(err)
+            print(f"Other request error: {err}")
+            return None
         except requests.exceptions.JSONDecodeError as json_err:
+            self.last_response_body = response.text if 'response' in locals() else None
+            self.last_error = str(json_err)
             print(f"JSON decode error: {json_err}")
             print(f"Response text: {response.text}")
+            return None
         
         return None
     

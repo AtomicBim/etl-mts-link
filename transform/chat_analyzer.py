@@ -20,12 +20,8 @@ class ChatAnalyzer:
         project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.data_path = data_path or os.path.join(project_root, "data")
 
-        # Yandex Disk exchange path for duplication
-        self.yandex_exchange_path = os.getenv("EXTRACTION_PATH", "C:/Users/AI-agent/Yandex.Disk/Обмен")
-
-        # Chat archive paths
-        self.local_archive_path = os.path.join(self.data_path, "chats_archive")
-        self.yandex_archive_path = os.path.join(self.yandex_exchange_path, "chats_archive")
+        # Chat archive path
+        self.archive_path = os.path.join(self.data_path, "chats_archive")
 
         # Archive settings
         self.save_archives = True
@@ -48,6 +44,10 @@ class ChatAnalyzer:
         # User mapping for full names
         self.user_mapping: Dict[str, str] = {}
         self._load_user_mapping()
+
+        # Organization mapping for organization names
+        self.organization_mapping: Dict[str, str] = {}
+        self._load_organization_mapping()
 
     def _load_user_mapping(self):
         """Load user mapping from organization_members CSV"""
@@ -84,6 +84,36 @@ class ChatAnalyzer:
         except Exception as e:
             print(f"Warning: Could not load user mapping: {e}")
             print("User names will show as 'Unknown User'")
+
+    def _load_organization_mapping(self):
+        """Load organization mapping from organizations_mapping.json"""
+        try:
+            # Find the organizations_mapping.json file
+            filepath = os.path.join(self.data_path, "organizations_mapping.json")
+            
+            if not os.path.exists(filepath):
+                print("Warning: No organizations_mapping.json file found. Run build_organizations_mapping.py first.")
+                print("Organization names will show as organization_id")
+                return
+
+            print(f"Loading organization mapping from: organizations_mapping.json")
+
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                organizations = data.get('organizations', [])
+                
+                for org in organizations:
+                    org_id = org.get('organization_id', '')
+                    org_name = org.get('organization_name', '')
+                    
+                    if org_id:
+                        self.organization_mapping[org_id] = org_name or org_id
+
+            print(f"Loaded {len(self.organization_mapping)} organization mappings")
+
+        except Exception as e:
+            print(f"Warning: Could not load organization mapping: {e}")
+            print("Organization names will show as organization_id")
 
     def load_unique_chats(self, filename: str = None) -> bool:
         """Load unique chats data from CSV file"""
@@ -161,12 +191,11 @@ class ChatAnalyzer:
 
         offset = start_offset
         limit = 100
-        max_iterations = 20  # Much lower limit - max 20 additional requests
         iteration = 0
 
         print(f"    Starting pagination from offset {offset} with {len(all_users)} existing users")
 
-        while iteration < max_iterations:
+        while True:  # No artificial limit - paginate until we get all users
             print(f"    Paginating: offset={offset}, limit={limit} (iteration {iteration + 1})")
 
             data = self.channel_users_extractor.extract(
@@ -211,7 +240,10 @@ class ChatAnalyzer:
             iteration += 1
 
         final_count = len(all_users)
-        print(f"  Completed: {final_count} total unique users (after {iteration} pagination requests)")
+        if iteration > 0:
+            print(f"  Completed: {final_count} total unique users (after {iteration} pagination requests)")
+        else:
+            print(f"  Completed: {final_count} total unique users")
         return final_count
 
     def get_chat_messages_stats(self, chat_id: str, max_messages: int = 50000, chat_info: Dict[str, Any] = None) -> Dict[str, Any]:
@@ -294,6 +326,35 @@ class ChatAnalyzer:
 
         return []
 
+    def _format_extractor_error(self, extractor, chat_id: str) -> str:
+        """Build a descriptive error message based on extractor state"""
+        endpoint = getattr(extractor, 'endpoint_path', None)
+        if endpoint is None and hasattr(extractor, 'get_endpoint'):
+            try:
+                endpoint = extractor.get_endpoint()
+            except Exception:
+                endpoint = 'unknown_endpoint'
+        endpoint = endpoint or 'unknown_endpoint'
+
+        status = getattr(extractor, 'last_response_status', None)
+        error_text = getattr(extractor, 'last_error', '') or 'Unknown error'
+        response_body = getattr(extractor, 'last_response_body', '')
+
+        if response_body:
+            response_body = response_body.strip()
+            if len(response_body) > 500:
+                response_body = response_body[:500] + "...[truncated]"
+
+        parts = [f"Endpoint {endpoint}", f"chat {chat_id}"]
+        if status:
+            parts.append(f"status {status}")
+        message = f"{' | '.join(parts)}: {error_text}"
+
+        if response_body:
+            message = f"{message} | Response body: {response_body}"
+
+        return message
+
     def _fetch_messages_with_extractor(self, extractor, chat_id: str, max_messages: int, chat_info: Dict[str, Any] = None) -> Dict[str, Any]:
         """Fetch messages using a specific extractor with cursor-based pagination"""
         all_messages = []
@@ -302,6 +363,17 @@ class ChatAnalyzer:
         from_message_id = None
         max_requests = max(1, max_messages // limit)  # Calculate based on desired max messages, minimum 1
         request_count = 0
+        
+        # Get viewerId from chat_info for private channels
+        viewer_id = None
+        if chat_info:
+            # Try to use discovered_via_user_id (user who can access this chat)
+            viewer_id = chat_info.get('discovered_via_user_id') or chat_info.get('owner_id')
+            # Skip if viewer_id is 'unknown' or empty (not a valid UUID)
+            if viewer_id and viewer_id != 'unknown' and viewer_id.strip():
+                print(f"    Using viewerId={viewer_id} for private channel access")
+            else:
+                viewer_id = None
 
         while request_count < max_requests:
             params = {
@@ -309,12 +381,23 @@ class ChatAnalyzer:
                 'limit': limit,
                 'direction': 'Before'
             }
+            
+            # Add viewerId for private channels access
+            if viewer_id:
+                params['viewerId'] = viewer_id
+                
             if from_message_id:
                 params['fromMessageId'] = from_message_id
 
             data = extractor.extract(**params)
 
+            if data is None:
+                error_msg = self._format_extractor_error(extractor, chat_id)
+                print(f"    [ERROR] {error_msg}")
+                raise RuntimeError(error_msg)
+
             if not data:
+                print(f"    No data returned - end of messages")
                 break
 
             # Extract messages from response
@@ -447,13 +530,18 @@ class ChatAnalyzer:
         # Get message statistics (passing chat info for archiving)
         message_stats = self.get_chat_messages_stats(chat_id, max_messages, chat_data)
 
+        # Get organization name from mapping
+        organization_id = chat_data.get('organization_id', '')
+        organization_name = self.organization_mapping.get(organization_id, organization_id)
+
         # Combine all data
         result = {
             'chat_id': chat_id,
             'chat_name': chat_name,
             'chat_type': chat_data.get('type', ''),
             'is_public': chat_data.get('is_public', ''),
-            'organization_id': chat_data.get('organization_id', ''),
+            'organization_id': organization_id,
+            'organization_name': organization_name,
             'discovered_via_user_id': chat_data.get('discovered_via_user_id', ''),
             'users_count': users_count,
             'message_count': message_stats['message_count'],
@@ -557,11 +645,8 @@ class ChatAnalyzer:
             **error_counts
         }
 
-    def _save_file_to_both_locations(self, filename: str, data: Any, file_format: str = 'json'):
-        """Save file to both local data directory and Yandex Disk exchange"""
-        saved_paths = []
-
-        # Save to local data directory
+    def _save_file_to_data_directory(self, filename: str, data: Any, file_format: str = 'json'):
+        """Save file to local data directory"""
         local_path = os.path.join(self.data_path, filename)
         try:
             os.makedirs(self.data_path, exist_ok=True)
@@ -577,30 +662,10 @@ class ChatAnalyzer:
                     for result in results:
                         row = {header: result.get(header, '') for header in headers}
                         writer.writerow(row)
-            saved_paths.append(local_path)
+            return local_path
         except Exception as e:
             print(f"  Warning: Could not save to local directory: {e}")
-
-        # Save to Yandex Disk exchange
-        yandex_path = os.path.join(self.yandex_exchange_path, filename)
-        try:
-            os.makedirs(self.yandex_exchange_path, exist_ok=True)
-            if file_format == 'json':
-                with open(yandex_path, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-            elif file_format == 'csv':
-                headers, results = data
-                with open(yandex_path, 'w', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.DictWriter(csvfile, fieldnames=headers)
-                    writer.writeheader()
-                    for result in results:
-                        row = {header: result.get(header, '') for header in headers}
-                        writer.writerow(row)
-            saved_paths.append(yandex_path)
-        except Exception as e:
-            print(f"  Warning: Could not save to Yandex Disk: {e}")
-
-        return saved_paths
+            return None
 
     def _timestamp_to_human_readable(self, timestamp_ms: int) -> str:
         """Convert timestamp in milliseconds to human readable format"""
@@ -611,7 +676,8 @@ class ChatAnalyzer:
         except (ValueError, OSError, OverflowError):
             return f"invalid_timestamp_{timestamp_ms}"
 
-    def _simplify_message(self, message: Dict[str, Any], chat_id: str = None, chat_name: str = None) -> Dict[str, Any]:
+    def _simplify_message(self, message: Dict[str, Any], chat_id: str = None, chat_name: str = None, 
+                         organization_id: str = None, organization_name: str = None) -> Dict[str, Any]:
         """Simplify a single message by keeping only essential fields"""
         simplified = {}
 
@@ -619,6 +685,10 @@ class ChatAnalyzer:
             simplified["chat_id"] = chat_id
         if chat_name:
             simplified["chat_name"] = chat_name
+        if organization_id:
+            simplified["organization_id"] = organization_id
+        if organization_name:
+            simplified["organization_name"] = organization_name
 
         # Extract author info with user mapping
         author_id = message.get("authorId")
@@ -643,11 +713,19 @@ class ChatAnalyzer:
             return
 
         chat_name = chat_info.get('name', 'Unknown Chat') if chat_info else 'Unknown Chat'
+        
+        # Get organization info
+        organization_id = chat_info.get('organization_id', '') if chat_info else ''
+        organization_name = self.organization_mapping.get(organization_id, organization_id) if organization_id else ''
+        
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         safe_chat_id = chat_id.replace('/', '_').replace('\\', '_')
 
-        # Simplify messages
-        simplified_messages = [self._simplify_message(msg, chat_id, chat_name) for msg in messages]
+        # Simplify messages with organization info
+        simplified_messages = [
+            self._simplify_message(msg, chat_id, chat_name, organization_id, organization_name) 
+            for msg in messages
+        ]
 
         # Create simplified data structure
         simplified_data = {
@@ -660,39 +738,37 @@ class ChatAnalyzer:
             "messages": simplified_messages
         }
 
-        # Save simplified JSON to both locations
+        # Save simplified JSON to archive
         simplified_json_filename = f"chat_{safe_chat_id}_{timestamp}_simplified.json"
+        
+        try:
+            os.makedirs(self.archive_path, exist_ok=True)
+            json_path = os.path.join(self.archive_path, simplified_json_filename)
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(simplified_data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"    Warning: Could not save simplified JSON: {e}")
 
-        for archive_path in [self.local_archive_path, self.yandex_archive_path]:
-            try:
-                os.makedirs(archive_path, exist_ok=True)
-                json_path = os.path.join(archive_path, simplified_json_filename)
-                with open(json_path, 'w', encoding='utf-8') as f:
-                    json.dump(simplified_data, f, ensure_ascii=False, indent=2)
-            except Exception as e:
-                print(f"    Warning: Could not save simplified JSON to {archive_path}: {e}")
-
-        # Save simplified CSV to both locations
+        # Save simplified CSV to archive
         simplified_csv_filename = f"chat_{safe_chat_id}_{timestamp}_simplified.csv"
-        fieldnames = ['chat_id', 'chat_name', 'authorId', 'full_name', 'text', 'createdAt']
+        fieldnames = ['chat_id', 'chat_name', 'organization_id', 'organization_name', 'authorId', 'full_name', 'text', 'createdAt']
 
-        for archive_path in [self.local_archive_path, self.yandex_archive_path]:
-            try:
-                os.makedirs(archive_path, exist_ok=True)
-                csv_path = os.path.join(archive_path, simplified_csv_filename)
-                with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                    writer.writeheader()
-                    for message in simplified_messages:
-                        row = {field: message.get(field, '') for field in fieldnames}
-                        writer.writerow(row)
-            except Exception as e:
-                print(f"    Warning: Could not save simplified CSV to {archive_path}: {e}")
+        try:
+            os.makedirs(self.archive_path, exist_ok=True)
+            csv_path = os.path.join(self.archive_path, simplified_csv_filename)
+            with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writeheader()
+                for message in simplified_messages:
+                    row = {field: message.get(field, '') for field in fieldnames}
+                    writer.writerow(row)
+        except Exception as e:
+            print(f"    Warning: Could not save simplified CSV: {e}")
 
         print(f"    Simplified files saved (JSON + CSV)")
 
     def _save_chat_archive(self, chat_id: str, messages: List[Dict[str, Any]], chat_info: Dict[str, Any] = None):
-        """Save complete chat archive to both locations, plus simplified versions"""
+        """Save complete chat archive plus simplified versions"""
         if not messages:
             return
 
@@ -710,108 +786,56 @@ class ChatAnalyzer:
             'messages': messages
         }
 
-        # Save to both locations
-        saved_paths = []
-
-        # Save to local archive
+        # Save to archive
+        saved_path = None
         try:
-            os.makedirs(self.local_archive_path, exist_ok=True)
-            local_path = os.path.join(self.local_archive_path, filename)
+            os.makedirs(self.archive_path, exist_ok=True)
+            archive_file_path = os.path.join(self.archive_path, filename)
 
-            with open(local_path, 'w', encoding='utf-8') as f:
+            with open(archive_file_path, 'w', encoding='utf-8') as f:
                 json.dump(archive_data, f, ensure_ascii=False, indent=2)
 
-            saved_paths.append(local_path)
+            saved_path = archive_file_path
+            print(f"    Chat archived ({len(messages)} messages)")
         except Exception as e:
-            print(f"    Warning: Could not save chat archive locally: {e}")
-
-        # Save to Yandex Disk archive
-        try:
-            os.makedirs(self.yandex_archive_path, exist_ok=True)
-            yandex_path = os.path.join(self.yandex_archive_path, filename)
-
-            with open(yandex_path, 'w', encoding='utf-8') as f:
-                json.dump(archive_data, f, ensure_ascii=False, indent=2)
-
-            saved_paths.append(yandex_path)
-        except Exception as e:
-            print(f"    Warning: Could not save chat archive to Yandex Disk: {e}")
-
-        if saved_paths:
-            print(f"    Chat archived to {len(saved_paths)} locations ({len(messages)} messages)")
+            print(f"    Warning: Could not save chat archive: {e}")
 
         # Save simplified versions (JSON + CSV)
         self._process_and_save_simplified(chat_id, messages, chat_info)
 
-        return saved_paths
+        return saved_path
 
     def _save_intermediate_results(self):
         """Save intermediate results with fixed filename to avoid data loss"""
         filename = "chat_analysis_intermediate_current.json"
 
-        # Save intermediate results to archive directories (overwrite same file)
-        saved_paths = []
-
-        # Save to local archive
+        # Save intermediate results to archive directory (overwrite same file)
         try:
-            os.makedirs(self.local_archive_path, exist_ok=True)
-            local_path = os.path.join(self.local_archive_path, filename)
-            with open(local_path, 'w', encoding='utf-8') as f:
+            os.makedirs(self.archive_path, exist_ok=True)
+            filepath = os.path.join(self.archive_path, filename)
+            with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump({
                     'processed_count': self.processed_count,
                     'total_count': len(self.chats_data) if hasattr(self, 'chats_data') else 0,
                     'timestamp': datetime.now().isoformat(),
                     'results': self.analysis_results
                 }, f, ensure_ascii=False, indent=2)
-            saved_paths.append(local_path)
-        except Exception as e:
-            print(f"  Warning: Could not save intermediate results locally: {e}")
-
-        # Save to Yandex archive
-        try:
-            os.makedirs(self.yandex_archive_path, exist_ok=True)
-            yandex_path = os.path.join(self.yandex_archive_path, filename)
-            with open(yandex_path, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'processed_count': self.processed_count,
-                    'total_count': len(self.chats_data) if hasattr(self, 'chats_data') else 0,
-                    'timestamp': datetime.now().isoformat(),
-                    'results': self.analysis_results
-                }, f, ensure_ascii=False, indent=2)
-            saved_paths.append(yandex_path)
-        except Exception as e:
-            print(f"  Warning: Could not save intermediate results to Yandex: {e}")
-
-        if saved_paths:
             print(f"  Updated intermediate results ({self.processed_count} chats processed)")
-        else:
-            print(f"  Warning: Could not save intermediate results")
+        except Exception as e:
+            print(f"  Warning: Could not save intermediate results: {e}")
 
     def _cleanup_intermediate_files(self):
         """Remove intermediate files after successful completion"""
         filename = "chat_analysis_intermediate_current.json"
-        removed_count = 0
 
-        # Remove from local archive
+        # Remove from archive
         try:
-            local_path = os.path.join(self.local_archive_path, filename)
-            if os.path.exists(local_path):
-                os.remove(local_path)
-                removed_count += 1
+            filepath = os.path.join(self.archive_path, filename)
+            if os.path.exists(filepath):
+                os.remove(filepath)
+                print(f"  Cleaned up intermediate files")
         except Exception as e:
-            print(f"  Warning: Could not remove local intermediate file: {e}")
-
-        # Remove from Yandex archive
-        try:
-            yandex_path = os.path.join(self.yandex_archive_path, filename)
-            if os.path.exists(yandex_path):
-                os.remove(yandex_path)
-                removed_count += 1
-        except Exception as e:
-            print(f"  Warning: Could not remove Yandex intermediate file: {e}")
-
-        if removed_count > 0:
-            print(f"  Cleaned up {removed_count} intermediate files")
+            print(f"  Warning: Could not remove intermediate file: {e}")
 
         # Also clean up old timestamped intermediate files (from previous versions)
         self._cleanup_old_intermediate_files()
@@ -820,38 +844,18 @@ class ChatAnalyzer:
         """Remove old timestamped intermediate files from previous versions"""
         import glob
 
-        removed_count = 0
-
-        # Clean up local archive
+        # Clean up old intermediate files
         try:
-            pattern = os.path.join(self.local_archive_path, "chat_analysis_intermediate_*.json")
+            pattern = os.path.join(self.archive_path, "chat_analysis_intermediate_*.json")
             old_files = glob.glob(pattern)
             for file_path in old_files:
                 if "_current.json" not in file_path:  # Don't remove the current file
                     try:
                         os.remove(file_path)
-                        removed_count += 1
                     except Exception:
                         pass
         except Exception:
             pass
-
-        # Clean up Yandex archive
-        try:
-            pattern = os.path.join(self.yandex_archive_path, "chat_analysis_intermediate_*.json")
-            old_files = glob.glob(pattern)
-            for file_path in old_files:
-                if "_current.json" not in file_path:  # Don't remove the current file
-                    try:
-                        os.remove(file_path)
-                        removed_count += 1
-                    except Exception:
-                        pass
-        except Exception:
-            pass
-
-        if removed_count > 0:
-            print(f"  Cleaned up {removed_count} old intermediate files")
 
     def _find_existing_analysis_files(self, base_filename: str) -> List[str]:
         """Find existing analysis files with the same base name but different timestamps"""
@@ -934,7 +938,7 @@ class ChatAnalyzer:
 
         # Define CSV headers
         headers = [
-            'chat_id', 'chat_name', 'chat_type', 'is_public', 'organization_id',
+            'chat_id', 'chat_name', 'chat_type', 'is_public', 'organization_id', 'organization_name',
             'discovered_via_user_id', 'users_count', 'message_count',
             'average_message_length', 'unique_message_senders',
             'analysis_timestamp', 'analysis_error'
@@ -943,16 +947,14 @@ class ChatAnalyzer:
         # Prepare data for dual save
         csv_data = (headers, self.analysis_results)
 
-        saved_paths = self._save_file_to_both_locations(filename, csv_data, 'csv')
+        saved_path = self._save_file_to_data_directory(filename, csv_data, 'csv')
 
-        if saved_paths:
-            print(f"Analysis results saved to {len(saved_paths)} locations:")
-            for path in saved_paths:
-                print(f"  - {path}")
+        if saved_path:
+            print(f"Analysis results saved to: {saved_path}")
             print(f"Total analyzed chats: {len(self.analysis_results)}")
-            return saved_paths[0]  # Return primary path
+            return saved_path
         else:
-            print("Error saving analysis results to any location")
+            print("Error saving analysis results")
             return None
 
     def save_results_to_json(self, filename: str = None) -> str:
@@ -965,16 +967,14 @@ class ChatAnalyzer:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"chat_analysis_{timestamp}.json"
 
-        saved_paths = self._save_file_to_both_locations(filename, self.analysis_results, 'json')
+        saved_path = self._save_file_to_data_directory(filename, self.analysis_results, 'json')
 
-        if saved_paths:
-            print(f"Analysis results saved to {len(saved_paths)} locations:")
-            for path in saved_paths:
-                print(f"  - {path}")
+        if saved_path:
+            print(f"Analysis results saved to: {saved_path}")
             print(f"Total analyzed chats: {len(self.analysis_results)}")
-            return saved_paths[0]  # Return primary path
+            return saved_path
         else:
-            print("Error saving analysis results to any location")
+            print("Error saving analysis results")
             return None
 
     def _merge_analysis_with_messages(self) -> str:
@@ -988,7 +988,7 @@ class ChatAnalyzer:
         filepath = os.path.join(self.data_path, filename)
 
         # Find all simplified CSV files
-        simplified_csvs = glob.glob(os.path.join(self.local_archive_path, "*_simplified.csv"))
+        simplified_csvs = glob.glob(os.path.join(self.archive_path, "*_simplified.csv"))
         print(f"  Found {len(simplified_csvs)} simplified chat CSV files")
 
         if not simplified_csvs:
@@ -1006,6 +1006,8 @@ class ChatAnalyzer:
                         merged_row = {
                             'chat_id': row.get('chat_id', ''),
                             'chat_name': row.get('chat_name', ''),
+                            'organization_id': row.get('organization_id', ''),
+                            'organization_name': row.get('organization_name', ''),
                             'authorId': row.get('authorId', ''),
                             'full_name': row.get('full_name', ''),
                             'text': row.get('text', ''),
@@ -1021,7 +1023,7 @@ class ChatAnalyzer:
 
         # Save merged CSV
         try:
-            fieldnames = ['chat_id', 'chat_name', 'authorId', 'full_name', 'text', 'createdAt']
+            fieldnames = ['chat_id', 'chat_name', 'organization_id', 'organization_name', 'authorId', 'full_name', 'text', 'createdAt']
 
             with open(filepath, 'w', newline='', encoding='utf-8') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -1070,8 +1072,19 @@ class ChatAnalyzer:
 
     def analyze_single_chat(self, chat_id: str, chat_name: str = "Single Chat",
                            output_filename: str = None, output_format: str = 'csv',
-                           max_messages: int = 50000, save_archives: bool = True) -> str:
-        """Analyze a single chat by ID"""
+                           max_messages: int = 50000, save_archives: bool = True,
+                           viewer_id: str = None) -> str:
+        """Analyze a single chat by ID
+        
+        Args:
+            chat_id: Channel/chat ID to analyze
+            chat_name: Name of the channel (for reporting)
+            output_filename: Custom output filename
+            output_format: Output format ('csv' or 'json')
+            max_messages: Maximum messages to extract
+            save_archives: Whether to save message archives
+            viewer_id: User ID to access private channels (optional)
+        """
         print(f"Starting single chat analysis for: {chat_name} ({chat_id})")
 
         # Set archive preference
@@ -1084,7 +1097,7 @@ class ChatAnalyzer:
             'type': 'unknown',
             'is_public': 'unknown',
             'organization_id': 'unknown',
-            'discovered_via_user_id': 'unknown'
+            'discovered_via_user_id': viewer_id if viewer_id else 'unknown'
         }
 
         try:
@@ -1127,6 +1140,8 @@ def main():
                        help='Analyze specific chat by ID (bypasses CSV input)')
     parser.add_argument('--chat-name', '-n', type=str, default='Single Chat',
                        help='Name for single chat analysis (default: Single Chat)')
+    parser.add_argument('--viewer-id', '-v', type=str,
+                       help='Viewer ID for accessing private channels (required for some private chats)')
 
     args = parser.parse_args()
 
@@ -1140,13 +1155,16 @@ def main():
     # Handle single chat analysis
     if args.chat_id:
         print(f"Analyzing single chat: {args.chat_id}")
+        if args.viewer_id:
+            print(f"Using viewer ID: {args.viewer_id}")
         result_file = analyzer.analyze_single_chat(
             chat_id=args.chat_id,
             chat_name=args.chat_name,
             output_filename=args.output,
             output_format=args.format,
             max_messages=args.max_messages,
-            save_archives=not args.no_archive
+            save_archives=not args.no_archive,
+            viewer_id=args.viewer_id
         )
     else:
         result_file = analyzer.run_analysis(

@@ -1,0 +1,160 @@
+{
+  "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+  "chat_name": "ТП - Wifi",
+  "extraction_timestamp": "2025-11-18T16:11:04.894588",
+  "original_total_messages": 15,
+  "simplified_messages_count": 15,
+  "processing_timestamp": "2025-11-18T16:11:04.894588",
+  "messages": [
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8c1ae-9180-6fa2-b459-a0423f4d30a4",
+      "full_name": "Дмитрий Мосин",
+      "text": "на 2х настроил  уже",
+      "createdAt": "2025-09-05 15:33:54"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Может сразу RADIUS настроишь на свитче ?)",
+      "createdAt": "2025-09-05 15:33:15"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Проверил вместе с 2мя пользователями - все ок, спасибо",
+      "createdAt": "2025-09-05 15:32:41"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1ef8c1ae-9180-6fa2-b459-a0423f4d30a4",
+      "full_name": "Дмитрий Мосин",
+      "text": "пока нашёл, что dhcp snooping на uplink портах не выключен\nпоправил, надо проверить",
+      "createdAt": "2025-09-05 15:11:30"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Удалось выяснить ?",
+      "createdAt": "2025-09-05 15:10:13"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "DHCP не выдает ip адреса, не могут подключится",
+      "createdAt": "2025-09-05 13:46:34"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Все ТД которые к нему подключены отсохли",
+      "createdAt": "2025-09-05 13:45:59"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Дима глянь свитч пж",
+      "createdAt": "2025-09-05 13:45:49"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "<@u:1ef8c1ae-9180-6fa2-b459-a0423f4d30a4> Н-00177685",
+      "createdAt": "2025-09-05 13:45:43"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f051b47-40c2-6c38-b78d-6cb3116537ae",
+      "full_name": "Александр Попков",
+      "text": "на 9. к ТД  A4859-P, перенесенной из Ангенства кстати)",
+      "createdAt": "2025-09-05 10:04:51"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Где проверка осуществлялась ?",
+      "createdAt": "2025-09-05 10:03:46"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f051b47-40c2-6c38-b78d-6cb3116537ae",
+      "full_name": "Александр Попков",
+      "text": "Надо протестировать переход клиента от ТД до ТД с подключенным atomCorp. У меня вчера такая проверка провалилась. При удалении от ТД -  к другой ТД ни в какую не подключалась, бесконечный коннект. Подошел снова к первой ТД - все ок.",
+      "createdAt": "2025-09-05 10:03:12"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Сделал только вчера, ноутбуки работают на 802.11ac, ожидаю обратной связи",
+      "createdAt": "2025-09-05 09:58:46"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1f051b47-40c2-6c38-b78d-6cb3116537ae",
+      "full_name": "Александр Попков",
+      "text": "Результат?",
+      "createdAt": "2025-09-05 09:57:34"
+    },
+    {
+      "chat_id": "1f0896d9-da69-66ca-85de-7cb5815a28ab",
+      "chat_name": "ТП - Wifi",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "authorId": "1efc2994-bf3f-6a00-9d4f-6cb3115313f8",
+      "full_name": "Павел Смолянкин",
+      "text": "Ан-Атом 04.09.2025\r\n\r\nМодель Realtek RTL8822C\r\nРанее удалил SSID AN Atom с контроллера, обновил на всех ноутбуках драйвер ( версия 2024.10.230.2 ), удалил все лишние сети, привел к общему виду все устройства.",
+      "createdAt": "2025-09-05 09:56:49"
+    }
+  ]
+}

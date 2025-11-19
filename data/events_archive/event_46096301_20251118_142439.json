@@ -1,0 +1,127 @@
+{
+  "event_session_id": "46096301",
+  "event_name": "Обучающий вебинар",
+  "extraction_timestamp": "2025-11-18T14:24:39.614882",
+  "event_info": {
+    "event_session_id": "46096301",
+    "event_id": "45979658",
+    "name": "Обучающий вебинар",
+    "description": "Обучающий вебинар",
+    "status": "ACTIVE",
+    "start_time": "2025-06-19T06:52:38+0300",
+    "end_time": "",
+    "duration_minutes": "0",
+    "owner_id": "134654365",
+    "organization_id": "",
+    "is_public": "",
+    "is_recurring": "False",
+    "max_participants": "",
+    "event_type": "webinar",
+    "discovered_via_user_id": "",
+    "extraction_timestamp": "2025-11-18T14:22:28.914480"
+  },
+  "event_details": {
+    "id": 46096301,
+    "name": "Обучающий вебинар",
+    "description": "Обучающий вебинар",
+    "status": "ACTIVE",
+    "access": 1,
+    "accessSettings": {
+      "isPasswordRequired": false,
+      "isRegistrationRequired": false,
+      "isModerationRequired": false
+    },
+    "lang": "RU",
+    "startsAt": "2025-06-19T06:52:38+0300",
+    "utcStartsAt": 1750305158,
+    "createUserId": 134654365,
+    "timezoneId": 1,
+    "timezone": {
+      "id": 1,
+      "name": "Europe/Moscow",
+      "description": "Волгоград, Москва, Санкт-Петербург",
+      "offset": 10800,
+      "isDeleted": false,
+      "shortDescription": "Москва",
+      "abbreviation": "MSK"
+    },
+    "organizationId": 10764563,
+    "type": "webinar",
+    "maxParticipationSettings": "",
+    "createUser": {
+      "id": 134654365,
+      "name": "Ксения",
+      "secondName": "Зонова",
+      "email": "zonova@atomsk.ru"
+    },
+    "isEndless": false,
+    "image": {
+      "id": 842502449,
+      "createAt": "2024-04-02T18:39:16+0300",
+      "name": "DEFAULT",
+      "thumbnails": {
+        "640x1920": "https://my.mts-link.ru/images/event-default.png",
+        "1920x1080": "https://my.mts-link.ru/images/event-default.png",
+        "1333x1000": "https://my.mts-link.ru/images/event-default.png",
+        "224x199": "https://my.mts-link.ru/images/event-default.png",
+        "200x50": "https://my.mts-link.ru/images/event-default.png",
+        "50x50": "https://my.mts-link.ru/images/event-default.png",
+        "34x34": "https://my.mts-link.ru/images/event-default.png",
+        "148x112": "https://my.mts-link.ru/images/event-default.png"
+      },
+      "typeFile": "file",
+      "type": "file",
+      "url": "https://my.mts-link.ru/images/event-default.png",
+      "downloadUrl": "https://my.mts-link.ru/images/event-default.png",
+      "thumbnailUrl": "https://my.mts-link.ru/images/event-default.png",
+      "size": 0,
+      "mimeType": "",
+      "uri": "//my.mts-link.ru/images/event-default.png"
+    },
+    "startType": "manual",
+    "lectors": [],
+    "tags": [],
+    "announceFiles": [],
+    "files": [],
+    "link": "https://my.mts-link.ru/j/134654365/45979658/session/46096301",
+    "isPaid": false
+  },
+  "participants": [
+    {
+      "id": 1161177231,
+      "name": "Webi",
+      "secondName": "Bot",
+      "nickname": "Webi Bot",
+      "email": "webibot@webinar.ru",
+      "avatar": {
+        "url": "https://events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png",
+        "thumbnails": "{\"640x1920\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"1920x1080\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"1333x1000\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"224x199\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"200x50\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"50x50\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"34x34\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\",\"148x112\":\"https:\\/\\/events-storage.webinar.ru/api-storage/files/webinar/system/WebiBot200px.png\"}"
+      },
+      "eventId": 45979658,
+      "eventSessionId": 46096301,
+      "connectionEventSessionId": null,
+      "isAccepted": 1,
+      "role": "GUEST",
+      "isSeen": 1,
+      "agreementStatus": "AGREED",
+      "referrer": null,
+      "userId": 1,
+      "isOnline": 0,
+      "registerStatus": "REGISTERED",
+      "registerDate": "2025-06-19 06:52:38",
+      "paymentStatus": "NOT_PAID",
+      "url": "0877a3d24f3fa39b5d6a2fb903d9bb01",
+      "additionalFieldValues": [],
+      "visited": false,
+      "utms": []
+    }
+  ],
+  "attention_control": {
+    "checkpoints": [],
+    "interactions": [],
+    "checkpoint_count": 0,
+    "interaction_count": 0
+  },
+  "recordings": [],
+  "transcripts": []
+}

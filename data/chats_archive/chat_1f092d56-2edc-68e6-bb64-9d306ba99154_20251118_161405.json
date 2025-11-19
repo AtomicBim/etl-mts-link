@@ -1,0 +1,361 @@
+{
+  "chat_id": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+  "extraction_timestamp": "2025-11-18T16:14:05.409211",
+  "total_messages": 13,
+  "chat_info": {
+    "chat_id": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+    "name": "Отдел ВК",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Шиляева Дарья",
+    "owner_id": "1f05c969-1877-6de8-b2c2-6cb3115313f8",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f05c969-1877-6de8-b2c2-6cb3115313f8",
+    "extraction_timestamp": "2025-11-18T15:23:48.491430"
+  },
+  "messages": [
+    {
+      "id": "1f0bb917-7ba5-6557-a6ff-8e2bc273ecbd",
+      "authorId": "1f05c96b-183d-6e7a-8506-6cb3116537ae",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "часы приема Семена: с 10.30-12.00 и с 15.00-17.00",
+      "createdAtMs": 1762489390183,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0bb897-70e1-6647-a6ff-a1b6b7aad449",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "",
+      "createdAtMs": 1762485953081,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c20e9f07-4152-4ea5-b437-1434ee55a136",
+          "name": "База знаний.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/c20e9f07-4152-4ea5-b437-1434ee55a136",
+          "size": 170033,
+          "mime": "image/jpeg"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b540b-474c-6c06-9be2-885ffaf3c848",
+      "authorId": "1f05c96b-183d-6e7a-8506-6cb3116537ae",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "",
+      "createdAtMs": 1761794995857,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "7a7b890c-d70c-4200-b3b3-2d285ecfdc26",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/7a7b890c-d70c-4200-b3b3-2d285ecfdc26",
+          "size": 64887,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0b2e68-c230-6725-9d4a-e4eee3a78f58",
+      "authorId": "1f05c969-1877-6de8-b2c2-6cb3115313f8",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "",
+      "createdAtMs": 1761536371181,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "7a2c48ed-ebc4-4979-befe-38a6b3eefad0",
+          "name": "32737.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/7a2c48ed-ebc4-4979-befe-38a6b3eefad0",
+          "size": 110361,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "e94f0c33-bcdf-4b2b-b322-89b1d2ce8ef2",
+          "name": "32684.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/e94f0c33-bcdf-4b2b-b322-89b1d2ce8ef2",
+          "size": 103845,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "147dfcf3-b6cc-4b47-9e18-89fcfffb7185",
+          "name": "32738.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/147dfcf3-b6cc-4b47-9e18-89fcfffb7185",
+          "size": 80008,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "4272c773-8da2-4cc0-b04c-6a7de053185f",
+          "name": "32740.mp4",
+          "url": "https://prod-storage-chat.mts-link.ru/4272c773-8da2-4cc0-b04c-6a7de053185f",
+          "size": 1560508,
+          "mime": "video/mp4"
+        },
+        {
+          "id": "45f6bb3d-6aa0-43a1-9928-bd9ccb42e2d7",
+          "name": "32736.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/45f6bb3d-6aa0-43a1-9928-bd9ccb42e2d7",
+          "size": 79343,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "a22df0c7-e1fa-4bb8-b7d9-d25024da34ab",
+          "name": "32685.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/a22df0c7-e1fa-4bb8-b7d9-d25024da34ab",
+          "size": 69739,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "f2786d99-d1ea-4ef1-baba-2e95c9571d27",
+          "name": "32682.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/f2786d99-d1ea-4ef1-baba-2e95c9571d27",
+          "size": 88841,
+          "mime": "image/jpeg"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afe8f-5d16-61b7-a790-bef8687b7710",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "",
+      "createdAtMs": 1761207553989,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "a95c03dc-039d-4900-8476-bc54e932d240",
+          "name": "Мем_Ты не пройдешь.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/a95c03dc-039d-4900-8476-bc54e932d240",
+          "size": 49811,
+          "mime": "image/jpeg"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afe8a-5c7e-6d33-9d4a-f59f921343ce",
+      "authorId": "1f05c969-1877-6de8-b2c2-6cb3115313f8",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "Первая порция мемов",
+      "createdAtMs": 1761207419710,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "803419ca-ff42-406b-a4bb-969cc7214fd4",
+          "name": "32568.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/803419ca-ff42-406b-a4bb-969cc7214fd4",
+          "size": 68519,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "ba19aec7-a0d6-4941-92a4-20167a105c67",
+          "name": "32567.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/ba19aec7-a0d6-4941-92a4-20167a105c67",
+          "size": 57081,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "e003ffc8-0546-4dd1-b450-2219b05333fc",
+          "name": "32569.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/e003ffc8-0546-4dd1-b450-2219b05333fc",
+          "size": 118120,
+          "mime": "image/jpeg"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a8b68-6881-6673-a790-e3f1245c868f",
+      "authorId": "1ef8c48c-470f-69b0-b38d-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "Для пожарных шкафов в спецификации теперь пишем: RAL см. раздел АИ. \nИ тогда Спецмонтаж при заказе посмотрит наш раздел и закажут нужный цвет.",
+      "createdAtMs": 1760416234306,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1760416374,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09f4ea-95ae-656f-a893-b0e6a54e98fb",
+      "authorId": "1f05c969-1877-6de8-b2c2-6cb3115313f8",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "Здраствуйте, с 6 по 10 октября я буду находиться в отпуске, прошу забрать мой компьютер очистку от дисков А, В и файла labubu и установить на компьютер следующие программы: Revit 2020,2022;, АutoCad 2023; Civil2023;PDF 24; Техэксперт; Link;Adole Acrobat; Mod Plus; Конфигуратор плагинов; Майкрасофт Офис; Драйвера на принтер.Прошу сделать это за время моего отпуска.",
+      "createdAtMs": 1759382064605,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09e907-51ad-634f-8baf-a7bb1cd88644",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "🖥️\nP:\\03_БИБЛИОТЕКА\\Revit_5_ПСМ\\Скрипты C#\\01_Плагины (dll)\\02_REVIT_MANAGER\\AtomInstaller.exe - для переустановки конфигуратора плагинов. установку производить при закрытом ревите.",
+      "createdAtMs": 1759300372565,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1759386475,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09e884-3686-655d-a893-4d8a99d5e96e",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "💡\nДля исключения \"скользких\" моментов в согласовании между разделами ВК и ОВ (особенно Ягуткина), предлагаю использовать следующую формулировку для выдачи заданий:\n\nОтверстия в плитах: Прошу ознакомиться и согласовать расположение стояков систем ВК для выдачи строительного задания на отверстия в плитах ... этажей.\n\nОтверстия в стенах (выше 0) и лючки: Прошу ознакомиться и согласовать расположение сетей бытовой канализации для выдачи строительного задания на отверстия в стенах и на размещение лючков.\n\nШтрабы в полу: Прошу ознакомиться и согласовать раскладку сетей ВК в полу для выдачи строительного задания на штрабы в местах пересечения со смежными разделами.",
+      "createdAtMs": 1759296853214,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1759386502,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09ab75-3298-6c0e-9a0c-2b697fdbd143",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "https://ikp-atom.ktalk.ru/vmfxfaieunh8",
+      "createdAtMs": 1758877261340,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f099c34-e1ad-6e2e-9a0c-21c24c2fe85d",
+      "authorId": "1ef8c48c-470f-69b0-b38d-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "https://life.atomsk.ru/ - главная страница атома",
+      "createdAtMs": 1758772455654,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f094464-cedf-69c8-a893-bd860d292b02",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f092d56-2edc-68e6-bb64-9d306ba99154",
+      "text": "Сделали офлайн установщик плагинов.\r\nПеред установкой нужно закрыть все ревиты.",
+      "createdAtMs": 1758169010777,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "2603bd23-9142-44ea-be06-1aa8ce941332",
+          "name": "AtomPluginOfflineSetup.exe",
+          "url": "https://prod-storage-chat.mts-link.ru/2603bd23-9142-44ea-be06-1aa8ce941332",
+          "size": 10752,
+          "mime": "application/vnd.microsoft.portable-executable"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

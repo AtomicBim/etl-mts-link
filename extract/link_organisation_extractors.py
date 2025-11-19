@@ -6,6 +6,12 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from abstractions.extract import endpoint, run_extractor, get_registered_endpoints
 
 
+@endpoint("/chats/organization")
+def organization_info():
+    """Получить информацию о текущей организации (название, ID, настройки)"""
+    pass
+
+
 @endpoint("/brandings")
 def brandings_list():
     """Получить информацию о брендингах организации"""

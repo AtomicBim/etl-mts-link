@@ -1,0 +1,66 @@
+{
+  "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+  "chat_name": "IT-IP. Смена имени в appstore",
+  "extraction_timestamp": "2025-11-18T14:08:59.072344",
+  "original_total_messages": 7,
+  "simplified_messages_count": 7,
+  "processing_timestamp": "2025-11-18T14:08:59.072344",
+  "messages": [
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Пока в интерфейсе такой возможности не появилось",
+      "createdAt": "2025-10-15 18:02:01"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "",
+      "createdAt": "2025-10-15 18:00:53"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "надо убрать",
+      "createdAt": "2025-10-15 17:54:59"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "ого.. надо принять какое-то обновление",
+      "createdAt": "2025-10-15 17:53:46"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "full_name": "Анна Устюгова",
+      "text": "еще интереснее)",
+      "createdAt": "2025-10-15 17:52:39"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Мы взяли тогда у Cтаса account)))",
+      "createdAt": "2025-10-15 17:51:55"
+    },
+    {
+      "chat_id": "1f0a9c57-8f57-6b16-a480-df7187615ed0",
+      "chat_name": "IT-IP. Смена имени в appstore",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Там вообще INTELLEKT-SERVIS OOO",
+      "createdAt": "2025-10-15 17:51:12"
+    }
+  ]
+}

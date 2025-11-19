@@ -1,0 +1,25 @@
+{
+  "activity_info": {
+    "activity_id": "5118567",
+    "activity_type": "",
+    "duration_minutes": "100",
+    "end_time": "2025-09-04T09:09:08+03:00",
+    "endless_event_id": "600892011",
+    "endless_event_name": "Планерка",
+    "endless_event_owner_id": "",
+    "event_session_id": "",
+    "has_transcript": "False",
+    "is_recorded": "False",
+    "participants_count_api": "0",
+    "participants_count_csv": "17",
+    "recordings_count": "0",
+    "room_name": "Планерка",
+    "start_time": "2025-09-04T07:28:29+03:00",
+    "status": "",
+    "transcripts_count": "0",
+    "unique_participants": "0",
+    "user_id": "75016547",
+    "user_name": "Мария Оносова"
+  },
+  "analysis_timestamp": "2025-11-18T14:41:35.348064"
+}

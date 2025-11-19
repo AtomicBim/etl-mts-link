@@ -1,0 +1,40 @@
+{
+  "chat_id": "1f0aff34-9d9b-6e9b-a8d5-7ae07db3db90",
+  "extraction_timestamp": "2025-11-18T14:08:40.235085",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f0aff34-9d9b-6e9b-a8d5-7ae07db3db90",
+    "name": "1050 Уктус 1 очередь",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Жилая застройка в кв. ул. Кольцовский тракт - Ак. Павлова - Просторная-пер. Киргизский (ДУП Кривошеев Г.В.)",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+    "extraction_timestamp": "2025-11-18T13:54:25.010953"
+  },
+  "messages": [
+    {
+      "id": "1f0aff5b-866e-6249-a8d5-1d0d693e8e5f",
+      "authorId": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+      "chatId": "1f0aff34-9d9b-6e9b-a8d5-7ae07db3db90",
+      "text": "Добрый день! Организован рабочий канал по объекту Уктус. Можно оперативно решать все вопросы, а так же канал является инструментом Отдела контроля.",
+      "createdAtMs": 1761213034408,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

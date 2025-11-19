@@ -1,0 +1,42 @@
+{
+  "chat_id": "1f0687c9-28d6-6156-9345-5c9e57509cc5",
+  "extraction_timestamp": "2025-11-18T16:45:41.767458",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f0687c9-28d6-6156-9345-5c9e57509cc5",
+    "name": "ТП - Опрос по качеству обслужи",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Бадрадинов Евгений",
+    "owner_id": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+    "extraction_timestamp": "2025-11-18T16:29:58.907249"
+  },
+  "messages": [
+    {
+      "id": "1f0687ca-a50f-662a-87a9-627acd6a4340",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f0687c9-28d6-6156-9345-5c9e57509cc5",
+      "text": "По результатам прошлого опроса проанализировать данные\nПровести новый вопрос в апреле\n25.03 Собрать совещание 26.03\n08.04 Повторный опрос  после майских праздников.\n13.05 Отложен на 25.05\n10.06. Отложен на сентябрь",
+      "createdAtMs": 1753354509115,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

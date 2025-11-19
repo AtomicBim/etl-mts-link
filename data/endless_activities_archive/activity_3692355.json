@@ -1,0 +1,25 @@
+{
+  "activity_info": {
+    "activity_id": "3692355",
+    "activity_type": "",
+    "duration_minutes": "5",
+    "end_time": "2025-04-29T12:24:09+03:00",
+    "endless_event_id": "1888475720",
+    "endless_event_name": "Первая встреча",
+    "endless_event_owner_id": "",
+    "event_session_id": "",
+    "has_transcript": "False",
+    "is_recorded": "False",
+    "participants_count_api": "0",
+    "participants_count_csv": "2",
+    "recordings_count": "0",
+    "room_name": "Первая встреча",
+    "start_time": "2025-04-29T12:18:10+03:00",
+    "status": "",
+    "transcripts_count": "0",
+    "unique_participants": "0",
+    "user_id": "118700923",
+    "user_name": "Евгения Мельникова"
+  },
+  "analysis_timestamp": "2025-11-18T14:41:35.635307"
+}

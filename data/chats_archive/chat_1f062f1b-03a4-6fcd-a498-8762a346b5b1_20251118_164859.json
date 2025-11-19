@@ -1,0 +1,126 @@
+{
+  "chat_id": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+  "extraction_timestamp": "2025-11-18T16:48:59.289816",
+  "total_messages": 4,
+  "chat_info": {
+    "chat_id": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+    "name": "Регистрация договоров",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Склярова Варвара",
+    "owner_id": "1f0323ae-a076-6126-8528-04421acbfbde",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Канал-база знаний по спорным ситуациям при регистрации договоров",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f04d8f9-a955-6a24-a378-04421acbe57b",
+    "extraction_timestamp": "2025-11-18T16:31:28.368442"
+  },
+  "messages": [
+    {
+      "id": "1f062f84-8478-646d-a498-321a88f4402e",
+      "authorId": "1f0323ae-a076-6126-8528-04421acbfbde",
+      "chatId": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+      "text": "❕договоры с ИКП на выполнение проектных работ (стадии П, ГК, ФЭ, ЭП) относятся к типовым, по ним не обязательны листы согласования",
+      "createdAtMs": 1752747895254,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "4f16b275-f427-470a-adc6-3124f0960206",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4f16b275-f427-470a-adc6-3124f0960206",
+          "size": 20541,
+          "mime": "image/png"
+        },
+        {
+          "id": "d1dbc18f-c3f5-43e6-b94d-de5f4259c5eb",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d1dbc18f-c3f5-43e6-b94d-de5f4259c5eb",
+          "size": 71431,
+          "mime": "image/png"
+        },
+        {
+          "id": "1626271f-722c-405a-be9f-7411aac7c70e",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/1626271f-722c-405a-be9f-7411aac7c70e",
+          "size": 66616,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f062f2a-f651-60df-87a9-fc12529ae5ef",
+      "authorId": "1f0323ae-a076-6126-8528-04421acbfbde",
+      "chatId": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+      "text": "где поиск конкретно по чату не разобралась, но в поиске по каналам по ключевым словам тоже информация выпадает, так что если много будет сообщений, все равно разберемся: ",
+      "createdAtMs": 1752745491272,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "74439a72-ca1e-47a1-b6b7-fb705d0bc791",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/74439a72-ca1e-47a1-b6b7-fb705d0bc791",
+          "size": 12445,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f062f25-9641-6528-9375-91204b3b15c7",
+      "authorId": "1f0323ae-a076-6126-8528-04421acbfbde",
+      "chatId": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+      "text": "что сама запомнила из нового - при регистрации приказов на выплату по претензиям, забираем еще на хранение оригинал соглашения\nпо приказам, где отв. бух. Морозова К.Н. - соглашения так же подгружаем в карточку ",
+      "createdAtMs": 1752745346982,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f062f22-074d-63f6-a498-ad82e2d2ec4c",
+      "authorId": "1f0323ae-a076-6126-8528-04421acbfbde",
+      "chatId": "1f062f1b-03a4-6fcd-a498-8762a346b5b1",
+      "text": "Аня, создала канал по архиву, отписывайся по особенностям регистрации 🤓",
+      "createdAtMs": 1752745251462,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

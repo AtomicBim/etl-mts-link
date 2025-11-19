@@ -1,0 +1,18 @@
+{
+  "chat_id": "1f0c11f6-e954-68a4-a9cc-e3f14563a9b0",
+  "chat_name": "107521 Парина",
+  "extraction_timestamp": "2025-11-18T14:07:32.090093",
+  "original_total_messages": 1,
+  "simplified_messages_count": 1,
+  "processing_timestamp": "2025-11-18T14:07:32.090093",
+  "messages": [
+    {
+      "chat_id": "1f0c11f6-e954-68a4-a9cc-e3f14563a9b0",
+      "chat_name": "107521 Парина",
+      "authorId": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+      "full_name": "Анна Галицына",
+      "text": "Добрый день! <@u:1f04c40a-462a-6d90-a0e9-9eb1aa747b17>  Дарья, нужно в ГЦП поставить факт начала СМР и мне нужен список сотрудников кто работает над объектом для подключения к чату. спасибо",
+      "createdAt": "2025-11-14 11:05:14"
+    }
+  ]
+}

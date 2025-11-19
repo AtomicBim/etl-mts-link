@@ -1,0 +1,455 @@
+{
+  "chat_id": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+  "extraction_timestamp": "2025-11-18T14:02:51.352572",
+  "total_messages": 18,
+  "chat_info": {
+    "chat_id": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+    "name": "технический канал (не использ)",
+    "type": "Channel",
+    "is_public": "True",
+    "is_read_only": "True",
+    "owner_id": "1ee9575d-1fb4-656a-8722-49eedcc35cd4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "технический канал (не использовать)",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef8c1ae-a4c8-6326-aa53-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T13:53:07.759162"
+  },
+  "messages": [
+    {
+      "id": "1f02f279-8367-67cb-800e-c15abac93cf6",
+      "authorId": "1ee9575d-1fb4-656a-8722-49eedcc35cd4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Коллеги, добрый день! Необходимо очистить канал от своих сообщений - удалите пожалуйста",
+      "createdAtMs": 1747050755242,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": 3,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f00930a-25a5-6b5c-994f-3f02b3c3a948",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Коллеги, привет! Сегодня и завтра работаю удаленно. На четверг и пятницу возьму отпуск.",
+      "createdAtMs": 1742876493539,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f00874b-0c64-6a99-8c07-f80ca302d2a0",
+      "authorId": "1ef8c862-1b3b-6efe-ae1a-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Пусть выздоравливает поскорее! ",
+      "createdAtMs": 1742795772349,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0086b4-0520-65d3-8760-ed7b030cf977",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Коллеги, доброе утро! Я сегодня работаю из дома и ограниченном варианте, так как малыш заболел",
+      "createdAtMs": 1742791718212,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f006249-a302-6f47-8760-c1af8f7a2eef",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "суровый парень получился))",
+      "createdAtMs": 1742541472392,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f006235-1af5-695f-8c07-3fb0edf109a3",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "прекрасно получилось!",
+      "createdAtMs": 1742540921255,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f006229-de06-61c9-8cbd-8e40324b9eb0",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "У меня вчера был вечер «Наивное искусство рукам взрослых» (спешно дорисовывала работы своего третьеклассника и из египтянина усиленно делала русского богатыря) ;-)",
+      "createdAtMs": 1742540619586,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 3,
+          "users": [
+            "1ef8c442-90ef-6868-bb53-a0423f4d30a4",
+            "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+            "1efc1c52-bd7f-6868-8e57-0242472fe5d1"
+          ]
+        },
+        {
+          "emoji": "💛",
+          "count": 1,
+          "users": [
+            "1efabc07-8360-6512-a063-9eb1aa747b17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f006226-a4b9-60f1-8cbd-7d843d782ee0",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "",
+      "createdAtMs": 1742540533047,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1750308816,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 4,
+          "users": [
+            "1efb60f7-9249-6e62-8247-6cb3115313f8",
+            "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+            "1f04cbb2-b4f6-63aa-b732-d85ed36b7d02"
+          ]
+        },
+        {
+          "emoji": "👍",
+          "count": 3,
+          "users": [
+            "1efabc07-8360-6512-a063-9eb1aa747b17",
+            "1ef8ccb3-2ea3-6474-b149-a0423f4d30a4",
+            "1f04cce9-8f94-63d6-9898-6cb3115313f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1efff2bf-2e36-6d1c-8965-f693570f5c7f",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Мой обед :-)",
+      "createdAtMs": 1741774969544,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "653e4cf4-c45f-4d0a-bb66-5503144aacb8",
+          "name": "file_1741774950.026729.jpeg",
+          "url": "https://prod-storage-chat.mts-link.ru/653e4cf4-c45f-4d0a-bb66-5503144aacb8",
+          "size": 2197840,
+          "mime": "image/heic"
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8ccb3-2ea3-6474-b149-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1effa3b0-a72e-6131-97ed-8631bcd03c0a",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Коллеги, доброе утро! Сегодня буду на семинаре Axsoft. Не подключусь к планеткам и не приду в офис. Пишите в Линк, WhatsApp. Если срочное - могу перезвонить",
+      "createdAtMs": 1741231695709,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1efc1c52-bd7f-6868-8e57-0242472fe5d1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1efe1d96-c5e2-6158-b7bc-5964644a756d",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "В связи с проведением капитального ремонт на системе ХВС и ГВС  04.02, 05.02., 11.02. и 12.02.2025 года  будет произведено отключение ХВС и ГВС с 08:00 до 19:00 часов.",
+      "createdAtMs": 1738550941403,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1efd7103-3afc-6348-bd70-308d5308a45f",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "👍",
+      "createdAtMs": 1737365005838,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1efd7100-7da8-6e58-80c8-deaabcf4c648",
+      "authorId": "1efb8754-236b-63b4-a58e-04421acbfbde",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "Коллеги, добрый день.\n\nОбновлен логотип IT-IP. \nВ этом году нам 20 лет! 🔥\n\nПожалуйста, поменяйте лого в электронной подписи.\nВсе, что нужно размещено на Атом.Облако - лого, инструкция с шаблоном электронной подписи. https://cloud.atomsk.ru/s/4P8Y3J6EkoHjD5k\n\n",
+      "createdAtMs": 1737364932298,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": 2,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 4,
+          "users": [
+            "1ee9575d-1fb4-656a-8722-49eedcc35cd4",
+            "1ef8c1ae-9180-6fa2-b459-a0423f4d30a4",
+            "1efc1c52-bd7f-6868-8e57-0242472fe5d1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1efce696-23c2-6466-bd70-48eb5ac48df5",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "это отключение ХВС и ГВС на Красноармейской 66",
+      "createdAtMs": 1736413748677,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1efce694-1af5-64ac-89ec-22bec6d7dbca",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "В связи с проведением капитального ремонт на системе ХВС и ГВС, 21.01.; 22.01.; 28.01.; 29.01.; 04.02. и 05.02.2025 года  будет произведено отключение ХВС и ГВС с 08:00 до 19:00 часов.\n \n",
+      "createdAtMs": 1736413694067,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1efc4e7d-5427-66d5-89ec-7db5bc0abea9",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "В связи с проведением капитального ремонта на Красноармейской 66, на системе ХВС и ГВС, 10.01.2025 будет произведено отключение ХВС и ГВС с 08:00 до 19:00.\n \n",
+      "createdAtMs": 1735368546616,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1efc437f-04fe-6157-89ec-0dcaec19206b",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "График отдыха в новогодние праздники 2024–2025 годов: \n•\t29, 30 и 31 декабря — воскресенье, понедельник и вторник;\n•\t1–3 января — среда — пятница; \n•\t4–5 января — суббота и воскресенье;  \n•\t6–8 января — понедельник — среда.  \nВыходные начнутся после длинной рабочей недели: дни с 23 декабря (понедельник) по 28 декабря (суббота) будут рабочими. \nПервая рабочая неделя после новогодних праздников в 2025 году будет сокращённой, двухдневной. Выходить на работу нужно в четверг, 9 января. 9 и 10 января — рабочие, 11 и 12 января — выходные, суббота и воскресенье. \n",
+      "createdAtMs": 1735293000578,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": 2,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 3,
+          "users": [
+            "1ef8c7ce-dd02-6950-9f5d-a0423f4d30a4",
+            "1efb60f7-9249-6e62-8247-6cb3115313f8",
+            "1ef8c1ae-9180-6fa2-b459-a0423f4d30a4"
+          ]
+        },
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8c872-8e73-63f8-a020-a0423f4d30a4"
+          ]
+        },
+        {
+          "emoji": "✅",
+          "count": 1,
+          "users": [
+            "1efabc07-8360-6512-a063-9eb1aa747b17"
+          ]
+        },
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ee9575d-1fb4-656a-8722-49eedcc35cd4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1efc4376-98c1-692d-bd70-5bf21e876290",
+      "authorId": "1ef8c7d8-96af-6192-b0df-a0423f4d30a4",
+      "chatId": "1ef822c2-8e22-6d9c-83ea-ca605751c2ac",
+      "text": "",
+      "createdAtMs": 1735292774480,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1735292824,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

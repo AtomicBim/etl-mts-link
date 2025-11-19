@@ -1,0 +1,25 @@
+{
+  "activity_info": {
+    "activity_id": "5592201",
+    "activity_type": "",
+    "duration_minutes": "1499",
+    "end_time": "2025-10-01T07:57:18+03:00",
+    "endless_event_id": "3281531357",
+    "endless_event_name": "Авария 08.09",
+    "endless_event_owner_id": "",
+    "event_session_id": "",
+    "has_transcript": "False",
+    "is_recorded": "False",
+    "participants_count_api": "0",
+    "participants_count_csv": "10",
+    "recordings_count": "0",
+    "room_name": "Авария 08.09",
+    "start_time": "2025-09-30T06:58:13+03:00",
+    "status": "",
+    "transcripts_count": "0",
+    "unique_participants": "0",
+    "user_id": "74817491",
+    "user_name": "Евгений Бадрадинов"
+  },
+  "analysis_timestamp": "2025-11-18T14:41:35.302548"
+}

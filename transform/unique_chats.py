@@ -1,6 +1,7 @@
 import sys
 import os
 import csv
+import json
 import glob
 from typing import Set, Dict, List, Any, Optional
 from datetime import datetime
@@ -33,6 +34,41 @@ class UniqueChatsTransformer:
         self.chats_data: List[Dict[str, Any]] = []
         self.members_extractor = UniversalExtractor("/chats/organization/members")
         self.channels_extractor = UniversalExtractor("/chats/channels/{userId}")
+        
+        # Mapping for user ID to human-readable name
+        self.user_id_to_name: Dict[str, str] = {}
+        
+        # Mapping for organization ID to name
+        self.org_id_to_name: Dict[str, str] = {}
+        self._load_organization_mapping()
+
+    def _load_organization_mapping(self) -> None:
+        """Load organization ID to name mapping from JSON file"""
+        mapping_file = os.path.join(self.extraction_path, "organizations_mapping.json")
+        
+        if not os.path.exists(mapping_file):
+            print(f"Warning: Organization mapping file not found: {mapping_file}")
+            print("Organization IDs will be used instead of names")
+            return
+        
+        try:
+            with open(mapping_file, 'r', encoding='utf-8') as f:
+                mapping_data = json.load(f)
+            
+            organizations = mapping_data.get('organizations', [])
+            for org in organizations:
+                org_id = org.get('organization_id')
+                org_name = org.get('organization_name')
+                if org_id and org_name:
+                    self.org_id_to_name[org_id] = org_name
+            
+            if self.org_id_to_name:
+                print(f"Loaded {len(self.org_id_to_name)} organization mappings")
+            else:
+                print("Warning: No organization mappings found in file")
+        
+        except Exception as e:
+            print(f"Warning: Could not load organization mapping: {e}")
 
     def _extract_items_from_response(self, data: Any, data_type: str) -> List[Dict[str, Any]]:
         """Extract items from API response with unified logic"""
@@ -73,12 +109,87 @@ class UniqueChatsTransformer:
             if key in data and data[key]:
                 return str(data[key])
         return None
+    
+    def _get_user_display_name(self, member: Dict[str, Any]) -> str:
+        """Extract full name (FIO) from member data"""
+        # Try to get profile information
+        profile = member.get('chatMemberProfile', {})
+        
+        if isinstance(profile, dict):
+            # Priority: Full Name (firstName + lastName) > displayName > email > userId
+            first_name = profile.get('firstName', '').strip()
+            last_name = profile.get('lastName', '').strip()
+            
+            # Build full name (FIO)
+            if first_name and last_name:
+                return f"{last_name} {first_name}"  # Фамилия Имя
+            elif first_name:
+                return first_name
+            elif last_name:
+                return last_name
+            
+            # If no firstName/lastName, try displayName
+            display_name = profile.get('displayName', '').strip()
+            if display_name:
+                return display_name
+            
+            # If no display name, try email
+            email = profile.get('email', '').strip()
+            if email:
+                return email
+        
+        # Fallback to userId if no profile information
+        user_id = self._extract_id_from_dict(member, self.USER_ID_KEYS)
+        return user_id or 'Unknown User'
+    
+    def _build_user_mapping(self, members: List[Dict[str, Any]]) -> None:
+        """Build mapping from user ID to human-readable name"""
+        print("Building user ID to name mapping...")
+        
+        for member in members:
+            user_id = self._extract_id_from_dict(member, self.USER_ID_KEYS)
+            if user_id:
+                display_name = self._get_user_display_name(member)
+                self.user_id_to_name[user_id] = display_name
+        
+        print(f"Created mapping for {len(self.user_id_to_name)} users")
 
     def get_organization_members(self) -> List[Dict[str, Any]]:
-        """Extract organization members using extractor"""
+        """Extract organization members using extractor with pagination support"""
         print("Extracting organization members...")
-        data = self.members_extractor.extract()
-        return self._extract_items_from_response(data, "organization members")
+        
+        all_members = []
+        page = 1
+        per_page = 100  # Use smaller page size for reliable pagination
+        max_pages = 20  # Safety limit (100 * 20 = 2000 users max)
+        
+        while page <= max_pages:
+            print(f"Fetching page {page} (perPage={per_page})...")
+            data = self.members_extractor.extract(page=page, perPage=per_page)
+            
+            if not data:
+                print(f"No data returned for page {page}")
+                break
+            
+            members = self._extract_items_from_response(data, f"organization members (page {page})")
+            
+            if not members:
+                # No more members to fetch
+                print(f"No members found on page {page}, stopping pagination")
+                break
+            
+            all_members.extend(members)
+            print(f"  Collected {len(members)} members (total so far: {len(all_members)})")
+            
+            # Check if we got fewer records than requested (last page)
+            if len(members) < per_page:
+                print(f"Received {len(members)} members (less than {per_page}), this is the last page")
+                break
+            
+            page += 1
+        
+        print(f"Total organization members fetched: {len(all_members)}")
+        return all_members
 
     def get_user_channels(self, user_id: str) -> List[Dict[str, Any]]:
         """Get channels for a specific user using extractor"""
@@ -87,14 +198,24 @@ class UniqueChatsTransformer:
     
     def _create_chat_record(self, channel: Dict[str, Any], user_id: str) -> Dict[str, Any]:
         """Create standardized chat record from channel data"""
+        # Get owner ID and convert to human-readable name
+        owner_id = channel.get('ownerID', '')
+        owner_name = self.user_id_to_name.get(owner_id, owner_id) if owner_id else ''
+        
+        # Get organization ID and convert to human-readable name
+        org_id = channel.get('organizationId', '')
+        org_name = self.org_id_to_name.get(org_id, org_id) if org_id else ''
+        
         return {
             'chat_id': self._extract_id_from_dict(channel, self.CHAT_ID_KEYS),
             'name': channel.get('name', ''),
             'type': channel.get('type', ''),
             'is_public': channel.get('isPublic', ''),
             'is_read_only': channel.get('isReadOnly', ''),
-            'owner_id': channel.get('ownerID', ''),
-            'organization_id': channel.get('organizationId', ''),
+            'owner_name': owner_name,
+            'owner_id': owner_id,  # Keep original ID for reference
+            'organization_name': org_name,
+            'organization_id': org_id,
             'description': channel.get('description', ''),
             'is_notifiable': channel.get('isNotifiable', ''),
             'unread_message_count': channel.get('unreadMessageCount', ''),
@@ -102,6 +223,43 @@ class UniqueChatsTransformer:
             'discovered_via_user_id': user_id,
             'extraction_timestamp': datetime.now().isoformat()
         }
+
+    def _save_checkpoint(self, processed_users: int, total_users: int):
+        """Save intermediate results as checkpoint"""
+        checkpoint_file = os.path.join(self.extraction_path, "unique_chats_checkpoint.json")
+        try:
+            checkpoint_data = {
+                'processed_users': processed_users,
+                'total_users': total_users,
+                'timestamp': datetime.now().isoformat(),
+                'chats_data': self.chats_data
+            }
+            with open(checkpoint_file, 'w', encoding='utf-8') as f:
+                json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
+            print(f"  Checkpoint saved: {processed_users}/{total_users} users processed, {len(self.chats_data)} chats collected")
+        except Exception as e:
+            print(f"  Warning: Could not save checkpoint: {e}")
+
+    def _load_checkpoint(self) -> Optional[Dict[str, Any]]:
+        """Load checkpoint if exists"""
+        checkpoint_file = os.path.join(self.extraction_path, "unique_chats_checkpoint.json")
+        if os.path.exists(checkpoint_file):
+            try:
+                with open(checkpoint_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"Warning: Could not load checkpoint: {e}")
+        return None
+
+    def _delete_checkpoint(self):
+        """Delete checkpoint file after successful completion"""
+        checkpoint_file = os.path.join(self.extraction_path, "unique_chats_checkpoint.json")
+        try:
+            if os.path.exists(checkpoint_file):
+                os.remove(checkpoint_file)
+                print("Checkpoint file removed")
+        except Exception as e:
+            print(f"Warning: Could not remove checkpoint: {e}")
 
     def collect_unique_chats(self, test_mode: bool = False, max_users: int = None) -> None:
         """Main method to collect unique chats from all organization members"""
@@ -112,6 +270,9 @@ class UniqueChatsTransformer:
             print("No organization members found")
             return
 
+        # Build user ID to name mapping from all members
+        self._build_user_mapping(members)
+
         # Apply test mode limits
         if test_mode:
             max_users = max_users or self.DEFAULT_TEST_USERS
@@ -119,6 +280,20 @@ class UniqueChatsTransformer:
             print(f"TEST MODE: Processing only first {len(members)} organization members...")
         else:
             print(f"Processing {len(members)} organization members...")
+
+        # Check for existing checkpoint
+        checkpoint = self._load_checkpoint()
+        if checkpoint:
+            print(f"\n📁 Found checkpoint from {checkpoint['timestamp']}")
+            print(f"   Previously processed: {checkpoint['processed_users']}/{checkpoint['total_users']} users")
+            print(f"   Collected chats: {len(checkpoint['chats_data'])}")
+            response = input("Continue from checkpoint? (y/n): ").strip().lower()
+            if response == 'y':
+                self.chats_data = checkpoint['chats_data']
+                self.unique_chats = set(chat['chat_id'] for chat in self.chats_data)
+                print(f"✅ Restored {len(self.chats_data)} chats from checkpoint\n")
+            else:
+                print("Starting fresh...\n")
 
         processed_count = 0
         for member in members:
@@ -131,23 +306,36 @@ class UniqueChatsTransformer:
             processed_count += 1
             print(f"Processing user {processed_count}/{len(members)}: {user_id}")
 
-            channels = self.get_user_channels(user_id)
-            if not channels:
-                continue
-
-            for channel in channels:
-                chat_id = self._extract_id_from_dict(channel, self.CHAT_ID_KEYS)
-
-                if not chat_id:
-                    print(f"No chat ID found in channel data: {channel}")
+            try:
+                channels = self.get_user_channels(user_id)
+                if not channels:
                     continue
 
-                if chat_id not in self.unique_chats:
-                    self.unique_chats.add(chat_id)
-                    chat_data = self._create_chat_record(channel, user_id)
-                    self.chats_data.append(chat_data)
+                for channel in channels:
+                    chat_id = self._extract_id_from_dict(channel, self.CHAT_ID_KEYS)
+
+                    if not chat_id:
+                        print(f"No chat ID found in channel data: {channel}")
+                        continue
+
+                    if chat_id not in self.unique_chats:
+                        self.unique_chats.add(chat_id)
+                        chat_data = self._create_chat_record(channel, user_id)
+                        self.chats_data.append(chat_data)
+
+                # Save checkpoint every 10 users
+                if processed_count % 10 == 0:
+                    self._save_checkpoint(processed_count, len(members))
+
+            except Exception as e:
+                print(f"Error processing user {user_id}: {e}")
+                # Save checkpoint on error
+                self._save_checkpoint(processed_count, len(members))
+                raise  # Re-raise to stop execution
 
         print(f"Collected {len(self.unique_chats)} unique chats")
+        # Delete checkpoint on successful completion
+        self._delete_checkpoint()
 
     def _find_existing_files(self, base_filename: str) -> List[str]:
         """Find existing files with the same base name but different timestamps"""
@@ -285,7 +473,9 @@ def main():
             "type": "Type of the chat (public, private, etc.)",
             "is_public": "Whether the chat is public (true/false)",
             "is_read_only": "Whether the chat is read-only (true/false)",
-            "owner_id": "ID of the chat owner",
+            "owner_name": "Full name (FIO) of the chat owner (Last Name + First Name, or displayName, or email)",
+            "owner_id": "ID of the chat owner (for reference)",
+            "organization_name": "Human-readable name of the organization (from teams)",
             "organization_id": "ID of the organization",
             "description": "Chat description",
             "is_notifiable": "Whether notifications are enabled",

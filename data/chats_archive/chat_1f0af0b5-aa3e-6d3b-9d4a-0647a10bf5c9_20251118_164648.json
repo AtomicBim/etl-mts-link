@@ -1,0 +1,113 @@
+{
+  "chat_id": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+  "extraction_timestamp": "2025-11-18T16:46:48.379950",
+  "total_messages": 4,
+  "chat_info": {
+    "chat_id": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+    "name": "АТОМ-079_Академ_Блок3.3",
+    "type": "Channel",
+    "is_public": "True",
+    "is_read_only": "False",
+    "owner_name": "Пятков Роман",
+    "owner_id": "1f04cc17-e7ed-669a-92c5-50ebf6510ebb",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef8c466-3da2-69de-bea2-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T16:30:13.270306"
+  },
+  "messages": [
+    {
+      "id": "1f0af11d-7a7b-6cae-9d4a-6434c432cfd6",
+      "authorId": "1f055702-a0b6-6ee0-a11d-04421acbe58e",
+      "chatId": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+      "text": "в целом хочу прокомментировать. по большинству текущих проектов, будем создавать аналогичные каналы. для более быстрого сообнеия о каких то действиях в моделях. будь то проверки, изменения, передачи заданий. посмотрим как этот будет работать и будет ли удобно.",
+      "createdAtMs": 1761115161588,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0af11a-a54a-6524-a790-a69bc6081075",
+      "authorId": "1ef8c467-d59c-6ae0-8367-a0423f4d30a4",
+      "chatId": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+      "text": "Добрый день.\nСпасибо. Воспользуемся.",
+      "createdAtMs": 1761115085546,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0af119-2aab-68e7-9d4a-1fcdc581b765",
+      "authorId": "1f04cb5a-c951-6bfe-8f47-04421acbfbde",
+      "chatId": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+      "text": "Спасибо!",
+      "createdAtMs": 1761115045845,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1f04cc17-e7ed-669a-92c5-50ebf6510ebb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0af117-181d-6459-a480-9388a9c5c546",
+      "authorId": "1f04cc17-e7ed-669a-92c5-50ebf6510ebb",
+      "chatId": "1f0af0b5-aa3e-6d3b-9d4a-0647a10bf5c9",
+      "text": "Добрый день, коллеги!\r\nВыполнена проверка на пересечения между разделами ОВ-ВК по АТОМ-079_Академ_Блок3.3\r\nОтчеты выложены в папки по секциям \\\\PROEKT\\Work\\01_АКТИВНЫЕ ПРОЕКТЫ\\АТОМ-079_Академ_Блок3.3\\06_РД\\00_МОДЕЛИ\\Контроль\\Отчеты\r\nЕсть критичные пересечения в паркинге!",
+      "createdAtMs": 1761114990212,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 2,
+          "users": [
+            "1f055702-a0b6-6ee0-a11d-04421acbe58e",
+            "1ef90751-4e27-6c22-8ee9-0242a5f5a55b"
+          ]
+        }
+      ]
+    }
+  ]
+}

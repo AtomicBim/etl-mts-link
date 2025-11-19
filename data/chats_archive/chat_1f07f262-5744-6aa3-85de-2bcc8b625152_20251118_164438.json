@@ -1,0 +1,50 @@
+{
+  "chat_id": "1f07f262-5744-6aa3-85de-2bcc8b625152",
+  "extraction_timestamp": "2025-11-18T16:44:38.869306",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f07f262-5744-6aa3-85de-2bcc8b625152",
+    "name": "ТП - Nextcloud МТС",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Бадрадинов Евгений",
+    "owner_id": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ee9575d-1fb4-656a-8722-49eedcc35cd4",
+    "extraction_timestamp": "2025-11-18T16:29:57.877835"
+  },
+  "messages": [
+    {
+      "id": "1f07f269-4f75-6132-8599-70343a180cce",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f07f262-5744-6aa3-85de-2bcc8b625152",
+      "text": "Павел Залесов занимается организацией тестовой среды. Создаст канал в ТГ.",
+      "createdAtMs": 1755846413320,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    }
+  ]
+}

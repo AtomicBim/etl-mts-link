@@ -1,0 +1,1945 @@
+{
+  "chat_id": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+  "extraction_timestamp": "2025-11-18T16:47:01.032146",
+  "total_messages": 72,
+  "chat_info": {
+    "chat_id": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+    "name": "СОШ №208 (ПД)",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Горбанёва Светлана",
+    "owner_id": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f050e0d-c7e7-630e-bfa0-50ebf6510ebb",
+    "extraction_timestamp": "2025-11-18T16:30:17.054229"
+  },
+  "messages": [
+    {
+      "id": "1f0a43bb-1d53-6c8a-a790-620d25ed9776",
+      "authorId": "1f04cba1-bfa6-6d74-8ada-6cb3116537ae",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "тип пола 34- Площадь наверно 29,2 м2 должна быть",
+      "createdAtMs": 1759923674205,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a433d-c682-65d1-9d4a-c2bdb0dbd7f2",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "в Воре по исключнеию объемов этих позиций нет",
+      "createdAtMs": 1759920309658,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a433c-d5f0-6aa2-9d4a-1bde869063e2",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "это ВОР от УКН (добавили закладные для ограждения наземного открытого перехода - выделены зеленым поз. 420-422, 454, 455)",
+      "createdAtMs": 1759920284433,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "098d46da-ec6c-4b0e-8afb-fcce5bce1f48",
+          "name": "КР1.ВОР от 08.10.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/098d46da-ec6c-4b0e-8afb-fcce5bce1f48",
+          "size": 52989,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a3f36-6c8d-6b7b-9d4a-a13ab48ebc56",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "альбом ВОР",
+      "createdAtMs": 1759892624530,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "87d444ef-4a05-463f-aa14-3c43e206dc14",
+          "name": "208-ПД.25 ПСД 0637-ВОР.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/87d444ef-4a05-463f-aa14-3c43e206dc14",
+          "size": 16825112,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a35ca-5a84-6588-a790-37668f0f7ee0",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "АР.ВР с добавлением поз. 1084-1086 по ограждению наземного открытого перехода и поз 984. (пока без вычета 20% от ЦП АСК)",
+      "createdAtMs": 1759827876007,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "2def0135-c462-4d35-8041-96bdb0d5c23e",
+          "name": "208-ПД.25 ПСД 0637-АР.ВР от 06.10.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/2def0135-c462-4d35-8041-96bdb0d5c23e",
+          "size": 202314,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "9aaa6dc4-aa06-4a59-9339-69a06434e395",
+          "name": "АР.ВРверсия1.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/9aaa6dc4-aa06-4a59-9339-69a06434e395",
+          "size": 1133325,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a341e-bfe4-6cbf-a480-abc09a285a64",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ПОС1 от УКН",
+      "createdAtMs": 1759816397599,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "878d40e1-3058-4c4e-846f-6fd91fc4832a",
+          "name": "РазделПД№6.Часть1-ПОС1.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/878d40e1-3058-4c4e-846f-6fd91fc4832a",
+          "size": 59137529,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "278a760d-42fe-404f-b611-a7f1a0aa74f0",
+          "name": "ПОС1.ВОР от 06.10.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/278a760d-42fe-404f-b611-a7f1a0aa74f0",
+          "size": 37970,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09f7b7-5d2f-627b-9a0c-65a799c18221",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "",
+      "createdAtMs": 1759401305503,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c9d43b7e-653a-4c6b-9805-c93c08241631",
+          "name": "РазделПД№2-ПЗУ.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/c9d43b7e-653a-4c6b-9805-c93c08241631",
+          "size": 38184595,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09f7b5-c298-650d-9a0c-40484d716ab1",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "что-то не то прикрепилось",
+      "createdAtMs": 1759401262450,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "f298e307-5769-4bb2-8fd0-53dbbc1a1995",
+          "name": "РазделПД№5.Подраздел1.Часть1.Книга2-ИОС1.1.2 от 02.10.2025.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/f298e307-5769-4bb2-8fd0-53dbbc1a1995",
+          "size": 3829552,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09f77b-bc61-6019-956c-15f0f15b9df6",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС1.1.2+ВОР (корректировка по замечаниям КАСК и УКС- добавлен поворотный колодец)\r\nПЗУ (корректировка по замечаниям ГИП КАСК, корректировки выделены цветом)",
+      "createdAtMs": 1759399704872,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "f9a137c0-0514-45bf-844d-83f0aa6da4a1",
+          "name": "ВОР_ИОС1.1.2_30.09.25.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/f9a137c0-0514-45bf-844d-83f0aa6da4a1",
+          "size": 19943,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "2a55e2db-6f59-457e-a879-511efe627087",
+          "name": "РазделПД№5.Подраздел1.Часть1.Книга2-ИОС1.1.2 от 02.10.2025.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/2a55e2db-6f59-457e-a879-511efe627087",
+          "size": 3829552,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "d333088e-960d-442f-899a-7f825d2d13e9",
+          "name": "РазделПД№2-ПЗУ.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/d333088e-960d-442f-899a-7f825d2d13e9",
+          "size": 38184595,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09f736-a384-6175-8baf-d76d9ff1a79f",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "в КП на КПП (ПЗУ) размер КПП не верный - дала замечание в ЦП",
+      "createdAtMs": 1759397850061,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09f555-de7d-6202-9a0c-7afa9df934f4",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС2.4 добавлены демонтажные работы",
+      "createdAtMs": 1759384944499,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "31ebd340-d44c-45e3-bce4-7a7448c52c8a",
+          "name": "09-19-00-ИОС2.4.ВОР.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/31ebd340-d44c-45e3-bce4-7a7448c52c8a",
+          "size": 14047,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "ff9fbd71-bd02-4b88-9217-16369d7ca6f3",
+          "name": "Раздел ПД№5 Подраздел ПД№2 Часть 4  09-19-00-ИОС2.4 изм 1 (2).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/ff9fbd71-bd02-4b88-9217-16369d7ca6f3",
+          "size": 3419188,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "bea8df87-dc1d-4dfc-9635-289b20b3860a",
+          "name": "Раздел ПД№5 Подраздел ПД№2 Часть 4  09-19-00-ИОС2.4.ВОР изм 1 (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/bea8df87-dc1d-4dfc-9635-289b20b3860a",
+          "size": 408268,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09ddd9-302c-678b-a893-3a885adf6a82",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Комплект заделки стыка ППМ (2 шт.) нужен для стыковки с существующими сетями с ППМ изоляцией.",
+      "createdAtMs": 1759223542825,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09ddcc-467d-659c-9a0c-cd194e504d80",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Корреткировка ИОС4.4. от КУБ",
+      "createdAtMs": 1759223196199,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5f9755fd-5eee-444a-a098-a59793b8585d",
+          "name": "ВОР. ИОС4.4.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/5f9755fd-5eee-444a-a098-a59793b8585d",
+          "size": 49322,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "f5ec5986-d5c1-4d71-bba6-b2547472ead7",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 4  09-19-00-ИОС4.4 изм 5 (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/f5ec5986-d5c1-4d71-bba6-b2547472ead7",
+          "size": 42454884,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "3a8e7ec0-f003-42dc-8a3b-684d4a7f2c97",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 4  09-19-00-ИОС4.4.ВОР изм 5 (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/3a8e7ec0-f003-42dc-8a3b-684d4a7f2c97",
+          "size": 501790,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09dda4-1e34-6f52-956c-6128bfaf9f9c",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "корреткировка раздела и ВОР по ИОС4.2 (по заменам и уточнениям от поставщиков)",
+      "createdAtMs": 1759222118233,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "273c64fc-27cf-4494-a18d-b26c2edd78b1",
+          "name": "ИОС4.2.ВОР от 30.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/273c64fc-27cf-4494-a18d-b26c2edd78b1",
+          "size": 33357,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "4bad520e-9b69-4ad1-8c16-b9e6af5c7ac1",
+          "name": "ИОС4.2 от 30.09.2025.7z",
+          "url": "https://prod-storage-chat.mts-link.ru/4bad520e-9b69-4ad1-8c16-b9e6af5c7ac1",
+          "size": 3815601,
+          "mime": "application/x-7z-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09dc4b-2fc5-6768-8baf-c36a5bff980d",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ПЗУ + корректировка по замечаниям КАСК и сметчиков + ВОР + титул КАСК\nАР (корректировка оформления) + АР.ВР (приведение пдф к эксель) + Расчетные части\nКР1.ВОР (актуализирован расход на крыльца, - добавлены комплектующие для крепления шпонки - ДОС-180/20-3/25 УГЛОВАЯ ПВХ)\nИОС1.1.1 (добавлены земляные работы в спецификацию)\nИОС1.2 (корректировка по замечаниям КАСК, УКС, сметчиков) + ВОР\nИОС3.2 (корректировка по замечаниям УКС, КАСК), ВОР корректировался 24.09.2025 + титул КАСК\nИОС3.3 (исключен чугун на выпусках) + ВОР (позиции 1.8 и 1.9 откорректированы единицы измерения, по чугуну замечания в ВОР были отработаны 24.09.2025) + титул КАСК\nИОС3.5 (откорректировано обозначение стальной трубы на листе 6 ГЧ) + титул КАСК\nИОС4.1 (откорректировано приложение с ковером) + титул КАСК\nИОС4.2 (корректировка по замечаниям КАСК, Ашихмина) + ответы+ титул КАСК (ВОР корректировался 25.09.2025)\nответы на замечания Ашихмина по ИОС4.3\nИОС4.7 (корректировка нагрузок пр существующей школе в кВт)\nОДИ (корректировка по исключению зеркал и фенов), в ВОР правки были внесены 25.09.2025 + титул КАСК",
+      "createdAtMs": 1759212859051,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09dc4a-df1b-6f1e-a893-a0af5c3c67c3",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Доброе утро! В АТомоблако выгружены разделы УКН:",
+      "createdAtMs": 1759212850593,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09cfab-a7e2-60b4-a893-6ddd87c51c6a",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Добавлен в Атомоблако раздел ИОС6.2 (ЭХЗ)",
+      "createdAtMs": 1759126113307,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09cf9e-0ef0-63b3-a893-d3fecb994eff",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС2.4, 4.8, 4.4 - корректировка по замечаниям КАСК и сметчиков",
+      "createdAtMs": 1759125748303,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09cf9d-5d6e-6f34-956c-a91668ae74ff",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС2.3, 3.1, 5.2, 5.3 - корректировка по актуальной транспортной схеме вывоза на полигон",
+      "createdAtMs": 1759125729690,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1759125762,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09cf9c-1a51-6b74-a893-24ccf1f93e00",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Доброе утро! в Атомоблако выложены разделы ПД КУБ:",
+      "createdAtMs": 1759125695809,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09a9f7-6022-63e4-9a0c-1c13ca75f03a",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОР по ИОС4.2, последние позиции добавились, выделены цветом",
+      "createdAtMs": 1758867011881,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5cf49719-5078-4b15-9860-5ddd664c0a25",
+          "name": "ИОС4.2.ВОР от 26.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/5cf49719-5078-4b15-9860-5ddd664c0a25",
+          "size": 33296,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09a930-8271-68dc-956c-4f8e1b8f6a2b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ПОС1 от УКН по моим замечаниям - еще не смотрела (но говорят, что все замечания устранили)",
+      "createdAtMs": 1758861673613,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "0630c0e3-693e-430f-88ee-488cf9f1a76d",
+          "name": "ВОР школа пристрой 208 от 24.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/0630c0e3-693e-430f-88ee-488cf9f1a76d",
+          "size": 37003,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "604e53bb-564a-4cc2-a850-68fd84d7bc60",
+          "name": "РазделПД№6.Часть1-ПОС1 (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/604e53bb-564a-4cc2-a850-68fd84d7bc60",
+          "size": 56148141,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09a8c1-f250-6598-a893-3c82ccf5cf79",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС7.1 (ТХ) корректировка по замечаниям УКС",
+      "createdAtMs": 1758858705710,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "bfea9b40-3c0e-486e-8d7b-e97c6df3b286",
+          "name": "ВОР_ИОС7.1_23.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/bfea9b40-3c0e-486e-8d7b-e97c6df3b286",
+          "size": 81291,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "f08764c9-7ca6-428b-8916-ef97386b2026",
+          "name": "РазделПД№5.Подраздел7.Часть1-ИОС7.1 (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/f08764c9-7ca6-428b-8916-ef97386b2026",
+          "size": 8651543,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09a0a4-9c43-63b4-8baf-3c424baf7b47",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОР по ИОС4.1 (корректировка оп замечаниям Ашихмина и сметчиков), ВОР по ИОС4.2 (корректировка по замечаниям сметчиков и Ашихмина), АР.ВР (корреткировка по замечаниям сметчиков)",
+      "createdAtMs": 1758802942643,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "abd4fd0b-a1f6-4528-9bb1-9e76f7954dfc",
+          "name": "АР.ВР от 25.09.2025 (1).xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/abd4fd0b-a1f6-4528-9bb1-9e76f7954dfc",
+          "size": 203689,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "9c6e6d36-3e37-455f-a7fb-ba2b93f81011",
+          "name": "ВОР_ИОС4.1 от 25.09.2025 (1).xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/9c6e6d36-3e37-455f-a7fb-ba2b93f81011",
+          "size": 22075,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "10a87304-1b31-44bb-bd53-1d8e548da812",
+          "name": "ВОР_ИОС4.2_25.09.2025 (1).xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/10a87304-1b31-44bb-bd53-1d8e548da812",
+          "size": 33705,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "1c4d906e-e461-472a-b309-a29a328a402a",
+          "name": "РазделПД№3-АР.ВР (1).pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/1c4d906e-e461-472a-b309-a29a328a402a",
+          "size": 1141198,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f09a08e-dbb1-6872-a893-a629cdc201d5",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ОДИ без зеркал и фенов",
+      "createdAtMs": 1758802358736,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d10293b4-6a16-4234-a18f-7efbc7a494d3",
+          "name": "ОДИ.ВОР 2025-09-25.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/d10293b4-6a16-4234-a18f-7efbc7a494d3",
+          "size": 649250,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "5b4f91c3-d7ce-446b-8c90-a78f3b7d7d68",
+          "name": "ОДИ.ВР от 25.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/5b4f91c3-d7ce-446b-8c90-a78f3b7d7d68",
+          "size": 110112,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099efc-45fb-64ba-956c-822fcd54393b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОРы в ПДФ от КУБ",
+      "createdAtMs": 1758791551932,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "596288fa-55ef-4913-8fdd-6317fccc038e",
+          "name": "archive-2025-09-25_12-09-27.zip",
+          "url": "https://prod-storage-chat.mts-link.ru/596288fa-55ef-4913-8fdd-6317fccc038e",
+          "size": 2341369,
+          "mime": "application/zip"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099e3c-14ba-6860-9a0c-3a37d6b443ef",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "откорректированный ВОР по ИОС3.5 по замечаниям от  18.09.2025",
+      "createdAtMs": 1758786392807,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "aae07c59-7670-47f2-92cd-bca827b78e37",
+          "name": "ВОР_ИОС3.5_24.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/aae07c59-7670-47f2-92cd-bca827b78e37",
+          "size": 16140,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099d61-fd52-6f63-a893-9552c111c8f0",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОР по ЭХЗ",
+      "createdAtMs": 1758780538460,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5c20024b-11c3-4952-bef3-f9289a909cb8",
+          "name": "208-25-00-ИОС6.2 ВОР.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/5c20024b-11c3-4952-bef3-f9289a909cb8",
+          "size": 12918,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099d4f-4126-66ae-8baf-f746f1f3c72a",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОРы в эксель по ПОС2 и ПОД",
+      "createdAtMs": 1758780035544,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "b776f0cf-5e3a-41b9-81f8-819ca11d23ea",
+          "name": "ВОР. ПОД.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/b776f0cf-5e3a-41b9-81f8-819ca11d23ea",
+          "size": 24285,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "e996aa44-0cb7-49d1-b056-d8ff317a25fd",
+          "name": "ВОР. ПОС2.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/e996aa44-0cb7-49d1-b056-d8ff317a25fd",
+          "size": 18653,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099c82-c314-68dc-a893-601a443c1890",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОРы в пдф от КУБ будут в течение дня",
+      "createdAtMs": 1758774546242,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f099bfa-c0f3-612b-8baf-2b417e4ae184",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "",
+      "createdAtMs": 1758770895296,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "a55e52af-0a39-4106-a767-467aae868115",
+          "name": "ИУЛ.zip",
+          "url": "https://prod-storage-chat.mts-link.ru/a55e52af-0a39-4106-a767-467aae868115",
+          "size": 1425642,
+          "mime": "application/zip"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099bfa-6726-6773-8baf-b28d533841b3",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "",
+      "createdAtMs": 1758770885880,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "ff9fa0fd-81d4-44bf-8ec5-722766e0ee50",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 8  09-19-00-ИОС4.8.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/ff9fa0fd-81d4-44bf-8ec5-722766e0ee50",
+          "size": 7547724,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "a8e4004c-ad00-4695-86f9-7f410fa02fe7",
+          "name": "Раздел ПД№5 Подраздел ПД№6 Часть 1  09-19-00-ИОС6.1 изм 3.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/a8e4004c-ad00-4695-86f9-7f410fa02fe7",
+          "size": 10754197,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "c481daf3-2d40-410d-b018-9dc4beac86f9",
+          "name": "Раздел ПД№6  Часть 2  09-19-00-ПОС2 изм 3.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/c481daf3-2d40-410d-b018-9dc4beac86f9",
+          "size": 5632370,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "f25606df-4349-42d8-abc9-57eefe89a927",
+          "name": "Раздел ПД№7  09-19-00-ПОД изм 4.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/f25606df-4349-42d8-abc9-57eefe89a927",
+          "size": 5154444,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099bf9-89a6-663e-9a0c-245706b62dd4",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Разделы от КУБ: ПОД, ПОС2, ИОС6.1, ИОС4.8, ИОС4.6, ИОС4.4, ИОС5.3, ИОС5.2, ИОС3.1, ИОС2.4, ИОС2.3, ИОС1.4, ПОДД с титулами КАСК и устранением замечаний",
+      "createdAtMs": 1758770862654,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "1b0bcc7c-9d71-4d20-bd15-5c35fde0c7e4",
+          "name": "Раздел ПД№12 Часть 3  09-19-00-ПОДД изм 3.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/1b0bcc7c-9d71-4d20-bd15-5c35fde0c7e4",
+          "size": 9841350,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "926f73af-648a-4044-b216-ff4cef27e552",
+          "name": "Раздел ПД№5 Подраздел ПД№1 Часть 4  09-19-00-ИОС1.4 изм 5.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/926f73af-648a-4044-b216-ff4cef27e552",
+          "size": 14785756,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "b19c4ce0-a524-4392-a0fc-fb55e77e43f5",
+          "name": "Раздел ПД№5 Подраздел ПД№2 Часть 3  09-19-00-ИОС2.3 изм 3.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/b19c4ce0-a524-4392-a0fc-fb55e77e43f5",
+          "size": 5063388,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "5580bd30-ca43-4a37-9bb2-814063d3d2df",
+          "name": "Раздел ПД№5 Подраздел ПД№2 Часть 4  09-19-00-ИОС2.4 изм 1.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/5580bd30-ca43-4a37-9bb2-814063d3d2df",
+          "size": 2604524,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "68f4d4af-5f30-4134-bff5-fb22c7cc8852",
+          "name": "Раздел ПД№5 Подраздел ПД№3 Часть 1  09-19-00-ИОС3.1 изм 4.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/68f4d4af-5f30-4134-bff5-fb22c7cc8852",
+          "size": 4336356,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "110454d2-8bbb-48f1-9907-077a13c62767",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 2  09-19-00-ИОС5.2 изм 2.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/110454d2-8bbb-48f1-9907-077a13c62767",
+          "size": 3231940,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "daba8693-95ec-4618-b859-fa08b96e1142",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 3  09-19-00-ИОС5.3 изм 2.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/daba8693-95ec-4618-b859-fa08b96e1142",
+          "size": 9520760,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "312b0f59-7e8b-4dce-a257-1a3f710ac69b",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 4  09-19-00-ИОС4.4 изм 5.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/312b0f59-7e8b-4dce-a257-1a3f710ac69b",
+          "size": 43854159,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "d3e59806-e02c-445d-bcf1-31347a0f47de",
+          "name": "Раздел ПД№5 Подраздел ПД№4 Часть 6  09-19-00-ИОС4.6 изм 5.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/d3e59806-e02c-445d-bcf1-31347a0f47de",
+          "size": 10417072,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f099bc4-d0a5-621a-9a0c-2368ad1b08bb",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "День добрый.\r\n \r\nУКН выдали разделы ПД и ВОРы:\r\n- РазделПД№5.Подраздел5.Часть1-ИОС5.1 + ВОР + спецификация+ответы на замечания УКС +ПНР\r\n- РазделПД№9.Часть3-ПБ3 + ВОР + спецификация\r\n- ВОР к разделу ПД№5.Подраздел3.Часть2-ИОС3.2 (корректировка по замечаниям КАСК)\r\n- ВОР к разделу ПД№5.Подраздел3.Часть3-ИОС3.3 (корректировка по замечаниям КАСК), \n- ПЗ",
+      "createdAtMs": 1758769447390,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "93fe960a-74cf-4625-bc33-e2e2ace6e294",
+          "name": "2025-09-24 ИОС5.1,ПБ3,ВОРы к ИОС3.2, ИОС3.3(СОШ208).7z",
+          "url": "https://prod-storage-chat.mts-link.ru/93fe960a-74cf-4625-bc33-e2e2ace6e294",
+          "size": 25297049,
+          "mime": "application/x-7z-compressed"
+        },
+        {
+          "id": "b11a965e-a875-4313-9926-d2c47e67ea29",
+          "name": "РазделПД№1-ПЗ.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/b11a965e-a875-4313-9926-d2c47e67ea29",
+          "size": 64126107,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0992ec-a1b7-6f38-9a0c-a3c641e7dbc4",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС4.3 по замечаниям сметчиков и АР.ВР (добавленные позиции выделены зеленым). АР.ВОР в пдф будет откорректирован по экселевскому файлу",
+      "createdAtMs": 1758708668683,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "32b144ee-2a0a-431b-92a9-b72dc4375296",
+          "name": "АР.ВР от 24.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/32b144ee-2a0a-431b-92a9-b72dc4375296",
+          "size": 202157,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "04105acb-dfc2-4d81-8f80-4f73c7695dcc",
+          "name": "РазделПД№5.Подраздел4.Часть7-ИОС4.7 от 24.09.2025.7z",
+          "url": "https://prod-storage-chat.mts-link.ru/04105acb-dfc2-4d81-8f80-4f73c7695dcc",
+          "size": 12599915,
+          "mime": "application/x-7z-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f098635-d914-6101-a893-e21677c8fd3d",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "заменены листы подбора по замечаниям КАСК",
+      "createdAtMs": 1758621298747,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "1086281f-ad3e-4f25-852e-cd74d43de6b7",
+          "name": "РазделПД№9.Часть2-ПБ2.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/1086281f-ad3e-4f25-852e-cd74d43de6b7",
+          "size": 3771189,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0985b8-bf8c-6d25-9a0c-df14596f4d1b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "в течение дня выложу в облако и в сетевую папку",
+      "createdAtMs": 1758617940626,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0985b8-5be2-6e1a-956c-2c3739646b5e",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Ссылка для скачивания файлов: https://cloud.mail.ru/stock/p2ACqUCue2FxPgHWTjSQMLvr",
+      "createdAtMs": 1758617930176,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0985b8-4ead-694b-9a0c-c8e0e742141f",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "разделы и ВОР:\r\n- РазделПД№3-АР.ВР + ВОР (в экселе желтым выделены откорректированные позиции)\r\n- ВОР к разделу ПД№4Часть3-КР3. Уточнены объемы в процессе разработки РД\r\n- РазделПД№5.Подраздел1.Часть1.Книга1-ИОС1.1.1 +ВОР + СТР\r\n- РазделПД№5.Подраздел1.Часть1.Книга2-ИОС1.1.2 + ВОР\r\n- РазделПД№5.Подраздел1.Часть2-ИОС1.2 + ВОР\r\n- РазделПД№5.Подраздел4.Часть3-ИОС4.3+ ВОР (по замечаниям Сторожиловой)\r\n- РазделПД№9.Часть1-ПБ1\r\n- РазделПД№9.Часть2-ПБ2 (по оформлению)",
+      "createdAtMs": 1758617928791,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0951bc-e3d6-6513-9a0c-189815f2298f",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "В облако выложу, когда оно заработает",
+      "createdAtMs": 1758260710527,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0951b4-966c-609c-9a0c-83bfece20248",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Ссылка для скачивания файлов: https://cloud.mail.ru/stock/kz5gNPVL4JiEAyn64VcmMikb",
+      "createdAtMs": 1758260487661,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0951b4-6d38-61ec-8baf-ad67c2fdc59e",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "В папку Миляева выложила разделы ПД от УКН: ИОС7.4+ВОР (актуализация по РД), ИОС4.7 (кор-ка по замечаниям сметчиков, КАСК), ВОР по ИОС3.2, ВОР по ИОС2.2, КР3, КР1, АР+ВОР (корректировка по замечаниям сметчиков + ВОР в пдф)",
+      "createdAtMs": 1758260483340,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0947f4-8f12-671a-a893-382d68833797",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ВОР по ИОС7.2, ИОС7.3 (корректировка по замечаниям сметчиков)",
+      "createdAtMs": 1758193485400,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "58357f36-8f1d-4f74-b0d1-b94a78725446",
+          "name": "ВОР ИОС7.2 - 7.3 изм.rar",
+          "url": "https://prod-storage-chat.mts-link.ru/58357f36-8f1d-4f74-b0d1-b94a78725446",
+          "size": 9966735,
+          "mime": "application/x-rar-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0943d0-f866-6936-956c-b3f8661def6d",
+      "authorId": "1ef8cbf7-c779-6bd8-8d67-a0423f4d30a4",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Название программы 208-ПД.25 ПСД 0637-ПБ3.ПМИ, состав работ по наружному электроосвещению ИОС1.2.\r\n- измерение сопротивления заземляющих устройств электроустановок прибором ИС-10 - указать количество.\r\n- измерение токов короткого замыкания петли «Фаза-ноль» в электроустановках напряжением до 1000В с глухозаземленной нейтралью прибором MZC-200 - указать количество.\r\n- выполнение измерения сопротивления изоляции (МИ-2) - указать количество.\r\nОбъем ПНР указан 208-ПД.25 ПСД 0637-ИОС1.2.ГЧ лист 12.11",
+      "createdAtMs": 1758165042286,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": 2,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5e7a454c-04cc-4318-bc52-572b1705df75",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5e7a454c-04cc-4318-bc52-572b1705df75",
+          "size": 10415,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f093bc4-56d4-6c46-bb64-b305ffa2b1dc",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ПРограмма ПНР по ЭН от Тарзина -посмотрите, пожалуйста",
+      "createdAtMs": 1758109727641,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "eac7af57-6ad8-4352-bc1c-9639dd0a65cc",
+          "name": "Программа ПМИ Школа 208 электроосвещение.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/eac7af57-6ad8-4352-bc1c-9639dd0a65cc",
+          "size": 111680,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f093846-4840-6d18-9ba8-b49c44231c4f",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Ссылка для скачивания файлов: https://cloud.mail.ru/stock/7c7itwKXDrKToiNwPeL46Q2U",
+      "createdAtMs": 1758085727982,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f093845-bb3e-6ad1-bb64-415cafc84751",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "В Атомоблако и в папку Миляева добавлены разделы ПД: ПОС1+ВОР (новый раздел), ИОС2.1 (кор-ка по замечаниям УКС), ИОС2.2. (кор-ка по замечаниям УКС и сметчиков), ОДИ (кор-ка по замечаниям КАСК), ГОЧС (новый раздел), ПБ1 (новый раздел)",
+      "createdAtMs": 1758085713196,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f093811-9a28-6be4-bb64-7813cd55f966",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Направляю корректировку ИОС4.3.ВОР по вопросу покрытия УРСА",
+      "createdAtMs": 1758084313863,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "37729cf7-8e31-4a36-8211-6fc9eef497f8",
+          "name": "ВОР_ИОС4.3 от 16.09.2025  .xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/37729cf7-8e31-4a36-8211-6fc9eef497f8",
+          "size": 129342,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f092e3b-e293-6a7a-9190-1d020cfb7b84",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "уточнение по замечаниям Плотниковой Е.С.",
+      "createdAtMs": 1758016729408,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "390be77e-3632-44dd-b1d5-a837667ca417",
+          "name": "ВОР_ИОС4.3 от 16.09.2025 .xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/390be77e-3632-44dd-b1d5-a837667ca417",
+          "size": 129226,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f092e07-6300-6d77-bb64-d3b0a46ecc9b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "",
+      "createdAtMs": 1758015320167,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8d55ce15-e476-4a84-bc87-bcfabef01e87",
+          "name": "ВОР_ИОС4.3 от 16.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/8d55ce15-e476-4a84-bc87-bcfabef01e87",
+          "size": 129153,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f092c66-d4dd-65b4-9190-218d336a3fe4",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "справка ГИПа от КУБ",
+      "createdAtMs": 1758004138348,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "842219e8-e27f-4ae8-bd86-734845eacab4",
+          "name": "Справка ГИПа.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/842219e8-e27f-4ae8-bd86-734845eacab4",
+          "size": 33181,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f092c1b-826f-6aa6-bb64-ace0ba326962",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Ссылка для скачивания файлов:\r\nhttps://cloud.mail.ru/stock/5g1ZJDSPyeMe7bUgzF9yeYk5",
+      "createdAtMs": 1758002116439,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f092c0f-316e-63f9-82b8-1ae9991fc311",
+      "authorId": "1ef8c935-0cba-692e-8a35-a0423f4d30a4",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "он не открывается",
+      "createdAtMs": 1758001785822,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f092be4-93f6-64df-bb64-39c43bb86ee7",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Дублирую на всякий случай сюда",
+      "createdAtMs": 1758000641881,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "40422c3c-62bc-4e9e-81fa-aef1751c3a29",
+          "name": "2025-09-15 ПД(СОШ208).7z",
+          "url": "https://prod-storage-chat.mts-link.ru/40422c3c-62bc-4e9e-81fa-aef1751c3a29",
+          "size": 41481517,
+          "mime": "application/x-7z-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f092bd4-8ad8-602e-9190-a6805b964dc5",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Доброе утро! В папку Миляева и в облако выложены корректировки ПД: ИОС1.2 +ВОР (замечания УКС и сметчиков, экспертного совета), ИОС1.1.2 (замечания УКС, экспертного совета), ИОС3.2 (замечания УКС, экспертного совета, КАСК), ИОС3.3 +ВОР (замечания УКС и сметчков), ИОС3.4 (замечание УКС по добавлению в приложения ТУ Водоканала), ИОС4.3 +ВОР (замечания сметчиков), ИОС4.7 (замечания сметчиков), ИОС7.2 (замечания сметчиков), ИОС7.3 (замечания сметчиков, ВОР по ПБ2 (новый вор)",
+      "createdAtMs": 1758000211428,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f092b82-4b5c-61b4-82b8-616883f36a60",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Шифр ВОР 208-ПД.25 ПСД 0637-СМ4\r\n(корректировка 09-19-00-СМ4)",
+      "createdAtMs": 1757998003601,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f091eab-6691-6228-9602-770cd871b4f3",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Справка ГИПа от УКН (без ПОС1)",
+      "createdAtMs": 1757909771719,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "64831e8c-e1b5-48e4-8312-a69ffbdec547",
+          "name": "Справка об изменениях  (13.09.2025 г.).doc",
+          "url": "https://prod-storage-chat.mts-link.ru/64831e8c-e1b5-48e4-8312-a69ffbdec547",
+          "size": 220672,
+          "mime": "application/x-ole-storage"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08f9ff-de1a-64e2-9b20-15aef7a16daf",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ИОС1.4 корректировка по оформлению по замечаниям Пивоваровой",
+      "createdAtMs": 1757657777048,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "b3a89da8-cd99-43df-b231-b43fa6706e3b",
+          "name": "09-19-00-ИОС1.4.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/b3a89da8-cd99-43df-b231-b43fa6706e3b",
+          "size": 14897803,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08f9e2-ba8a-6957-9602-fe30934000ec",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Ответы УКН на замечания УКС - прошу рассмотреть",
+      "createdAtMs": 1757656994856,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c9235ebb-6c6c-4ea8-95d8-763469128f18",
+          "name": "2025-09-09 - Замечания от УКС ответы УКН.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/c9235ebb-6c6c-4ea8-95d8-763469128f18",
+          "size": 29044,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08f9de-5bf1-6bd8-9602-b01be14e8d4c",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ответы УКН на замечания КАСК - прошу рассмотреть",
+      "createdAtMs": 1757656877562,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "347d02fd-932c-4409-a4cc-b31d65aa3e09",
+          "name": "Ответы на замечания ЭС КАСК от АР.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/347d02fd-932c-4409-a4cc-b31d65aa3e09",
+          "size": 15461,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "0cda5101-5b38-4a4e-915a-a9f16b394937",
+          "name": "Ответы на замечания ЭС КАСК от ВК.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/0cda5101-5b38-4a4e-915a-a9f16b394937",
+          "size": 56416,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "30426228-3c0e-469d-809f-d1cc39275885",
+          "name": "Ответы на замечания ЭС КАСК от ОВ.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/30426228-3c0e-469d-809f-d1cc39275885",
+          "size": 29269,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "5acfc18b-232c-4380-afd4-233b98ef4134",
+          "name": "Ответы на замечания ЭС КАСК от ПЗУ.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/5acfc18b-232c-4380-afd4-233b98ef4134",
+          "size": 356713,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08f9d6-59b2-64e8-9602-3ad431b310ff",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Обновленная справка ГИПа от УКН (добавлены разделы ИОС4.1, ИОС4.7, ТОС5.1, ПБ3)",
+      "createdAtMs": 1757656662578,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "767d36df-3256-49a2-81a4-1c9c955b4add",
+          "name": "Справка об изменениях  (11.09.2025 г.).doc",
+          "url": "https://prod-storage-chat.mts-link.ru/767d36df-3256-49a2-81a4-1c9c955b4add",
+          "size": 214528,
+          "mime": "application/x-ole-storage"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08ee6f-698a-64df-bd3f-501d39096f62",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "смета на сети связи (тоже не подписана)",
+      "createdAtMs": 1757578307930,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c2781e10-a783-4863-a875-4fe9090cf674",
+          "name": "смета связь.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/c2781e10-a783-4863-a875-4fe9090cf674",
+          "size": 317498,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08ee6b-84b4-6a5a-aed2-4d41c2c996fa",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "УКС говорят, что у них техприсы дешевле стали, а не дороже, типа зачем мы вообще у них запрашиеваем, почему не можем отправить так",
+      "createdAtMs": 1757578203404,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08ee28-6dc4-673d-9b20-007df46ed8ef",
+      "authorId": "1ef8c935-0d23-6032-9751-a0423f4d30a4",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "подписи или печати или к этому инф письмо ?",
+      "createdAtMs": 1757576402482,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08edc4-faef-62c1-9b20-53d185144cdd",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "По Сети связи будет смета. Так пойдет?",
+      "createdAtMs": 1757573732930,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8a991777-2d8d-48bd-8d29-f2225ec2a713",
+          "name": "Расчет водоотведение.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/8a991777-2d8d-48bd-8d29-f2225ec2a713",
+          "size": 104160,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "a1dce7c5-54a1-4b8b-a459-86889332c05e",
+          "name": "Расчет водоснабжение.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/a1dce7c5-54a1-4b8b-a459-86889332c05e",
+          "size": 153898,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "353c2c78-77c6-48ac-bf53-e5e862ebdc18",
+          "name": "Расчет теплоснабжение.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/353c2c78-77c6-48ac-bf53-e5e862ebdc18",
+          "size": 351190,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "7b241624-5caf-473d-b71e-065584c75759",
+          "name": "Расчет электрика.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/7b241624-5caf-473d-b71e-065584c75759",
+          "size": 104498,
+          "mime": "image/jpeg"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08ed5c-edad-608c-9b20-5a37900fcb1e",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "ок. запрошу",
+      "createdAtMs": 1757570939811,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08ed5c-0609-6922-9602-ff92391e62ea",
+      "authorId": "1ef8c935-0d23-6032-9751-a0423f4d30a4",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "По тех присам нужны все расчеты",
+      "createdAtMs": 1757570915521,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08ed58-14d5-6ccb-9602-8d8bbd21316f",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "письмо УКС по затратам на техприсы",
+      "createdAtMs": 1757570809699,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8c4e3a34-d99b-435f-9737-728365d250b6",
+          "name": "07-2025.09.10-22.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/8c4e3a34-d99b-435f-9737-728365d250b6",
+          "size": 362647,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08ed02-2521-62ed-bd3f-f91d8a9177ae",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Программы ПНР: АК, ОС.ПМИ, СКУД, ПБ3.ПМИ, вентиляция и кондиционирование",
+      "createdAtMs": 1757568502863,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "475860d9-70de-40ea-b574-99a68fbe5193",
+          "name": "09-19-00-ИОС5.1-АК.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/475860d9-70de-40ea-b574-99a68fbe5193",
+          "size": 143573,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "dd8a31e3-5dce-4dfd-9dba-b8f95d37aac3",
+          "name": "09-19-00-ИОС5.1-ОС.ПМИ.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/dd8a31e3-5dce-4dfd-9dba-b8f95d37aac3",
+          "size": 156315,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "9d1e1cfa-e036-4ae8-b03e-ec85774f67b9",
+          "name": "09-19-00-ИОС5.1-СКУД.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/9d1e1cfa-e036-4ae8-b03e-ec85774f67b9",
+          "size": 148720,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "eb40162b-92f9-4e50-9c1a-d5b0c6b01147",
+          "name": "208-ПД.25 ПСД 0637-ПБ3.ПМИ.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/eb40162b-92f9-4e50-9c1a-d5b0c6b01147",
+          "size": 174874,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "id": "86e868c3-f762-40a0-b5e6-298f7d47fc79",
+          "name": "Программа и методика испытаний Вентиляция и конд-ие.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/86e868c3-f762-40a0-b5e6-298f7d47fc79",
+          "size": 8353297,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08e3a0-3cac-6de6-9b20-0fe03bb3f495",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "обновила таблицу. вписала комплекты, которые уходили в УКС (без ВОР) и замечания УКС и Экспертного совета",
+      "createdAtMs": 1757504027135,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "0f7368e7-18c6-47ac-a9b1-23f89ec6d8c1",
+          "name": "Статус разделов ПД (3).xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/0f7368e7-18c6-47ac-a9b1-23f89ec6d8c1",
+          "size": 20647,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08e191-8559-6c7c-bd3f-ba70f131905c",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "в папку Миляева тоже выложила и в Облако",
+      "createdAtMs": 1757489888207,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08e18e-cbf5-6686-9b20-feab2e983ec6",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e189-5061-61ef-9602-0a93d86f3e04",
+      "text": "Раздел ИОС1.1.2 (исключено из примечаний  увеличение объемов на 20%)",
+      "createdAtMs": 1757489815080,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "3c8932a5-2b0e-46d4-b012-c0a472957664",
+          "name": "РазделПД№5.Подраздел1.Часть1.Книга1-ИОС1.1.2.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/3c8932a5-2b0e-46d4-b012-c0a472957664",
+          "size": 3133942,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

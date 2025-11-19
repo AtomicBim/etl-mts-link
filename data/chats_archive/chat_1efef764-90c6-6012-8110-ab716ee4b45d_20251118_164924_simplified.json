@@ -1,0 +1,20 @@
+{
+  "chat_id": "1efef764-90c6-6012-8110-ab716ee4b45d",
+  "chat_name": "П78 Отсутствие и график работы",
+  "extraction_timestamp": "2025-11-18T16:49:24.881814",
+  "original_total_messages": 1,
+  "simplified_messages_count": 1,
+  "processing_timestamp": "2025-11-18T16:49:24.881814",
+  "messages": [
+    {
+      "chat_id": "1efef764-90c6-6012-8110-ab716ee4b45d",
+      "chat_name": "П78 Отсутствие и график работы",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Проекта https://port.it-ip.ru/project/78",
+      "createdAt": "2025-02-20 15:34:51"
+    }
+  ]
+}

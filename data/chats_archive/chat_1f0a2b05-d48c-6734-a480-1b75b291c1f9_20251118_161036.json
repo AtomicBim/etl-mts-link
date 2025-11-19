@@ -1,0 +1,140 @@
+{
+  "chat_id": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+  "extraction_timestamp": "2025-11-18T16:10:36.225260",
+  "total_messages": 4,
+  "chat_info": {
+    "chat_id": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+    "name": "IT-IP.MWS - GPT тестирование",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Сергеева Полина",
+    "owner_id": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Здесь тестируем решение от MWS",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efc4285-fe29-6874-a027-d85ed36b7d02",
+    "extraction_timestamp": "2025-11-18T15:21:24.382843"
+  },
+  "messages": [
+    {
+      "id": "1f0a5a21-ca65-6812-a480-73db3dda822a",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+      "text": "",
+      "createdAtMs": 1760077613243,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8a8a433d-1b28-41d2-a8d6-76428225b51a",
+          "name": "Загрузка примеров в nocode[2].pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/8a8a433d-1b28-41d2-a8d6-76428225b51a",
+          "size": 445945,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "b28279d2-5c08-4754-b326-b1e1b2082f1a",
+          "name": "Примеры Агентов 251001.zip",
+          "url": "https://prod-storage-chat.mts-link.ru/b28279d2-5c08-4754-b326-b1e1b2082f1a",
+          "size": 794938,
+          "mime": "application/zip"
+        },
+        {
+          "id": "dda1bf27-a4b1-440c-9c24-003a9876f41f",
+          "name": "кейсы применения по отделам MWG GPT.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/dda1bf27-a4b1-440c-9c24-003a9876f41f",
+          "size": 57761,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "27dab399-f2a4-46ea-a18b-57cdec874c68",
+          "name": "3.1_Инструкция_по_установке_и_информацией,_необходимой_для_эксплуатации.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/27dab399-f2a4-46ea-a18b-57cdec874c68",
+          "size": 4918510,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a4d5f-336e-6292-9d4a-c08746a9770e",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+      "text": "Коллеги, делюсь учетными данными...\n\nMWS GPT /Аск ИТ, доступ в chat UI: \r\n  •\tLogin polinas@it-ip.ru\r\n  •\tPassword: 8u1DelnHck  //Исходный: 8u1InsnHck",
+      "createdAtMs": 1759989926393,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a2b2f-4967-6152-a8d5-99eedcc47afa",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+      "text": "",
+      "createdAtMs": 1759754993986,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "bcdaf174-ebbb-4df9-98e4-b2c6d159c6b8",
+          "name": "MWS DevX Platform.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/bcdaf174-ebbb-4df9-98e4-b2c6d159c6b8",
+          "size": 1600201,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a2b2e-24b7-6a8d-a8d5-e00d573de94f",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f0a2b05-d48c-6734-a480-1b75b291c1f9",
+      "text": "",
+      "createdAtMs": 1759754963296,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "52dd45cc-7f15-4a93-9e14-bf9840ae5047",
+          "name": "Документация продукта MWS GPT_v1.51.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/52dd45cc-7f15-4a93-9e14-bf9840ae5047",
+          "size": 39953,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

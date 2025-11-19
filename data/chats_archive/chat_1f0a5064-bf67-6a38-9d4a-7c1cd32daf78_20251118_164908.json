@@ -1,0 +1,835 @@
+{
+  "chat_id": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+  "extraction_timestamp": "2025-11-18T16:49:08.002724",
+  "total_messages": 33,
+  "chat_info": {
+    "chat_id": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+    "name": "Ошибки BIM ВК",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Пластовец Денис",
+    "owner_id": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef8c483-cd2b-61e2-aa8a-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T16:31:53.156320"
+  },
+  "messages": [
+    {
+      "id": "1f0c1527-768e-66e6-9488-790ead0d0da6",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Запустил плагин расстановки гильз и ревит завис",
+      "createdAtMs": 1763122038332,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "e40afc8d-514b-433f-aac9-f4aa7e7960ba",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/e40afc8d-514b-433f-aac9-f4aa7e7960ba",
+          "size": 94185,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0bbcba-bf6f-6021-9a4d-29ac3d61eb1c",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "В регламенте плагина по отверстиям нету уточнения какие отверстия устанавливать на диаметр 50 для канализационных труб",
+      "createdAtMs": 1762514388632,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "e236fa1e-2fa6-437b-9103-f81e7b110100",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/e236fa1e-2fa6-437b-9103-f81e7b110100",
+          "size": 116546,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0ba0cd-f141-62ba-9a4d-a8c2ae90e1b1",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "В субботу 01.11 BIM отчитались что исправили плагин на отверстия, по факту ошибка осталась та же самая, еще и ревит вылетел из-за плагина",
+      "createdAtMs": 1762322489349,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "28e32efc-6c58-429a-8c9e-5bdedcc6461a",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/28e32efc-6c58-429a-8c9e-5bdedcc6461a",
+          "size": 265673,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afef5-d6b5-636d-9d4a-3b5fe8dadfc3",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "разобрались с обеими проблемами что мешало работе с Семеном",
+      "createdAtMs": 1761210304784,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0afd23-6b1e-6fde-a480-9c20dc145dc0",
+        "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+        "text": "Некорректно отображается насосная пожаротушения, Семен не понимает в чем проблема",
+        "files": [
+          {
+            "id": "4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+            "size": 23374,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afe36-7872-6cb0-a480-d15a4f257c54",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Шаблон водомерного узла не работает",
+      "createdAtMs": 1761205167783,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "36b87d56-27a8-4ebe-9aaf-bd36095d7722",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/36b87d56-27a8-4ebe-9aaf-bd36095d7722",
+          "size": 53862,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afd52-190d-6baa-a480-0ef0a25b1bba",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "пусть Семен разбирается",
+      "createdAtMs": 1761199037452,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afd26-3e63-6f7e-a8d5-7e71f500a8b4",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "несколько раз проверял, все в порядке",
+      "createdAtMs": 1761197860251,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761197866,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0afd25-1054-633d-a8d5-77cedaef1729",
+        "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+        "text": "системы никакие не отключены?",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afd25-1054-633d-a8d5-77cedaef1729",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "системы никакие не отключены?",
+      "createdAtMs": 1761197828577,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0afd23-6b1e-6fde-a480-9c20dc145dc0",
+        "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+        "text": "Некорректно отображается насосная пожаротушения, Семен не понимает в чем проблема",
+        "files": [
+          {
+            "id": "4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+            "size": 23374,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0afd23-6b1e-6fde-a480-9c20dc145dc0",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Некорректно отображается насосная пожаротушения, Семен не понимает в чем проблема",
+      "createdAtMs": 1761197784410,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4a72f02c-5b9d-4f7d-80b7-42b533cfe9d5",
+          "size": 23374,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0afcf5-5cef-6f84-9d4a-7bc4fcfc95ed",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Нету шаблона схемы для насосной пожаротушения",
+      "createdAtMs": 1761196548120,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c14e0c24-4bed-4bd4-9948-5d7750837e58",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/c14e0c24-4bed-4bd4-9948-5d7750837e58",
+          "size": 57374,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0af027-3bf6-6f85-9d4a-3504b5b10c86",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "",
+      "createdAtMs": 1761108551520,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d7de44f5-4868-47da-9a77-1d3e78aa4af1",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d7de44f5-4868-47da-9a77-1d3e78aa4af1",
+          "size": 234354,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0af026-4427-6ac6-9d4a-3351f44810d4",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Не работает плагин инженерные зоны",
+      "createdAtMs": 1761108525535,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1761108543,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0af024-b06e-6375-a8d5-388d05f153fe",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Шаблон для насосной пожаротушения необходимо доработать, не добавлены все системы в фильтр",
+      "createdAtMs": 1761108483202,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "42254dab-ff79-4958-a0cd-5b6d655c0263",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/42254dab-ff79-4958-a0cd-5b6d655c0263",
+          "size": 73575,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a81fb-6b32-6dce-a480-8a287635e73c",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "ок",
+      "createdAtMs": 1760351461113,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81fb-1fcf-664c-a790-3a4b44056442",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Семен сегодня в районе 4 обещал прийти",
+      "createdAtMs": 1760351453208,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81fa-b467-6a68-a790-cdb07af4786c",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "хорошо",
+      "createdAtMs": 1760351441946,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81fa-6485-6832-a790-838a3b543b3f",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "если вопрос не решается, тоже пиши",
+      "createdAtMs": 1760351433569,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f9-ea89-62c8-9d4a-dc4211ecc2ff",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "что-то да, что-то еще не решено",
+      "createdAtMs": 1760351420778,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a81f8-a509-6237-a480-af1028580790",
+        "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+        "text": "все решается?",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f9-e894-635f-a8d5-53c0e073179f",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "да, это хорошо",
+      "createdAtMs": 1760351420573,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f9-607c-6b39-a480-776731a5def1",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "сюда я пишу для отчетности",
+      "createdAtMs": 1760351406303,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f8-a509-6237-a480-af1028580790",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "все решается?",
+      "createdAtMs": 1760351386647,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f8-1bf2-644a-9d4a-9d0e3d140cbe",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "да",
+      "createdAtMs": 1760351372272,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a81f7-a9b4-64d4-9d4a-d6a2841c2b76",
+        "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+        "text": "ты с Семеном все эти проблемы отраьбатываешь?",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a81f7-a9b4-64d4-9d4a-d6a2841c2b76",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "ты с Семеном все эти проблемы отраьбатываешь?",
+      "createdAtMs": 1760351360293,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a816c-1823-6be2-a790-92b25ce7441f",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Не создаются задания на отверстия",
+      "createdAtMs": 1760347613776,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "89d3d1a7-d4b3-45b4-9730-c9302e7fb319",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/89d3d1a7-d4b3-45b4-9730-c9302e7fb319",
+          "size": 167578,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a8125-1e73-6542-9d4a-f8d8024c6266",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Запустил задания на отверстия, с первого раза не заработало, откатил и заново запустил плагин, выдал вот такую ошибку и ревит завис",
+      "createdAtMs": 1760345708547,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "9662d0bc-0e5f-4df0-aa15-0ff813a4956b",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/9662d0bc-0e5f-4df0-aa15-0ff813a4956b",
+          "size": 416239,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a800a-feca-659b-a480-85eced26cca4",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Плагин для изоляции был исправлен в пятницу, но изоляция в модели не меняется на нужную для стальных труб",
+      "createdAtMs": 1760338135347,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d1c589ee-9b36-4dd2-ae6c-6cdc0616a6dc",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d1c589ee-9b36-4dd2-ae6c-6cdc0616a6dc",
+          "size": 104673,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a5bb3-2261-6b65-9d4a-14fb340f5201",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "есть типоразмер для труб ОВ, но не для ВК",
+      "createdAtMs": 1760088386731,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f0a5baf-4334-64e8-a480-92c9562807d2",
+        "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+        "text": "Нету типоразмеров для стальных труб для автоматического подбора и установки изоляции",
+        "files": [
+          {
+            "id": "4412104c-f071-40b9-9384-d819f00f5601",
+            "name": "image.png",
+            "url": "https://prod-storage-chat.mts-link.ru/4412104c-f071-40b9-9384-d819f00f5601",
+            "size": 69122,
+            "mime": "image/png"
+          }
+        ]
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a5bb2-3b28-650c-a8d5-63a5191e6d6d",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "В стандартном шаблоне нету защитной изоляции для 26 труб для разводки в полу, из-за этого плагин выдавал ошибку",
+      "createdAtMs": 1760088362485,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "0c40ce7a-14da-49ea-9f1c-3654b363f4f5",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/0c40ce7a-14da-49ea-9f1c-3654b363f4f5",
+          "size": 10092,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a5baf-4334-64e8-a480-92c9562807d2",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Нету типоразмеров для стальных труб для автоматического подбора и установки изоляции",
+      "createdAtMs": 1760088282798,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "4412104c-f071-40b9-9384-d819f00f5601",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4412104c-f071-40b9-9384-d819f00f5601",
+          "size": 69122,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a507c-a6dc-6f8a-a790-99cc0d627678",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Плагин расстановки гильз еще не доделан. Труба разрезается, но гильза не ставится",
+      "createdAtMs": 1760011332803,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "ecd879e6-c950-4273-be0b-bfe837e466af",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/ecd879e6-c950-4273-be0b-bfe837e466af",
+          "size": 15075,
+          "mime": "image/png"
+        },
+        {
+          "id": "a345e993-f97c-4c13-8743-a684fe45b3a0",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/a345e993-f97c-4c13-8743-a684fe45b3a0",
+          "size": 28287,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a5073-2985-642a-a8d5-7ff85f9b4abc",
+      "authorId": "1ef8c3d9-68fe-6390-8ae0-a0423f4d30a4",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "добавь всех наших",
+      "createdAtMs": 1760011078068,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0a506c-5de9-679e-a480-806ccd5b767b",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Ошибка не исправлена",
+      "createdAtMs": 1760010895657,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "a9f231c9-8bcc-4b01-b835-52b2b0f38564",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/a9f231c9-8bcc-4b01-b835-52b2b0f38564",
+          "size": 11114,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0a5069-8afc-6a55-9d4a-92840f316c69",
+      "authorId": "1f089563-ddd7-6a0c-8217-04421acbe57b",
+      "chatId": "1f0a5064-bf67-6a38-9d4a-7c1cd32daf78",
+      "text": "Вопрос с внутренними расчетами не был решен",
+      "createdAtMs": 1760010819852,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "6366ad38-c1c7-4ba7-90b5-6be908ede314",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/6366ad38-c1c7-4ba7-90b5-6be908ede314",
+          "size": 169806,
+          "mime": "image/png"
+        },
+        {
+          "id": "8f620223-7e55-4ba3-984d-9d2cc3674234",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/8f620223-7e55-4ba3-984d-9d2cc3674234",
+          "size": 58400,
+          "mime": "image/png"
+        },
+        {
+          "id": "5f3ab47c-a8ff-4042-8e53-1be2e1047ad5",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5f3ab47c-a8ff-4042-8e53-1be2e1047ad5",
+          "size": 56780,
+          "mime": "image/png"
+        },
+        {
+          "id": "bea2e971-0cff-4499-83b7-836e0ba3d326",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/bea2e971-0cff-4499-83b7-836e0ba3d326",
+          "size": 159955,
+          "mime": "image/png"
+        },
+        {
+          "id": "0fe2e4c6-5f4f-4a60-8e2d-a0085836f9e3",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/0fe2e4c6-5f4f-4a60-8e2d-a0085836f9e3",
+          "size": 33447,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

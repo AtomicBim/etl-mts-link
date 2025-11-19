@@ -1,0 +1,40 @@
+{
+  "chat_id": "1f0c1220-48bc-6784-9488-a26a109299d4",
+  "extraction_timestamp": "2025-11-18T14:07:34.400755",
+  "total_messages": 1,
+  "chat_info": {
+    "chat_id": "1f0c1220-48bc-6784-9488-a26a109299d4",
+    "name": "106603 Речной квартал",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Жилой дом №1 в кв. 15.5 р-на Академический (Копылов А.С.)",
+    "is_notifiable": "True",
+    "unread_message_count": "1",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ef8c173-85a1-6cbc-a009-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T13:53:25.315298"
+  },
+  "messages": [
+    {
+      "id": "1f0c1224-23fe-6ef7-a3d4-06e2f7a6e740",
+      "authorId": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+      "chatId": "1f0c1220-48bc-6784-9488-a26a109299d4",
+      "text": "Добрый день! <@u:1f04c40a-462a-6d90-a0e9-9eb1aa747b17> мне нужен список сотрудников, кто работает над проектом для подключения к чату",
+      "createdAtMs": 1763101333302,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

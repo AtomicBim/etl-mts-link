@@ -1,0 +1,461 @@
+{
+  "chat_id": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+  "extraction_timestamp": "2025-11-18T14:05:53.357476",
+  "total_messages": 21,
+  "chat_info": {
+    "chat_id": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+    "name": "IT-IP ПРОРЫВ",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efc4285-fe29-6874-a027-d85ed36b7d02",
+    "extraction_timestamp": "2025-11-18T13:53:09.320417"
+  },
+  "messages": [
+    {
+      "id": "1f0c0794-31db-6e30-a3d4-325140551402",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Доработанный код заказчика пока устроил",
+      "createdAtMs": 1763028749808,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f09dccf-c33a-6cf5-8baf-ee3cc5903e9c",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Да, - держите руку на пульсе!",
+      "createdAtMs": 1759216417861,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09dcc2-0e12-6316-9a0c-10f79105481e",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "я с высокой вероятностью на следюущей неделе поеду к ним",
+      "createdAtMs": 1759216049900,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09dcc1-2ca4-69a3-956c-3bacd88a8108",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "устроит",
+      "createdAtMs": 1759216026262,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f09dcc0-63c3-6426-956c-0396d9bbc690",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Среда - четверг",
+      "createdAtMs": 1759216005198,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8c872-8e73-63f8-a020-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f09dc9a-4529-6d9b-8baf-b69fceccb5a7",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "<@u:1ef8ca29-54ab-68ba-ba70-a0423f4d30a4> какой у нас прогноз по срокам?",
+      "createdAtMs": 1759214981935,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f088ade-a506-6d81-8599-a7d3ef72f02e",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Общаться готов!",
+      "createdAtMs": 1756894099034,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": {
+        "id": "1f088add-111c-6124-bb81-2581661d67f1",
+        "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+        "text": "Пока не проконсультируюсь с Владимиром Валентиновичем взяла паузу",
+        "files": null
+      },
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f088add-111c-6124-bb81-2581661d67f1",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Пока не проконсультируюсь с Владимиром Валентиновичем взяла паузу",
+      "createdAtMs": 1756894056680,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f088ada-d6c7-6e0c-85de-516213e0309a",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Есть небольшой момент по обращению из веб сервисов",
+      "createdAtMs": 1756893996877,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f088ad9-b947-6581-85de-bb502a6afb31",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "В прорыве установлены сертификаты. Очень помогла инструкция Шапилова Дениса. Там все настраивается по особенному.",
+      "createdAtMs": 1756893966940,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f074512-afb7-618d-b556-a9f42b177895",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Вечером подробно напишу",
+      "createdAtMs": 1754655241078,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f074512-446c-6a36-b398-7e6eb62b1474",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Добрый вечер, нашли причину ошибки в прорыве",
+      "createdAtMs": 1754655229827,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👌",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f04ced8-8a5f-6179-897d-535a5daf2c1e",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "В понедельник поеду к ним, смогу очно посмотреть",
+      "createdAtMs": 1750324353202,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f04ced8-88b4-69c1-8c18-209d141a8c8c",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "У нас на демостенде такой проблемы не было, она воспроизводится?",
+      "createdAtMs": 1750324353027,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f04ced8-84d0-6867-897d-dedc94d0e397",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Удивительно у него одна и та же версия то не работет то теперь так работет",
+      "createdAtMs": 1750324352619,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f04ce89-a8a4-6e5a-b652-565bc4da927a",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Задача понятна, - беру в работу...",
+      "createdAtMs": 1750322235736,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f04ce11-f303-6a50-977e-5d368830f429",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "<@u:1ef8ca29-54ab-68ba-ba70-a0423f4d30a4> подскажите, понятна ли задача?",
+      "createdAtMs": 1750319022309,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f04ce07-e9df-68fb-977e-4a0d88c95011",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "",
+      "createdAtMs": 1750318752915,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "9bbae5e9-4f7e-4547-8172-6ede9321e8b2",
+          "name": "file_1750318749.251707.png",
+          "url": "https://prod-storage-chat.mts-link.ru/9bbae5e9-4f7e-4547-8172-6ede9321e8b2",
+          "size": 594535,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f04ce07-93e0-6e19-8c18-b60d32d97b38",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Сейчас с текущей версии - так",
+      "createdAtMs": 1750318743898,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f04ce07-4441-6ae8-b652-7d2b651c8fa4",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Алексей ждёт рабочий модуль",
+      "createdAtMs": 1750318735549,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f04ce06-c834-6e63-977e-97433ef10eb8",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "chatId": "1f04ce05-2472-68b5-8c18-ef52d1fc697a",
+      "text": "Коллеги, привет!",
+      "createdAtMs": 1750318722541,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

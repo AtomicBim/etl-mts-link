@@ -1,0 +1,20 @@
+{
+  "chat_id": "1f0c1220-48bc-6784-9488-a26a109299d4",
+  "chat_name": "106603 Речной квартал",
+  "extraction_timestamp": "2025-11-18T16:46:58.706753",
+  "original_total_messages": 1,
+  "simplified_messages_count": 1,
+  "processing_timestamp": "2025-11-18T16:46:58.706753",
+  "messages": [
+    {
+      "chat_id": "1f0c1220-48bc-6784-9488-a26a109299d4",
+      "chat_name": "106603 Речной квартал",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f04a900-99ac-6a92-bc99-6cb3116537ae",
+      "full_name": "Анна Галицына",
+      "text": "Добрый день! <@u:1f04c40a-462a-6d90-a0e9-9eb1aa747b17> мне нужен список сотрудников, кто работает над проектом для подключения к чату",
+      "createdAt": "2025-11-14 11:22:13"
+    }
+  ]
+}

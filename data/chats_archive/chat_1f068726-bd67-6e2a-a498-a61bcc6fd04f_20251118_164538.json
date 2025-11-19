@@ -1,0 +1,139 @@
+{
+  "chat_id": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+  "extraction_timestamp": "2025-11-18T16:45:38.213212",
+  "total_messages": 5,
+  "chat_info": {
+    "chat_id": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+    "name": "ТП - Вывод из домена Инвестстр",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Бадрадинов Евгений",
+    "owner_id": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+    "organization_name": "Корпорация АСК (Головная организация)",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "0000231521",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+    "extraction_timestamp": "2025-11-18T16:29:58.907249"
+  },
+  "messages": [
+    {
+      "id": "1f0b618f-2d04-6eb9-901d-320ebd56acab",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+      "text": "Актуализированный счет выслан 29.10.\nЛюбаев А.С. согласовал и сообщил, что оплатят 01.11",
+      "createdAtMs": 1761887871769,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 2,
+          "users": [
+            "1ef8c7ce-dd02-6950-9f5d-a0423f4d30a4",
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f068731-242a-6f09-9375-1ce9649dafe2",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+      "text": "22.04 Директор сообщил, что отправят требования по безопасности. Ожидаю письма ",
+      "createdAtMs": 1753350388537,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f06872f-ebe6-67b3-9375-3568f83b84a7",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+      "text": "29.04 Счет направлен клиенту\n06.06 Обсудили счет, письмо.\n09.06 Должен выйти ответственный за ИБ, подготовит требования. Копят денежные средства для оплаты счета.\n17.06 Готовят документы по ИБ\n08.07. Директор не в РФ\n22.04  Появились денежные средства у компании. Актуализирован  и отправлен счет",
+      "createdAtMs": 1753350355793,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": 1753350434,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "752c49c1-0e86-444e-9372-fec54d9a5a68",
+          "name": "Счет № 2364 от 22072025.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/752c49c1-0e86-444e-9372-fec54d9a5a68",
+          "size": 539237,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f06872c-8cf7-6139-9375-ac75a7771f8c",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+      "text": "29.04 Счет направлен клиенту\n ",
+      "createdAtMs": 1753350265308,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d07af751-c4f2-44fe-bdf1-83dd15bc8d20",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d07af751-c4f2-44fe-bdf1-83dd15bc8d20",
+          "size": 150144,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f068729-6c2d-6eed-87a9-16ee153ba2b8",
+      "authorId": "1ee9578a-f3f5-6e32-8e3b-d966f91c1a0a",
+      "chatId": "1f068726-bd67-6e2a-a498-a61bcc6fd04f",
+      "text": "25.02 План составлен. Приступим после Здравы.\n08.04 Сообщили Директору о поступившей задаче. Готовим план для работ.15.04. ПК - контроллер домена. Место установки\n",
+      "createdAtMs": 1753350181339,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

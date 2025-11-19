@@ -1,0 +1,60 @@
+{
+  "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+  "chat_name": "АСК. ВНД на Крайон",
+  "extraction_timestamp": "2025-11-18T16:42:41.778271",
+  "original_total_messages": 5,
+  "simplified_messages_count": 5,
+  "processing_timestamp": "2025-11-18T16:42:41.778271",
+  "messages": [
+    {
+      "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+      "chat_name": "АСК. ВНД на Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Это же крайон... есть свои \"НО\"",
+      "createdAt": "2025-04-01 16:54:06"
+    },
+    {
+      "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+      "chat_name": "АСК. ВНД на Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Отлично, только давайте сначала внутри ",
+      "createdAt": "2025-04-01 16:53:48"
+    },
+    {
+      "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+      "chat_name": "АСК. ВНД на Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "full_name": "Евгения Мельникова",
+      "text": "давайте завтра вместе посмотрим и я поставлю встречу с ВНД",
+      "createdAt": "2025-04-01 16:53:31"
+    },
+    {
+      "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+      "chat_name": "АСК. ВНД на Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8bfd6-cd52-6758-8876-a0423f4d30a4",
+      "full_name": "Полина Сергеева",
+      "text": "Супер! Покажете?",
+      "createdAt": "2025-04-01 16:53:30"
+    },
+    {
+      "chat_id": "1f00eefa-cac5-6d84-ac75-2c14ba7104ff",
+      "chat_name": "АСК. ВНД на Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Готов концепт. Можем презентовать. ",
+      "createdAt": "2025-04-01 16:52:19"
+    }
+  ]
+}

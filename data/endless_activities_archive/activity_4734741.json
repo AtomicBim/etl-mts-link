@@ -1,0 +1,25 @@
+{
+  "activity_info": {
+    "activity_id": "4734741",
+    "activity_type": "",
+    "duration_minutes": "1323",
+    "end_time": "2025-08-06T06:31:54+03:00",
+    "endless_event_id": "97269511",
+    "endless_event_name": "Инженерка",
+    "endless_event_owner_id": "",
+    "event_session_id": "",
+    "has_transcript": "False",
+    "is_recorded": "False",
+    "participants_count_api": "0",
+    "participants_count_csv": "4",
+    "recordings_count": "0",
+    "room_name": "Инженерка",
+    "start_time": "2025-08-05T08:28:36+03:00",
+    "status": "",
+    "transcripts_count": "0",
+    "unique_participants": "0",
+    "user_id": "40283179",
+    "user_name": "Антон Тимонин"
+  },
+  "analysis_timestamp": "2025-11-18T14:41:35.427814"
+}

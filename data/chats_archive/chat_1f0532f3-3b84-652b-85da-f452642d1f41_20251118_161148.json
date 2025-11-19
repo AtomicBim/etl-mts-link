@@ -1,0 +1,67 @@
+{
+  "chat_id": "1f0532f3-3b84-652b-85da-f452642d1f41",
+  "extraction_timestamp": "2025-11-18T16:11:48.058881",
+  "total_messages": 2,
+  "chat_info": {
+    "chat_id": "1f0532f3-3b84-652b-85da-f452642d1f41",
+    "name": "ТП. Бот фиксация цен поставщик",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Оносова Мария",
+    "owner_id": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efa59f1-66d1-6e6e-bd0f-a0423f4d30a4",
+    "extraction_timestamp": "2025-11-18T15:21:26.541101"
+  },
+  "messages": [
+    {
+      "id": "1f0614f2-1bed-639c-87a9-96d6e44dad42",
+      "authorId": "1efa59f1-66d1-6e6e-bd0f-a0423f4d30a4",
+      "chatId": "1f0532f3-3b84-652b-85da-f452642d1f41",
+      "text": "Версия содержит в себе парсеры по сайтам: e2e4, kmural, ipmatika, quadrum, komus, nag.\n\nС сайтами dns, onlinetrade, citilink есть определенные трудности, а именно:\n\nDNS -  распознает, что запрос инициируется эмулятором, возвращает 403 ошибку(доступ запрещен)\n\nonlinetrade - распознает, что запрос инициируется эмулятором, возвращает капчу, которую кодом пройти не получится\n\ncitilink - помимо динамической подгрузки элементов, они имеют уникальный хеш, зависимый от категории товара.",
+      "createdAtMs": 1752565294495,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0614f1-f452-6f16-9375-6105a4059588",
+      "authorId": "1efa59f1-66d1-6e6e-bd0f-a0423f4d30a4",
+      "chatId": "1f0532f3-3b84-652b-85da-f452642d1f41",
+      "text": "Коллеги, добрый день!\nДелюсь промежуточными результатами. ",
+      "createdAtMs": 1752565290342,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c4887408-d7b7-44fd-a169-ea8c3a7cb07a",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/c4887408-d7b7-44fd-a169-ea8c3a7cb07a",
+          "size": 54899,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    }
+  ]
+}

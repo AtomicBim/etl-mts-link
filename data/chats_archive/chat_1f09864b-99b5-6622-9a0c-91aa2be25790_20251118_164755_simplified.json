@@ -1,0 +1,220 @@
+{
+  "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+  "chat_name": "Doctrix VS 1C",
+  "extraction_timestamp": "2025-11-18T16:47:55.634139",
+  "original_total_messages": 21,
+  "simplified_messages_count": 21,
+  "processing_timestamp": "2025-11-18T16:47:55.634139",
+  "messages": [
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "Света, скажи а зачем мне в ексель рег номер? если мы договаривались что там будет ссылка на карточку договора?",
+      "createdAt": "2025-09-25 16:07:00"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "",
+      "createdAt": "2025-09-25 11:50:24"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "ждем ексель..",
+      "createdAt": "2025-09-25 11:16:07"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "как появился Анатольевич - загадка",
+      "createdAt": "2025-09-25 11:16:00"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "а в договоре:",
+      "createdAt": "2025-09-25 11:15:37"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "по номеру в карточке :",
+      "createdAt": "2025-09-25 11:14:53"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "начал искать первый договор, по контрагенту не ищет...",
+      "createdAt": "2025-09-25 11:14:37"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "до Ватагиной не могу дозвониться и дописаться",
+      "createdAt": "2025-09-25 11:11:23"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "сейчас она мне вышлет",
+      "createdAt": "2025-09-25 11:11:06"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "так было две задачи 1. занести 2. заполнить ексель",
+      "createdAt": "2025-09-25 11:09:50"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "пользователь говорит что вчера все данные внесла",
+      "createdAt": "2025-09-25 11:08:56"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "договора от АН Атом - вчера связывалась с регистратором - Бабаян взяла в работу, у меня сканов нет - сама зарегистрировать не могу",
+      "createdAt": "2025-09-25 11:04:27"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "оставшиеся карточки:",
+      "createdAt": "2025-09-25 11:02:34"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "Коллеги, надо довнести договоры! Пока это не сделано, не могу запустить обмен!",
+      "createdAt": "2025-09-25 11:00:36"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c60e-c537-6c24-9730-a0423f4d30a4",
+      "full_name": "Светлана Селеткова",
+      "text": "в файлик внесла рег номера по ссылкам какие были документы, где без ссылок договоров нет",
+      "createdAt": "2025-09-24 12:19:29"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "full_name": "Евгения Мельникова",
+      "text": "<@u:1ef8c60e-c537-6c24-9730-a0423f4d30a4> , Света, прошу связаться с указанными (колонка G) регистраторами и бухгалтерами, запросить недостающие договоры и зарегистировать их в СЭД",
+      "createdAt": "2025-09-24 11:16:52"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f04d8f9-a955-6a24-a378-04421acbe57b",
+      "full_name": "Анна Шишкина",
+      "text": "Направляю заполненную таблицу:",
+      "createdAt": "2025-09-24 10:59:07"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f04d8f9-a955-6a24-a378-04421acbe57b",
+      "full_name": "Анна Шишкина",
+      "text": "Также указала в табличке регистраторов договоров от АН АТОМ",
+      "createdAt": "2025-09-24 10:11:43"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f04d8f9-a955-6a24-a378-04421acbe57b",
+      "full_name": "Анна Шишкина",
+      "text": "Добрый день, коллеги! Направляю договоры, которые уже готовы:",
+      "createdAt": "2025-09-24 10:10:25"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "Анна , вы сюда пишите как заведете договор, а мы отрабатывать будем в УХ и бухах",
+      "createdAt": "2025-09-23 15:07:08"
+    },
+    {
+      "chat_id": "1f09864b-99b5-6622-9a0c-91aa2be25790",
+      "chat_name": "Doctrix VS 1C",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-18d9-6044-9d68-a0423f4d30a4",
+      "full_name": "Станислав Козлов",
+      "text": "коллеги, добры день",
+      "createdAt": "2025-09-23 15:06:32"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+  "chat_name": "IT-IP. CRM",
+  "extraction_timestamp": "2025-11-18T16:46:36.025766",
+  "original_total_messages": 7,
+  "simplified_messages_count": 7,
+  "processing_timestamp": "2025-11-18T16:46:36.025766",
+  "messages": [
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c862-1b3b-6efe-ae1a-a0423f4d30a4",
+      "full_name": "Денис Капралов",
+      "text": "Добавить сущности не проблема, основная проблематика будет связана с модификацией БП. К сожалению, пользователи не смогут вносить в них правки самостоятельно. Мы это с Машей обговорили",
+      "createdAt": "2025-04-11 14:53:32"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Есть тонкие моменты, надо обсудить, но в целом все понятно.  Денис сказал что это не сложно реализовать в рамках нашего портала!",
+      "createdAt": "2025-04-11 14:10:46"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Коллеги, накидали концепт по нашей CRM",
+      "createdAt": "2025-04-11 14:09:47"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "https://my.mts-link.ru/boards/board/fe429011-acfa-45a9-8621-b9bb9a7a64b9?linkToWidget=a6120eb8-4be4-466b-f607-d0194fbf3145",
+      "createdAt": "2025-04-11 14:09:30"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "",
+      "createdAt": "2025-04-11 14:09:12"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Все наработки закину на доску в течении 3 дней ",
+      "createdAt": "2025-04-03 11:28:29"
+    },
+    {
+      "chat_id": "1f010545-6e2d-6530-a860-05a7278b63e7",
+      "chat_name": "IT-IP. CRM",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "Задачи проекта https://port.it-ip.ru/project/138 Доска проекта https://my.mts-link.ru/boards/board/fe429011-acfa-45a9-8621-b9bb9a7a64b9?linkToWidget=a6120eb8-4be4-466b-f607-d0194fbf3145 ",
+      "createdAt": "2025-04-03 11:27:35"
+    }
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+  "chat_name": "IT-IP. Synch Крайон",
+  "extraction_timestamp": "2025-11-18T16:45:14.041373",
+  "original_total_messages": 116,
+  "simplified_messages_count": 116,
+  "processing_timestamp": "2025-11-18T16:45:14.041373",
+  "messages": [
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nПроекты: 2\nДата начала синхронизации: 18.11.2025 10:35:33\nДата окончания синхронизации: 18.11.2025 10:35:35\nДлительность синхронизации: 00:00:02\nИнициатор: semenova\nИсполнитель: subbotina\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 1\n\t\tОбновленные 2:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/9a5abe5a-9534-43cc-bf50-d814f51d3660",
+      "createdAt": "2025-11-18 15:35:39"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nПроекты: 2\nДата начала синхронизации: 18.11.2025 9:21:18\nДата окончания синхронизации: 18.11.2025 9:21:19\nДлительность синхронизации: 00:00:01\nИнициатор: semenova\nИсполнитель: kokoulin\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 1\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/39757d79-22c0-4708-b0d3-62243793ce54",
+      "createdAt": "2025-11-18 14:21:43"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nsProjectId: Empty\nsProjectGuid: Empty\nsRobotNm: levv\ndtStarted: 18.11.2025 9:10:05\ndtFinished: 18.11.2025 4:10:05\ndtExecutionTime: -05:00:00\njTasks_Entry: {\r\n  \"TasksCnt\": null,\r\n  \"ActivitiesCnt\": null,\r\n  \"TasksToCreateCnt\": null,\r\n  \"TasksToEditCnt\": null\r\n}\njTasks_Result: {\r\n  \"NewTasksCnt\": null,\r\n  \"ErrorTasksCnt\": null,\r\n  \"UpdatedTasksCnt\": null,\r\n  \"ErrorUpdTasksCnt\": null,\r\n  \"Finished\": null\r\n}\niTasksErrors_Cnt: 0\njTaskAssigns_Entry: {\r\n  \"TaskAssignsCnt\": null,\r\n  \"RsrcAssignmentsCnt\": null,\r\n  \"TaskAssignsToCreateCnt\": null,\r\n  \"TaskAssignsToEditCnt\": null\r\n}\njTaskAssigns_Result: {\r\n  \"NewTaskAssignsCnt\": null,\r\n  \"ErrorTaskAssignsCnt\": null,\r\n  \"UpdatedTaskAssignsCnt\": null,\r\n  \"ErrorUpdTaskAssignsCnt\": null,\r\n  \"Finished\": null\r\n}\niTaskAssignsErrors_Cnt: 0\nsExecutorAdLogin: e.melnikova\nsExecutorGuid: e3cd4d52-60ec-4243-b877-838ac135e64a\n",
+      "createdAt": "2025-11-18 09:10:08"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nПроекты: 1\nДата начала синхронизации: 18.11.2025 3:03:53\nДата окончания синхронизации: 18.11.2025 3:03:56\nДлительность синхронизации: 00:00:02\nИнициатор: semenova\nИсполнитель: popov\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 1\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/c7e6bd38-8ee4-4e24-9ed0-e87b357a345c",
+      "createdAt": "2025-11-18 08:04:01"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 17.11.2025 23:00:00\nДата окончания синхронизации: 17.11.2025 23:01:16\nДлительность синхронизации: 00:01:16\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/f3bc3bf9-b076-4487-a868-5a58a703a3d9",
+      "createdAt": "2025-11-18 04:01:37"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0bdff2-4bed-6060-84da-6cb3116537ae",
+      "full_name": "Синхронизация Справочника Проекты",
+      "text": "Результаты синхронизации проектов Doctrix\nИнициатор: sqlJob_SyncDoctrixProjects\nПроекты: 4\nДата начала синхронизации: 17.11.2025 20:00:02\nДата окончания синхронизации: 17.11.2025 20:00:03\nДлительность синхронизации: 00:00:01\nИнициатор: sqlJob_SyncDoctrixProjects\nОбновления:\n\tСозданные проекты: 0\n\tОбновленные проекты: 4\nОшибки:\n\tОшибки при создании: 0\n\tОшибки при обновлении: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/5f37a5a3-a85f-4504-a105-2eab67bc70f8",
+      "createdAt": "2025-11-18 01:00:08"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0bdff2-4bed-6060-84da-6cb3116537ae",
+      "full_name": "Синхронизация Справочника Проекты",
+      "text": "Результаты синхронизации проектов Doctrix\nИнициатор: sqlJob_SyncDoctrixProjects\nПроекты: 4\nДата начала синхронизации: 17.11.2025 17:55:27\nДата окончания синхронизации: 17.11.2025 17:55:28\nДлительность синхронизации: 00:00:01\nИнициатор: sqlJob_SyncDoctrixProjects\nОбновления:\n\tСозданные проекты: 0\n\tОбновленные проекты: 4\nОшибки:\n\tОшибки при создании: 0\n\tОшибки при обновлении: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/ff35ce45-2eef-4041-91e6-8d96e030a155",
+      "createdAt": "2025-11-17 22:55:29"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0bdff2-4bed-6060-84da-6cb3116537ae",
+      "full_name": "Синхронизация Справочника Проекты",
+      "text": "Результаты синхронизации проектов Doctrix\nИнициатор: levv\nПроекты: 4\nДата начала синхронизации: 17.11.2025 17:53:08\nДата окончания синхронизации: 17.11.2025 17:53:09\nДлительность синхронизации: 00:00:01\nИнициатор: levv\nОбновления:\n\tСозданные проекты: 0\n\tОбновленные проекты: 4\nОшибки:\n\tОшибки при создании: 0\n\tОшибки при обновлении: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/8c798600-7a83-4409-af19-b1bc7fc157d5",
+      "createdAt": "2025-11-17 22:53:12"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nsProjectId: Empty\nsProjectGuid: Empty\nsRobotNm: levv\ndtStarted: 17.11.2025 22:51:16\ndtFinished: 17.11.2025 17:51:16\ndtExecutionTime: -05:00:00\njTasks_Entry: {\r\n  \"TasksCnt\": null,\r\n  \"ActivitiesCnt\": null,\r\n  \"TasksToCreateCnt\": null,\r\n  \"TasksToEditCnt\": null\r\n}\njTasks_Result: {\r\n  \"NewTasksCnt\": null,\r\n  \"ErrorTasksCnt\": null,\r\n  \"UpdatedTasksCnt\": null,\r\n  \"ErrorUpdTasksCnt\": null,\r\n  \"Finished\": null\r\n}\niTasksErrors_Cnt: 0\njTaskAssigns_Entry: {\r\n  \"TaskAssignsCnt\": null,\r\n  \"RsrcAssignmentsCnt\": null,\r\n  \"TaskAssignsToCreateCnt\": null,\r\n  \"TaskAssignsToEditCnt\": null\r\n}\njTaskAssigns_Result: {\r\n  \"NewTaskAssignsCnt\": null,\r\n  \"ErrorTaskAssignsCnt\": null,\r\n  \"UpdatedTaskAssignsCnt\": null,\r\n  \"ErrorUpdTaskAssignsCnt\": null,\r\n  \"Finished\": null\r\n}\niTaskAssignsErrors_Cnt: 0\nsExecutorAdLogin: e.melnikova\nsExecutorGuid: e3cd4d52-60ec-4243-b877-838ac135e64a\n",
+      "createdAt": "2025-11-17 22:51:16"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6ea-9851-68be-a14a-04421acbfbde",
+      "full_name": "Синхронизация Персональная",
+      "text": "Персональная синхронизация: Отчет (newdoc)\nЭкземпляр: newdoc(https://newdoc.atomsk.ru)\n\nsProjectId: Empty\nsProjectGuid: Empty\nsRobotNm: levv\ndtStarted: 17.11.2025 22:35:40\ndtFinished: 17.11.2025 17:35:40\ndtExecutionTime: -05:00:00\njTasks_Entry: {\r\n  \"TasksCnt\": null,\r\n  \"ActivitiesCnt\": null,\r\n  \"TasksToCreateCnt\": null,\r\n  \"TasksToEditCnt\": null\r\n}\njTasks_Result: {\r\n  \"NewTasksCnt\": null,\r\n  \"ErrorTasksCnt\": null,\r\n  \"UpdatedTasksCnt\": null,\r\n  \"ErrorUpdTasksCnt\": null,\r\n  \"Finished\": null\r\n}\niTasksErrors_Cnt: 0\njTaskAssigns_Entry: {\r\n  \"TaskAssignsCnt\": null,\r\n  \"RsrcAssignmentsCnt\": null,\r\n  \"TaskAssignsToCreateCnt\": null,\r\n  \"TaskAssignsToEditCnt\": null\r\n}\njTaskAssigns_Result: {\r\n  \"NewTaskAssignsCnt\": null,\r\n  \"ErrorTaskAssignsCnt\": null,\r\n  \"UpdatedTaskAssignsCnt\": null,\r\n  \"ErrorUpdTaskAssignsCnt\": null,\r\n  \"Finished\": null\r\n}\niTaskAssignsErrors_Cnt: 0\nsExecutorAdLogin: e.barila\nsExecutorGuid: 31d3f97f-d2f0-40b4-a0bb-cb4745561ec3\n",
+      "createdAt": "2025-11-17 22:35:40"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 17.11.2025 17:00:00\nДата окончания синхронизации: 17.11.2025 17:29:51\nДлительность синхронизации: 00:29:50\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 683\n\tPM_TaskAssign:\n\t\tНовые: 103\n\t\tОбновленные 743:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/2500016a-2331-45de-aed4-d386c44f13d4",
+      "createdAt": "2025-11-17 22:30:14"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0bdff2-4bed-6060-84da-6cb3116537ae",
+      "full_name": "Синхронизация Справочника Проекты",
+      "text": "Результаты синхронизации проектов Doctrix\nИнициатор: levv\nПроекты: 4\nДата начала синхронизации: 17.11.2025 13:29:55\nДата окончания синхронизации: 17.11.2025 13:29:57\nДлительность синхронизации: 00:00:01\nИнициатор: levv\nОбновления:\n\tСозданные проекты: 0\n\tОбновленные проекты: 4\nОшибки:\n\tОшибки при создании: 0\n\tОшибки при обновлении: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/8b0533b7-d7c3-41c6-abd9-48bf9d89922f",
+      "createdAt": "2025-11-17 18:29:57"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1efc4285-fe29-6874-a027-d85ed36b7d02",
+      "full_name": "Даниил Обухов",
+      "text": "Результаты синхронизации проектов Doctrix\nИнициатор: levv\nПроекты: 4\nДата начала синхронизации: 17.11.2025 13:26:09\nДата окончания синхронизации: 17.11.2025 13:26:10\nДлительность синхронизации: 00:00:01\nИнициатор: levv\nОбновления:\n\tСозданные проекты: 0\n\tОбновленные проекты: 4\nОшибки:\n\tОшибки при создании: 0\n\tОшибки при обновлении: 0\nПолноценный отчет: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/42471e7b-fbbd-4593-abef-a494454c4944",
+      "createdAt": "2025-11-17 18:26:14"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 16.11.2025 23:00:00\nДата окончания синхронизации: 16.11.2025 23:01:10\nДлительность синхронизации: 00:01:10\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/8cc6fb2e-6f63-45e7-9710-136852439810",
+      "createdAt": "2025-11-17 04:01:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 16.11.2025 17:00:00\nДата окончания синхронизации: 16.11.2025 17:01:24\nДлительность синхронизации: 00:01:24\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 5\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 11:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/37a38c13-aab3-4df3-8c17-9d5b8a543563",
+      "createdAt": "2025-11-16 22:01:50"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 15.11.2025 23:00:00\nДата окончания синхронизации: 15.11.2025 23:01:05\nДлительность синхронизации: 00:01:05\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/cd5584a1-bdb7-4e40-968e-21424465310d",
+      "createdAt": "2025-11-16 04:01:27"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 15.11.2025 17:00:01\nДата окончания синхронизации: 15.11.2025 17:01:35\nДлительность синхронизации: 00:01:34\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 7\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 8:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/cc12f1f8-aaf9-493c-986f-082da3cbdcbf",
+      "createdAt": "2025-11-15 22:02:09"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 14.11.2025 23:00:01\nДата окончания синхронизации: 14.11.2025 23:01:09\nДлительность синхронизации: 00:01:08\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/7752ebf8-0543-4d6f-a2f0-f2b41f70a4d2",
+      "createdAt": "2025-11-15 04:01:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 14.11.2025 17:00:00\nДата окончания синхронизации: 14.11.2025 17:10:08\nДлительность синхронизации: 00:10:07\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 3\n\t\tОбновленные: 173\n\tPM_TaskAssign:\n\t\tНовые: 2\n\t\tОбновленные 266:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/ae1ba2bb-5523-42b1-84d7-17572e4d3d5c",
+      "createdAt": "2025-11-14 22:10:32"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 13.11.2025 17:00:01\nДата окончания синхронизации: 13.11.2025 18:10:45\nДлительность синхронизации: 01:10:44\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 2\n\t\tОбновленные: 3214\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 508:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/07578e06-ddd0-4b59-bc21-acd9d25c72fb",
+      "createdAt": "2025-11-13 23:11:09"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 13.11.2025 7:07:49\nДата окончания синхронизации: 13.11.2025 7:07:53\nДлительность синхронизации: 00:00:03\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/6500e7d0-2ad6-42a7-a970-bbd0754dac0d",
+      "createdAt": "2025-11-13 12:08:08"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 13.11.2025 7:04:17\nДата окончания синхронизации: 13.11.2025 7:04:31\nДлительность синхронизации: 00:00:13\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/121be2cc-836a-4890-897f-6dd93b3b9a98",
+      "createdAt": "2025-11-13 12:04:54"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 12.11.2025 23:00:01\nДата окончания синхронизации: 12.11.2025 23:01:14\nДлительность синхронизации: 00:01:13\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-13 04:01:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:53:58\nДата окончания синхронизации: 12.11.2025 12:54:05\nДлительность синхронизации: 00:00:08\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 2\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 3:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/0c301515-a0c7-4fe1-bbe2-f2f08e7232d2",
+      "createdAt": "2025-11-12 17:54:24"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:24:56\nДата окончания синхронизации: 12.11.2025 12:25:04\nДлительность синхронизации: 00:00:08\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 2\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/3a8ed37b-6383-4894-a0c2-9f1055b6b051",
+      "createdAt": "2025-11-12 17:25:20"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:19:46\nДата окончания синхронизации: 12.11.2025 12:19:52\nДлительность синхронизации: 00:00:06\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 2:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/469a1492-515c-4bc3-b497-a07b2b4f07b2",
+      "createdAt": "2025-11-12 17:20:08"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:16:35\nДата окончания синхронизации: 12.11.2025 12:16:41\nДлительность синхронизации: 00:00:06\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 2:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/d73f6dfb-63bc-4fb4-9e0d-85cd4a44ecb4",
+      "createdAt": "2025-11-12 17:16:57"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:13:51\nДата окончания синхронизации: 12.11.2025 12:13:58\nДлительность синхронизации: 00:00:06\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 2\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/1bcbcd3f-db62-4fa5-8705-65a16e08bf31",
+      "createdAt": "2025-11-12 17:14:14"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 12.11.2025 12:10:04\nДата окончания синхронизации: 12.11.2025 12:10:19\nДлительность синхронизации: 00:00:15\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 10:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/46d02d86-681e-43a0-abf8-078f1be7062e",
+      "createdAt": "2025-11-12 17:10:43"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 35\nДата начала синхронизации: 11.11.2025 23:00:05\nДата окончания синхронизации: 11.11.2025 23:01:14\nДлительность синхронизации: 00:01:10\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-12 04:01:32"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 3\nДата начала синхронизации: 11.11.2025 17:00:01\nДата окончания синхронизации: 11.11.2025 18:50:28\nДлительность синхронизации: 01:50:27\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 5\n\t\tОбновленные: 5103\n\tPM_TaskAssign:\n\t\tНовые: 9\n\t\tОбновленные 1022:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-11 23:50:47"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 11.11.2025 4:15:27\nДата окончания синхронизации: 11.11.2025 4:38:46\nДлительность синхронизации: 00:23:19\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 1069\n\tPM_TaskAssign:\n\t\tНовые: 9\n\t\tОбновленные 273:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/f47d7f72-9b54-43fe-9458-5d8df347b51c",
+      "createdAt": "2025-11-11 09:39:09"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 11.11.2025 3:55:12\nДата окончания синхронизации: 11.11.2025 3:55:16\nДлительность синхронизации: 00:00:04\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \nСсылка на полный отчёт: https://api.atomsk.ru/ws-askservices/api/MiscMethods/files/30538dfb-0c88-4259-8aa4-afa7e9e6e57b",
+      "createdAt": "2025-11-11 08:55:47"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 10.11.2025 23:00:00\nДата окончания синхронизации: 10.11.2025 23:01:13\nДлительность синхронизации: 00:01:13\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-11 04:01:31"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 10\nДата начала синхронизации: 10.11.2025 17:00:01\nДата окончания синхронизации: 10.11.2025 17:13:01\nДлительность синхронизации: 00:13:00\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 37\n\t\tОбновленные: 222\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 371:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 47\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 22:13:20"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 10.11.2025 12:56:34\nДата окончания синхронизации: 10.11.2025 12:56:41\nДлительность синхронизации: 00:00:07\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 3:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 17:56:57"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 10.11.2025 12:54:39\nДата окончания синхронизации: 10.11.2025 12:54:46\nДлительность синхронизации: 00:00:07\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 3\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 17:55:04"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 10.11.2025 12:01:11\nДата окончания синхронизации: 10.11.2025 12:01:18\nДлительность синхронизации: 00:00:07\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 3:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 17:01:34"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 10.11.2025 11:58:09\nДата окончания синхронизации: 10.11.2025 11:58:24\nДлительность синхронизации: 00:00:15\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 2\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 8\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 2\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 16:58:42"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 10.11.2025 5:41:24\nДата окончания синхронизации: 10.11.2025 5:41:29\nДлительность синхронизации: 00:00:05\nПриложение: ASK-IT-TP11 TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 2\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 10:41:47"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 09.11.2025 23:00:00\nДата окончания синхронизации: 09.11.2025 23:01:24\nДлительность синхронизации: 00:01:24\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 2\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 6:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-10 04:01:42"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 09.11.2025 17:00:01\nДата окончания синхронизации: 09.11.2025 17:01:19\nДлительность синхронизации: 00:01:18\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 2\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 2:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-09 22:01:39"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 43\nДата начала синхронизации: 08.11.2025 23:00:00\nДата окончания синхронизации: 08.11.2025 23:01:02\nДлительность синхронизации: 00:01:02\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-09 04:01:19"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 33\nДата начала синхронизации: 08.11.2025 17:00:01\nДата окончания синхронизации: 08.11.2025 17:01:07\nДлительность синхронизации: 00:01:06\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-08 22:01:25"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 36\nДата начала синхронизации: 07.11.2025 23:00:01\nДата окончания синхронизации: 07.11.2025 23:01:09\nДлительность синхронизации: 00:01:08\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-08 04:01:29"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 07.11.2025 12:17:59\nДата окончания синхронизации: 07.11.2025 12:18:05\nДлительность синхронизации: 00:00:07\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 17:18:23"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 07.11.2025 11:20:57\nДата окончания синхронизации: 07.11.2025 11:21:02\nДлительность синхронизации: 00:00:04\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 1\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 16:21:17"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 07.11.2025 11:20:11\nДата окончания синхронизации: 07.11.2025 11:20:13\nДлительность синхронизации: 00:00:03\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 16:20:34"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 07.11.2025 11:05:20\nДата окончания синхронизации: 07.11.2025 11:06:48\nДлительность синхронизации: 00:01:28\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 2\n\t\tОбновленные: 4\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 52\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 16:07:06"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 07.11.2025 9:25:05\nДата окончания синхронизации: 07.11.2025 9:33:54\nДлительность синхронизации: 00:08:50\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 36\n\t\tОбновленные: 128\n\tPM_TaskAssign:\n\t\tНовые: 2\n\t\tОбновленные 239:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 46\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 14:34:10"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 07.11.2025 9:24:23\nДата окончания синхронизации: 07.11.2025 9:24:27\nДлительность синхронизации: 00:00:04\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 14:24:43"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 07.11.2025 6:38:40\nДата окончания синхронизации: 07.11.2025 6:38:45\nДлительность синхронизации: 00:00:05\nПриложение: D4615-A TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 11:39:00"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1 минута 15''.\nПо состоянию на 04:02 07.11.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-11-07 09:53:14"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 06.11.2025 23:00:00\nДата окончания синхронизации: 06.11.2025 23:01:16\nДлительность синхронизации: 00:01:15\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-07 04:01:41"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 5\nДата начала синхронизации: 06.11.2025 17:00:01\nДата окончания синхронизации: 06.11.2025 17:05:38\nДлительность синхронизации: 00:05:37\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 8\n\t\tОбновленные: 112\n\tPM_TaskAssign:\n\t\tНовые: 44\n\t\tОбновленные 99:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-06 22:05:57"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 06.11.2025 5:25:47\nДата окончания синхронизации: 06.11.2025 5:37:58\nДлительность синхронизации: 00:12:11\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 4\n\t\tОбновленные: 549\n\tPM_TaskAssign:\n\t\tНовые: 9\n\t\tОбновленные 164:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-06 10:38:15"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 73\nДата начала синхронизации: 06.11.2025 5:03:59\nДата окончания синхронизации: 06.11.2025 5:05:51\nДлительность синхронизации: 00:01:52\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 19\n\tPM_TaskAssign:\n\t\tНовые: 18\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-06 10:06:18"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 36\nДата начала синхронизации: 06.11.2025 4:53:30\nДата окончания синхронизации: 06.11.2025 4:56:59\nДлительность синхронизации: 00:03:29\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 81\n\tPM_TaskAssign:\n\t\tНовые: 65\n\t\tОбновленные 2:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-06 09:57:27"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 05.11.2025 23:00:00\nДата окончания синхронизации: 05.11.2025 23:01:11\nДлительность синхронизации: 00:01:11\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-06 04:01:06"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 05.11.2025 17:00:01\nДата окончания синхронизации: 05.11.2025 18:58:19\nДлительность синхронизации: 01:58:18\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 6\n\t\tОбновленные: 6131\n\tPM_TaskAssign:\n\t\tНовые: 75\n\t\tОбновленные 1177:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-05 23:58:41"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 04.11.2025 23:00:01\nДата окончания синхронизации: 04.11.2025 23:01:09\nДлительность синхронизации: 00:01:08\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-05 04:01:30"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 39\nДата начала синхронизации: 04.11.2025 17:00:01\nДата окончания синхронизации: 04.11.2025 17:01:12\nДлительность синхронизации: 00:01:11\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 5:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-04 22:01:30"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 34\nДата начала синхронизации: 03.11.2025 23:00:00\nДата окончания синхронизации: 03.11.2025 23:01:08\nДлительность синхронизации: 00:01:08\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-04 04:01:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 03.11.2025 17:00:00\nДата окончания синхронизации: 03.11.2025 17:01:16\nДлительность синхронизации: 00:01:15\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-03 22:01:35"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 31\nДата начала синхронизации: 02.11.2025 23:00:00\nДата окончания синхронизации: 02.11.2025 23:01:15\nДлительность синхронизации: 00:01:15\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-03 04:01:38"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 37\nДата начала синхронизации: 02.11.2025 17:00:00\nДата окончания синхронизации: 02.11.2025 17:01:08\nДлительность синхронизации: 00:01:07\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-02 22:01:27"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 42\nДата начала синхронизации: 01.11.2025 23:00:00\nДата окончания синхронизации: 01.11.2025 23:01:02\nДлительность синхронизации: 00:01:01\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-02 04:01:23"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 28\nДата начала синхронизации: 01.11.2025 17:00:01\nДата окончания синхронизации: 01.11.2025 17:20:59\nДлительность синхронизации: 00:20:58\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 744\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 306:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-01 22:21:17"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 46\nДата начала синхронизации: 31.10.2025 23:00:01\nДата окончания синхронизации: 31.10.2025 23:01:05\nДлительность синхронизации: 00:01:04\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-11-01 04:01:29"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 11\nДата начала синхронизации: 31.10.2025 17:00:01\nДата окончания синхронизации: 31.10.2025 17:48:18\nДлительность синхронизации: 00:48:17\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 8\n\t\tОбновленные: 2119\n\tPM_TaskAssign:\n\t\tНовые: 33\n\t\tОбновленные 578:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 45\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 22:48:36"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 10:45:51\nДата окончания синхронизации: 31.10.2025 10:45:56\nДлительность синхронизации: 00:00:05\nПриложение: PM TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 15:46:11"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 6:29:25\nДата окончания синхронизации: 31.10.2025 6:29:27\nДлительность синхронизации: 00:00:02\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 11:29:40"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 5:32:41\nДата окончания синхронизации: 31.10.2025 5:32:44\nДлительность синхронизации: 00:00:03\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 10:32:57"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 5:30:38\nДата окончания синхронизации: 31.10.2025 5:30:41\nДлительность синхронизации: 00:00:03\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 10:30:54"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 5:28:53\nДата окончания синхронизации: 31.10.2025 5:28:57\nДлительность синхронизации: 00:00:04\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 10:29:26"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 4:58:14\nДата окончания синхронизации: 31.10.2025 5:00:09\nДлительность синхронизации: 00:01:55\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 10:00:23"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 31.10.2025 4:37:47\nДата окончания синхронизации: 31.10.2025 4:37:51\nДлительность синхронизации: 00:00:04\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-31 09:38:32"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1 минута.\nПо состоянию на 04:01 31.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-31 08:29:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 30.10.2025 7:07:34\nДата окончания синхронизации: 30.10.2025 7:07:39\nДлительность синхронизации: 00:00:04\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-30 12:08:01"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 30.10.2025 6:56:10\nДата окончания синхронизации: 30.10.2025 6:56:15\nДлительность синхронизации: 00:00:05\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-30 11:56:47"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1 минута.\nПо состоянию на 04:01 30.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-30 08:23:46"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 29.10.2025 11:25:43\nДата окончания синхронизации: 29.10.2025 11:25:48\nДлительность синхронизации: 00:00:05\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-29 16:26:23"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1f0ad6f8-adba-663e-999b-04421acbe57b",
+      "full_name": "Синхронизация По проектам",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1 минута.\nПо состоянию на 04:01 29.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-29 13:14:10"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1efa64e1-39d9-6dc6-82c8-6cb3115313f8",
+      "full_name": "Евгения Мельникова",
+      "text": "готово",
+      "createdAt": "2025-10-28 10:20:45"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "<@u:1efa64e1-39d9-6dc6-82c8-6cb3115313f8> \nЕвгения, добавьте, пожалуйста, в этот канал две учетные записи:\nsyncprimavera_project\nsyncprimavera_executor",
+      "createdAt": "2025-10-28 10:19:31"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1 минута.\nПо состоянию на 04:01 28.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-28 10:04:18"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nДата начала синхронизации: 28.10.2025 3:20:52\nДата окончания синхронизации: 28.10.2025 3:20:59\nДлительность синхронизации: 00:00:07\nПриложение: ITDEV TSheetsKry_Refresh\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n",
+      "createdAt": "2025-10-28 08:21:14"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 13 минут.\nПо состоянию на 04:13 27.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-27 09:52:46"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Нет данных",
+      "createdAt": "2025-10-24 10:06:27"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1минута.\nПо состоянию на 04:01 24.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-24 08:39:33"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 1минута.\nПо состоянию на 04:16 23.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-23 09:22:06"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 48655\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 23.10.2025 3:43:12\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":0,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":0,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-23T03:43:12.6565066Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":0,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":0,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-23T03:43:12.8514393Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-23 08:43:31"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 1\n\tPM_TaskAssign:\n\t\tНовые: 1\n\t\tОбновленные 1:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 48262\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 17.10.2025 10:13:40\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":2,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":1,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":1,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-17T10:13:38.336949Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":2,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":1,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":1,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-17T10:13:40.4721631Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-17 15:13:56"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 1\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 28\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 2\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 48257\nParent: \nProjectId: Учеба.ВГ\nProjectGuid: 7e84758e-3594-4e63-a3c0-c3887ce1a13a\nFinished: 17.10.2025 5:27:00\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":1,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":1,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-17T05:26:33.1707207Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":30,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":28,\"ErrorTaskAssignsCnt\":2,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-17T05:27:00.1293853Z\"}\nTaskAssignsErrors_Cnt: 2\n",
+      "createdAt": "2025-10-17 10:27:17"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1 минута.\nПо состоянию на 04:01 17.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-17 09:31:37"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 48091\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 16.10.2025 5:07:53\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":0,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":0,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-16T05:07:52.9403009Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":0,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":0,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-16T05:07:53.0632753Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-16 10:08:08"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1 минутf.\nПо состоянию на 04:01 16.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-16 09:48:22"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 48090\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 16.10.2025 4:43:38\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":0,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":0,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-16T04:43:38.4469899Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":0,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":0,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-16T04:43:38.5979373Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-16 09:43:54"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1.5 минуты.\nПо состоянию на 04:02 15.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-15 18:08:25"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1.5 минуты.\nПо состоянию на 04:02 15.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-15 18:03:51"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1.5 минуты.\nПо состоянию на 04:02 14.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-14 08:34:38"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nСинхронизация по проектам, Результаты:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 47595\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 13.10.2025 11:05:57\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":0,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":0,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-13T11:05:57.5661801Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":0,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":0,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-13T11:05:57.710131Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-13 16:06:39"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Экземпляр: newdoc(https://newdoc.atomsk.ru)\nРезультаты плановой синхронизации:\nПроекты: 1\nОбновления:\n\tPM_Task:\n\t\tНовые: 0\n\t\tОбновленные: 0\n\tPM_TaskAssign:\n\t\tНовые: 0\n\t\tОбновленные 0:\nОшибки:\n\tPM_Task: 0\n\tPM_TaskAssign: 0\n\tОшибки сопоставления Ресурсов Pimavera: 0\n\t\tНесопоставленные Ресурсы Primavera: \n\nId: 47594\nParent: \nProjectId: TestTable\nProjectGuid: 0c235e60-3fc8-4dc0-8bda-5297f224800e\nFinished: 13.10.2025 10:33:18\nTasks_EntryJ: {\"TasksCnt\":null,\"ActivitiesCnt\":0,\"TasksToCreateCnt\":null,\"TasksToEditCnt\":null}\nTasks_ResultJ: {\"NewTasksCnt\":0,\"ErrorTasksCnt\":0,\"UpdatedTasksCnt\":0,\"ErrorUpdTasksCnt\":0,\"Finished\":\"2025-10-13T10:33:18.3652134Z\"}\nTasksErrors_Cnt: \nTaskAssigns_EntryJ: {\"TaskAssignsCnt\":null,\"RsrcAssignmentsCnt\":0,\"TaskAssignsToCreateCnt\":null,\"TaskAssignsToEditCnt\":null}\nTaskAssigns_ResultJ: {\"NewTaskAssignsCnt\":0,\"ErrorTaskAssignsCnt\":0,\"UpdatedTaskAssignsCnt\":0,\"ErrorUpdTaskAssignsCnt\":0,\"Finished\":\"2025-10-13T10:33:18.584143Z\"}\nTaskAssignsErrors_Cnt: \n",
+      "createdAt": "2025-10-13 15:33:56"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 6 минут.\nПо состоянию на 04:06 13.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-13 08:35:38"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1 минута.\nПо состоянию на 04:01 10.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-10 08:50:58"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1 минута.\nПо состоянию на 04:01 10.10.2025:\n    Проекты: 73.\n    Ошибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-10 08:48:09"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 1 минута.\nПо состоянию на 04:01 09.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-09 09:17:37"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизации по Проектам выполнены, время выполнения последней 5 минут.\nПо состоянию на 04:06 08.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-08 08:29:31"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 20 минут.\nПо состоянию на 08:46 07.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-07 09:02:49"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена, время выполнения 56 минут.\nПо состоянию на 10:46 06.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-06 11:32:11"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "В работе...",
+      "createdAt": "2025-10-01 10:36:41"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8c872-8e73-63f8-a020-a0423f4d30a4",
+      "full_name": "Мария Оносова",
+      "text": "А когда будет настроена автатическая публикация?",
+      "createdAt": "2025-10-01 10:00:31"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизация по Проектам выполнена.\nПо состоянию на утро 01.10.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-10-01 09:43:34"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Cинхронизациz по Проектам выполненf.\nПо состоянию на утро 30.09.2025:\n\tПроекты: 73.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-09-30 09:27:34"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Две пары синхронизации по Проектам выходных дней выполнены.\nПо состоянию на утро 29.09.2025:\n\tПроекты: 72.\n\tОшибки отсутствия сопоставления Ресурсов: 45",
+      "createdAt": "2025-09-29 09:26:53"
+    },
+    {
+      "chat_id": "1f099cff-5db8-6efc-8baf-58811e7f31a2",
+      "chat_name": "IT-IP. Synch Крайон",
+      "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+      "organization_name": "Корпорация АСК (Головная организация)",
+      "authorId": "1ef8ca29-54ab-68ba-ba70-a0423f4d30a4",
+      "full_name": "Владимир Летучев",
+      "text": "Тестируем отправку сообщения\nПопытка 01",
+      "createdAt": "2025-09-25 16:18:18"
+    }
+  ]
+}

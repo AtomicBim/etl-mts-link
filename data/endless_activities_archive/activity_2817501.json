@@ -1,0 +1,25 @@
+{
+  "activity_info": {
+    "activity_id": "2817501",
+    "activity_type": "",
+    "duration_minutes": "88",
+    "end_time": "2025-02-18T15:44:10+03:00",
+    "endless_event_id": "2114201925",
+    "endless_event_name": "Внедрение МТС.Линк",
+    "endless_event_owner_id": "",
+    "event_session_id": "",
+    "has_transcript": "False",
+    "is_recorded": "False",
+    "participants_count_api": "0",
+    "participants_count_csv": "13",
+    "recordings_count": "0",
+    "room_name": "Внедрение МТС.Линк",
+    "start_time": "2025-02-18T14:15:36+03:00",
+    "status": "",
+    "transcripts_count": "0",
+    "unique_participants": "0",
+    "user_id": "89035605",
+    "user_name": "Владислав Кушнарев"
+  },
+  "analysis_timestamp": "2025-11-18T14:41:35.774658"
+}

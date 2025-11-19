@@ -1,0 +1,190 @@
+{
+  "chat_id": "1f08e0f9-53df-6107-aed2-debf4363577f",
+  "extraction_timestamp": "2025-11-18T14:08:17.343620",
+  "total_messages": 6,
+  "chat_info": {
+    "chat_id": "1f08e0f9-53df-6107-aed2-debf4363577f",
+    "name": "Киргишаны (ПД)",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_id": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1f0516db-7bf4-6402-bc1e-04421acbe57b",
+    "extraction_timestamp": "2025-11-18T13:53:41.949939"
+  },
+  "messages": [
+    {
+      "id": "1f09204e-bb14-63fc-9602-8a4cd4743a72",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "Протокол совещания с УКС СО по объектам",
+      "createdAtMs": 1757921028027,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "805f892c-8d90-43eb-b8be-5e1539933807",
+          "name": "doc02312620250915114303.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/805f892c-8d90-43eb-b8be-5e1539933807",
+          "size": 1588376,
+          "mime": "application/pdf"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f091ea6-5a2c-6996-bd3f-65610b82ca9b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "Корректиорвка КР по замечаниям УКС СО: раздел, ВОР и ответы на замечания",
+      "createdAtMs": 1757909636202,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "974a527a-3991-4964-8b47-8a4fcc71fc9e",
+          "name": "ВОР_КР_11.09.2025.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/974a527a-3991-4964-8b47-8a4fcc71fc9e",
+          "size": 107201,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "id": "6c76149f-c4e8-493a-bf0d-aa7f90c775c0",
+          "name": "РазделПД№4-КР.pdf",
+          "url": "https://prod-storage-chat.mts-link.ru/6c76149f-c4e8-493a-bf0d-aa7f90c775c0",
+          "size": 8735588,
+          "mime": "application/pdf"
+        },
+        {
+          "id": "3ffb0660-ec5e-47e6-ae8a-d207e4c1b8d2",
+          "name": "Замечания_1528_24_25_ПСД_0626_ВОР_КР_09_09_2025 — Ответы (2).doc",
+          "url": "https://prod-storage-chat.mts-link.ru/3ffb0660-ec5e-47e6-ae8a-d207e4c1b8d2",
+          "size": 41472,
+          "mime": "application/x-ole-storage"
+        },
+        {
+          "id": "c54d648c-a34e-45e1-bfe2-648d3a99d77c",
+          "name": "Замечания_1528.24-25 ПСД 0626-КР.03.09 — Ответы (1).doc",
+          "url": "https://prod-storage-chat.mts-link.ru/c54d648c-a34e-45e1-bfe2-648d3a99d77c",
+          "size": 743936,
+          "mime": "application/x-ole-storage"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08f884-2c3a-6e69-aed2-949c92b45ff2",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "В папку Миляева выложу, когда она появится",
+      "createdAtMs": 1757647584693,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f08f883-1bba-6592-bd3f-b13b7a74934d",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "ИОС2+ВОР, ИОС3.2, ИОС4.2+ВОР",
+      "createdAtMs": 1757647556119,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "408c160d-039c-496d-b3f2-411c13513cbb",
+          "name": "2025-09-11-ПД(Киргишаны).7z",
+          "url": "https://prod-storage-chat.mts-link.ru/408c160d-039c-496d-b3f2-411c13513cbb",
+          "size": 17423143,
+          "mime": "application/x-7z-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08e186-6205-60f7-bd3f-9c4209829ca2",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "дублирую сюда",
+      "createdAtMs": 1757489589223,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "2b690dc8-02ac-4275-a151-3ecfd218c44b",
+          "name": "2025-09-05-ПД (Киргишаны).7z",
+          "url": "https://prod-storage-chat.mts-link.ru/2b690dc8-02ac-4275-a151-3ecfd218c44b",
+          "size": 63408104,
+          "mime": "application/x-7z-compressed"
+        },
+        {
+          "id": "71b11a88-cdf9-43ae-be93-04aa0bfe2ff2",
+          "name": "2025-09-08 -ПД (Киргишаны).7z",
+          "url": "https://prod-storage-chat.mts-link.ru/71b11a88-cdf9-43ae-be93-04aa0bfe2ff2",
+          "size": 45557563,
+          "mime": "application/x-7z-compressed"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f08e0fc-fffd-6c35-aed2-a73e1d83ca1b",
+      "authorId": "1f0429d7-838d-630e-b7dd-6cb31153133c",
+      "chatId": "1f08e0f9-53df-6107-aed2-debf4363577f",
+      "text": "всем привет! Выложила ПД по Киргищанам в папку Миляева: O:\\_Миляев К.Е\\объекты  АСК\\__БЮДЖЕТ\\42. Школа-сад Киргишаны\\Проект\\Стадия П\\Выдача ПД",
+      "createdAtMs": 1757485901379,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "chat_id": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+  "extraction_timestamp": "2025-11-18T16:13:49.076183",
+  "total_messages": 19,
+  "chat_info": {
+    "chat_id": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+    "name": "*Бетон-Экспресс.Атомикс",
+    "type": "Channel",
+    "is_public": "False",
+    "is_read_only": "False",
+    "owner_name": "Устюгова Анна",
+    "owner_id": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+    "organization_id": "1ef822c2-7fd7-66cd-aa65-d7b09a6fc205",
+    "description": "Поддержка и развитие проекта",
+    "is_notifiable": "True",
+    "unread_message_count": "0",
+    "started_webinar_event_id": "",
+    "discovered_via_user_id": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+    "extraction_timestamp": "2025-11-18T15:22:51.309612"
+  },
+  "messages": [
+    {
+      "id": "1f0c3a29-7cc1-6de3-9488-0c05e96a5268",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "https://my.mts-link.ru/j/121463989/7903966206 Ссылка для встречи 18.11 в 10.30",
+      "createdAtMs": 1763376354734,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c3965-0c06-6d1a-a3d4-378be6b653e4",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763371081578,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "fe60c7d0-b2f7-4af7-9d42-990376f76ce4",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/fe60c7d0-b2f7-4af7-9d42-990376f76ce4",
+          "size": 143220,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3962-8a9e-6b86-a9cc-f380d0b321ce",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763371014322,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "fc9a570f-a687-4f1d-a11b-4e9e290118c3",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/fc9a570f-a687-4f1d-a11b-4e9e290118c3",
+          "size": 725988,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3961-83fa-6bc8-92ac-8ac89f9adca7",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370986782,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5313eb30-d0b9-4670-a9dd-887ee99e4735",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5313eb30-d0b9-4670-a9dd-887ee99e4735",
+          "size": 427989,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3960-8b46-6323-92ac-ab22c93a8d65",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370960703,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "2694e845-51b6-4dee-b7f3-b6589ab30c26",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/2694e845-51b6-4dee-b7f3-b6589ab30c26",
+          "size": 688301,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c395f-4a61-642d-92ac-ee61a789a272",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370927055,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "b9d48db8-b74b-495e-b041-54cf5b432330",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/b9d48db8-b74b-495e-b041-54cf5b432330",
+          "size": 461823,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c395e-0ac3-6d13-a3d4-a95fe079d79d",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370893541,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "54814ffa-fbbb-4746-985e-4c43fbaff80d",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/54814ffa-fbbb-4746-985e-4c43fbaff80d",
+          "size": 970564,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c395c-8845-69eb-9488-1e5f3957e7ce",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370853014,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "bd05a7f8-cc68-4645-9229-9d33674640f8",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/bd05a7f8-cc68-4645-9229-9d33674640f8",
+          "size": 1246906,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c395b-601f-6d5d-92ac-2031b69dbd75",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370821961,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "5f6b9b80-a7cc-401d-9243-3092bd55f8c4",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/5f6b9b80-a7cc-401d-9243-3092bd55f8c4",
+          "size": 342989,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3959-eb88-6c93-9488-bc47894bfff3",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370782892,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "d31dc4b7-628f-487d-a197-4fc70cffab4d",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/d31dc4b7-628f-487d-a197-4fc70cffab4d",
+          "size": 248292,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3958-bdb0-6a13-a3d4-c31760e938ca",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763370751241,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "c730a969-e67a-483d-928d-00a6aecd0ea2",
+          "name": "image.png",
+          "url": "https://prod-storage-chat.mts-link.ru/c730a969-e67a-483d-928d-00a6aecd0ea2",
+          "size": 110892,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c3956-f325-633c-92ac-f6d2e7a1ddcf",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "По вопросу интерфейса для портала ASKBETON по управлению учетными записями заказчиков (клиентов), направляю скрины (что есть на Атомиксе) для обсуждения, и что требуется реализовать на АСК-Бетон:",
+      "createdAtMs": 1763370703159,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c3814-9663-6a57-9488-e8a38abec58d",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763362049811,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "8ee7f6e8-d9c8-4d16-b07c-551a3649d469",
+          "name": "РБУ.png",
+          "url": "https://prod-storage-chat.mts-link.ru/8ee7f6e8-d9c8-4d16-b07c-551a3649d469",
+          "size": 389369,
+          "mime": "image/png"
+        },
+        {
+          "id": "8e08bc17-f888-4868-b9b3-72572793a1cf",
+          "name": "Статусы.jpg",
+          "url": "https://prod-storage-chat.mts-link.ru/8e08bc17-f888-4868-b9b3-72572793a1cf",
+          "size": 47029,
+          "mime": "image/jpeg"
+        },
+        {
+          "id": "4a131d17-1053-4c70-8927-744cb519be9c",
+          "name": "Миксеры.png",
+          "url": "https://prod-storage-chat.mts-link.ru/4a131d17-1053-4c70-8927-744cb519be9c",
+          "size": 137408,
+          "mime": "image/png"
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "users": [
+            "1ef8bfd6-cd52-6758-8876-a0423f4d30a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f0c3813-3f79-68ae-a3d4-7622276cacaf",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "Скрины интерфейсов, как могло бы быть, для обсуждения:",
+      "createdAtMs": 1763362013854,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c380f-3e0b-6e7a-9488-a1e11b7b2b22",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763361906330,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "ab4bda03-ad89-452f-8cf3-d930c4d91b3e",
+          "name": "Пользователи МП-Последние действия-2025_11_12.xlsx",
+          "url": "https://prod-storage-chat.mts-link.ru/ab4bda03-ad89-452f-8cf3-d930c4d91b3e",
+          "size": 23717,
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c380e-a21c-60bd-92ac-63f61a9ec350",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "Добрый день, коллеги!\r\nПрикладываю файл с данными по Пользователям AtomIx:",
+      "createdAtMs": 1763361889979,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c07a0-fb61-6837-a3d4-b27601438362",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "Плановое время следующей встречи 18.11. в 10.30",
+      "createdAtMs": 1763029093062,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    },
+    {
+      "id": "1f0c079f-90ce-6524-9488-b8c756640225",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "",
+      "createdAtMs": 1763029055043,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": [
+        {
+          "id": "bab16b4c-e599-4dc0-a3b5-3cb10297bddf",
+          "name": "Протокол от 11 ноября 2025 (Атомикс)бз.docx",
+          "url": "https://prod-storage-chat.mts-link.ru/bab16b4c-e599-4dc0-a3b5-3cb10297bddf",
+          "size": 17286,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ],
+      "reactions": null
+    },
+    {
+      "id": "1f0c0772-2503-6022-a3d4-60153ebf5839",
+      "authorId": "1efc1c52-bd7f-6868-8e57-0242472fe5d1",
+      "chatId": "1f0c0762-1cf2-606f-a3d4-8dcdd75e2529",
+      "text": "Коллеги, добрый день! Создала для удобства коммуникации канал по проекту, в котором буду размещать протоколы наших встреч, и буду очень признательна если свои вопросы Вы тоже будете размещать в нем. Это очень удобно когда вся информация собрана в одном месте, и всегда можно найти ответ на любой вопрос. Желаю всем прекрасного дня!❤️",
+      "createdAtMs": 1763027835780,
+      "type": "Text",
+      "isPersonal": false,
+      "status": "Read",
+      "updatedAt": null,
+      "parentId": null,
+      "repliedMessage": null,
+      "childrenCount": null,
+      "unreadChildrenCount": 0,
+      "lastChild": null,
+      "files": null,
+      "reactions": null
+    }
+  ]
+}
