@@ -4,7 +4,7 @@ import csv
 import json
 import glob
 from typing import Dict, List, Any, Optional, Set
-from datetime import datetime
+from datetime import datetime, timedelta
 import statistics
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -15,7 +15,7 @@ from abstractions.extract import UniversalExtractor
 class ChatAnalyzer:
     """Analyzer for extracting detailed statistics from unique chats"""
 
-    def __init__(self, data_path: str = None):
+    def __init__(self, data_path: str = None, days_back: int = None):
         # Default to data directory in project root
         project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.data_path = data_path or os.path.join(project_root, "data")
@@ -25,6 +25,16 @@ class ChatAnalyzer:
 
         # Archive settings
         self.save_archives = True
+        
+        # Date filtering
+        self.days_back = days_back
+        if days_back is not None:
+            self.end_date = datetime.now().date()
+            self.start_date = self.end_date - timedelta(days=days_back)
+            print(f"Filtering messages from {self.start_date} to {self.end_date}")
+        else:
+            self.start_date = None
+            self.end_date = None
 
         # Initialize extractors
         self.channel_users_extractor = UniversalExtractor("/chats/channels/{channelId}/users")
@@ -476,8 +486,33 @@ class ChatAnalyzer:
             'error_type': error_type
         }
 
+    def _filter_messages_by_date(self, messages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Filter messages by date range if days_back is set"""
+        if self.start_date is None or self.end_date is None:
+            return messages
+        
+        filtered_messages = []
+        for message in messages:
+            # Try to extract date from createdAtMs
+            created_at_ms = message.get('createdAtMs')
+            if created_at_ms:
+                try:
+                    timestamp_sec = created_at_ms / 1000
+                    msg_date = datetime.fromtimestamp(timestamp_sec).date()
+                    
+                    if self.start_date <= msg_date <= self.end_date:
+                        filtered_messages.append(message)
+                except (ValueError, OSError, OverflowError):
+                    # Invalid timestamp, skip
+                    continue
+        
+        return filtered_messages
+    
     def _analyze_messages(self, messages: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Analyze list of messages and return statistics"""
+        # Filter by date if needed
+        messages = self._filter_messages_by_date(messages)
+        
         if not messages:
             return {
                 'message_count': 0,
@@ -1142,6 +1177,8 @@ def main():
                        help='Name for single chat analysis (default: Single Chat)')
     parser.add_argument('--viewer-id', '-v', type=str,
                        help='Viewer ID for accessing private channels (required for some private chats)')
+    parser.add_argument('--days-back', '-d', type=int,
+                       help='Filter messages to only include last N days (e.g., --days-back 7 for last week)')
 
     args = parser.parse_args()
 
@@ -1150,7 +1187,7 @@ def main():
         args.limit = args.limit or 3
         print(f"TEST MODE: Analyzing only first {args.limit} chats")
 
-    analyzer = ChatAnalyzer()
+    analyzer = ChatAnalyzer(days_back=args.days_back)
 
     # Handle single chat analysis
     if args.chat_id:
